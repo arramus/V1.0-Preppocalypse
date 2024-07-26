@@ -1,0 +1,75 @@
+<configs>
+
+	<!-- Old West Migration -->
+	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_trader']/@value">true</set>
+	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_gateway']/@value">true</set>
+	<append xpath="/rwgmixer/township[@name='oldwest']/property[@name='biomes']/@value">,forest,burntforest,snow</append><!-- Expanding desert -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='count']/@value">1, 2, 3</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='tiles']/@value">6, 12</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='count']/@value">2, 3, 4</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='tiles']/@value">6, 16</set>	
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='count']/@value">3, 4, 4</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='tiles']/@value">6, 16</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='count']/@value">3, 4, 4</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='tiles']/@value">6, 16</set>
+	<!-- Tiny 0 - 5000 RWG Fillers -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='forest_countrytown']/property[@name='tiles']/@value">9, 10</set> <!-- 6, 6 -->	
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='bforest_countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='bforest_town']/property[@name='tiles']/@value">9, 10</set> <!-- 6, 7 -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='town']/property[@name='tiles']/@value">10, 11</set> <!-- 7, 8 -->
+	<!-- Small 5000 - 7000 RWG Fillers -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='forest_countrytown']/property[@name='tiles']/@value">9, 10</set> <!-- 6, 6 -->	
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='bforest_countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='bforest_town']/property[@name='tiles']/@value">9, 10</set> <!-- 6, 7 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='tiles']/@value">10, 11</set> <!-- 7, 8 -->
+	<!-- Medium 7000 - 10000 RWG Fillers -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='forest_countrytown']/property[@name='tiles']/@value">9, 10</set> <!-- 6, 6 -->	
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='bforest_countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='bforest_town']/property[@name='tiles']/@value">9, 10</set> <!-- 6, 7 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='tiles']/@value">10, 11</set> <!-- 7, 8 -->
+	<!-- Large 10000 - 16000 RWG Fillers -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='forest_countrytown']/property[@name='tiles']/@value">9, 10</set> <!-- 6, 6 -->	
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='bforest_countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='bforest_town']/property[@name='tiles']/@value">10, 11</set> <!-- 7, 8 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='tiles']/@value">10, 11</set> <!-- 7, 8 -->
+
+	<append xpath="/rwgmixer">		
+	
+	<streettile name="rwg_tile_oldwest_corner_02">
+		<property name="maxtiles" value="1"/>
+		<property name="mintiles" value="1"/>
+		<property name="maxdensity" value="120"/>
+	</streettile>
+	
+	<streettile name="rwg_tile_oldwest_straight_02">
+		<property name="maxtiles" value="1"/>
+		<property name="mintiles" value="1"/>
+		<property name="maxdensity" value="120"/>
+	</streettile>
+	
+	<prefab_spawn_adjust partial_name="carlot_02_prepper" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="evildeadcabin01_prepper" min_count="8" max_count="12" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_bunker80_01" min_count="8" max_count="12" bias="5"/>
+	<prefab_spawn_adjust partial_name="prepper_countryresidentialbunker01" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_Floppy_Games_Workshop_Medusa" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_house_old_gambrel_03" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_mine80_01" min_count="8" max_count="12" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_preppo_bunker42_01" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_stonecave_01_arramus" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_wildernesscabin01" min_count="8" max_count="12" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_gas_station_09" min_count="5" max_count="10" bias="4"/>	
+	<prefab_spawn_adjust partial_name="preppo_gas_station_10" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_remnant_gas_station_01" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_skyscraper_04" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_store_hardware_02" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_TheCompound" min_count="8" max_count="12" bias="4"/>
+	<prefab_spawn_adjust partial_name="store_book_01_prepper" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="store_clothing_02_prepper" min_count="5" max_count="10" bias="4"/>
+
+	</append>
+
+</configs>

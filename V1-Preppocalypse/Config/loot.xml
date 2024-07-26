@@ -1,0 +1,450 @@
+<Preppocalypse>
+
+	<!-- Vanilla Loot Additions -->
+	
+    <!-- Make player dropped bags bigger to accomodate new size KhaineGB -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">10,10</set>
+	
+    <!-- Increase Vehicle Container Size +1 except 4x4 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">9,2</set> <!-- Default is 9,1 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">9,4</set> <!-- Default is 9,3 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">9,5</set> <!-- Default is 9,4 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">9,6</set> <!-- Default is 9,5 -->
+	
+    <!-- Boost the groupQuestRewardSkillMagazinesAll01 Allowance from 3 to 5 sets of magazines with 2 of each -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']/@count">5</set>
+	
+    <!-- Increase the storage space for player storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='beerCooler']/@size">8,9</set> <!-- Beer Cooler from 6,3 since Preppers are Preppers -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerCooler']/@size">8,9</set> <!-- Player Cooler from 6,2 as above -->
+	<set xpath="/lootcontainers/lootcontainer[@name='nightstandNOPOP']/@size">8,9</set> <!-- Player Night Stands from 6,2 as above -->	
+	<set xpath="/lootcontainers/lootcontainer[@name='lockersNOPOP']/@size">8,9</set> <!-- Player Lockers from 6,2 as above -->
+	<set xpath="/lootcontainers/lootcontainer[@name='refrigeratorNOPOP']/@size">8,9</set> <!-- Player Refrigerator from 6,4 as above -->	
+	
+	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
+	
+	<!-- *** Rocket Ammo -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRocket']">
+	<item name="ammoRocketFire" count="1"/>
+	</append>
+	
+	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	
+	<!-- T0_Vehicle_Mod_Schematics -->	
+	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics01']">
+	<item name="modVehicleFuelSaverSchematic"/>
+	<item name="modVehicleReserveFuelTankSchematic"/>
+	</append>
+	
+	<!-- T1_Vehicle_Mod_Schematics -->	
+	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics02']">
+	<item name="modVehicleOffRoadHeadlightsSchematic"/>
+	<item name="modVehicleExpandedSeatSchematic"/>
+	<item name="modVehicleSuperChargerSchematic"/>
+	</append>
+	
+	<!-- T2_Vehicle_Mod_Schematics -->	
+	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+	<item name="modVehicleFuelSaverSchematic"/>
+	<item name="modVehicleReserveFuelTankSchematic"/>
+	</append>
+	
+	<!-- *** Car_Loot -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupCars02']">
+	<item group="vehicleMods" loot_prob_template="veryLow"/>
+	<item group="vehicleModSchematics" loot_prob_template="veryLow"/>
+	</append>
+	
+	<!-- *** Vehicle_Parts_Scaled but bringing in mid/late range vehicle parts earlier and keeping them later to remove scripted drops as with vehicle mod schematics -->	
+	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
+	<item group="minibikeParts"  loot_prob_template="ProbT0"/> <!-- Default ProbT1Cap -->
+	<item group="motorcycleParts" loot_prob_template="ProbT1Cap"/> <!-- Default ProbT2Cap -->
+	<item group="PreppocalypticCarParts" loot_prob_template="ProbT2Cap"/> <!-- Default ProbT3 -->
+	<item group="4x4Parts" loot_prob_template="ProbT2Cap"/> <!-- Default ProbT3 -->
+	<item group="gyroCopterParts" loot_prob_template="ProbT2Cap"/> <!-- Default ProbT3 -->
+	<item group="PreppocalypticCarParts" loot_prob_template="ProbT3"/> <!-- Default ProbT3 with 4x4 -->
+	</append>
+	
+	<!-- ATM Skill Chance Drop -->	
+	<append xpath="/lootcontainers/lootcontainer[@name='atmLoot']"> <!-- ATM -->
+		<item name="qc_1Skill" prob=".15"/>
+		<item name="qc_2Skill" prob=".075"/>
+	</append>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestBicycle']">
+	<lootgroup name="groupQuestMinibike" count="all">
+		<item name="vehicleMinibikePlaceable" loot_prob_template="QuestT2Prob"/>
+	</lootgroup>
+	</insertAfter>
+
+	<!-- PREPPER BOSS QUEST NOTES -->
+	<!-- Approx 2:3 ratio for Quest Notes with resource fillers -->	
+	<!-- *** Reinforced_Chest_T1 to T5 Additions-->
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1_01']">
+	<lootgroup name="group_prepperquestnotes_groupHardenedChest">
+		<item name="quest_nailgunutilityworkers"/>
+		<item name="quest_stunbatonhazmat"/>
+		<item name="quest_smgarlene"/>
+		<item name="quest_m60demolition"/>		
+		<item name="quest_tariflesoldier"/>
+		<item name="quest_steelaxelumberjack"/>
+		<item name="quest_machetepartygirl"/>		
+		<item name="quest_pistolbusinessman"/>
+		<item name="quest_compoundspider"/>
+		<item name="quest_swissvetterliboe"/>
+		<item name="quest_chainsawmoe"/>
+		<item name="quest_desertvulturetomclark"/>
+		<item name="quest_pumpshotgunbiker"/>
+		<item name="quest_batonfatcop"/>
+		<item name="quest_steelclubfemalefat"/>
+		<item name="quest_boltnurse"/>
+		<item name="quest_steelsledgehammerfathawaiian"/>
+		<item name="quest_steelpanmarlene"/>
+		<item name="quest_radiatedpreppers"/>
+		<item name="resourcePaper" count="25,50"/>
+		<item name="resourceOilShale" count="25,50"/>
+		<item name="resourceGlue" count="1,4"/>
+		<item name="resourceScrapLead" count="25,50"/>
+		<item name="resourceAcid" count="1"/>
+		<item name="resourceDuctTape" count="1,3"/>
+		<item name="resourceScrapBrass" count="25,50"/>
+		<item name="resourceGunPowder" count="25,50"/>
+		<item name="resourceRepairKit" count="1,2"/>
+		<item name="thrownAmmoMolotovCocktail" count="2,4"/>
+		<item name="thrownAmmoPipeBomb" count="2,4"/>
+		<item name="medicalFirstAidBandage" count="1,2"/>
+		<item name="foodNavezganeHDR" count="1"/>
+		<item group="vehicleModSchematics" count="1"/>		
+	</lootgroup>
+	</insertBefore>
+	
+	<!-- Hardened Quest Chest Notes from T1 to T5 -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT2']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1,2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1,2"/>
+	</append>
+	
+	<!-- Safes for Quest Notes -->
+	<!-- groupSafeBooks for gun and wall/desk -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupSafeBooks']">
+		<item name="quest_nailgunutilityworkers"/>
+		<item name="quest_stunbatonhazmat"/>
+		<item name="quest_smgarlene"/>
+		<item name="quest_m60demolition"/>		
+		<item name="quest_tariflesoldier"/>
+		<item name="quest_steelaxelumberjack"/>
+		<item name="quest_machetepartygirl"/>		
+		<item name="quest_pistolbusinessman"/>
+		<item name="quest_compoundspider"/>
+		<item name="quest_swissvetterliboe"/>
+		<item name="quest_chainsawmoe"/>
+		<item name="quest_desertvulturetomclark"/>
+		<item name="quest_pumpshotgunbiker"/>
+		<item name="quest_batonfatcop"/>
+		<item name="quest_steelclubfemalefat"/>
+		<item name="quest_boltnurse"/>
+		<item name="quest_steelsledgehammerfathawaiian"/>
+		<item name="quest_steelpanmarlene"/>
+		<item name="quest_radiatedpreppers"/>
+	</append>
+	
+	<!-- Gun Safe drops three possible passes for books/quests notes to offset potential loot percentage bug for custom content and decline in regular books -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']">
+		<item group="groupSafeBooks" count="1"/>
+		<item group="groupSafeBooks" loot_prob_template="med" force_prob="true"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
+		<item name="drinkCanPreppoSoda"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupDrinksRare']">
+		<item name="drinkCanPreppoSoda"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']">
+		<item name="drinkCanPreppoSoda" loot_prob_template="med"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
+		<item name="foodChickenStew"/>
+		<item name="foodMushroomRice"/>
+		<item name="foodPrepperPotPie"/>
+		<item name="foodGritsAndBits"/>
+		<item name="foodHoneyPumpkinPie"/>		
+		<item name="foodBlueberryBreadPudding"/>
+		<item name="foodSuperMeatStew"/>
+	</append>
+
+	<!-- *** Airdrop_Food -->	
+	<append xpath="/lootcontainers/lootgroup[@name='airdropfood']">
+		<item name="foodNavezganeHDR"/>
+	</append>
+	
+	<!-- *** twitch_foodT1 -->
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_foodT1']">
+		<item name="foodBaconAndEggsAndAcornBiscuits" count="2,4"/>
+		<item name="foodPineConeJamGriddleCakes" count="2,4"/>
+		<item name="foodFriedCatfish" count="2,4"/>
+		<item name="foodCatfishNuggetsOnRice" count="2,4"/>
+		<item name="foodMisoYakiOnigiri" count="2,4"/>
+		<item name="foodHoneyGlazedDonuts" count="2,4"/>
+	</append>
+	
+	<!-- *** twitch_foodT2 -->
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_foodT2']">
+		<item name="foodChickenStew" count="2,4"/>
+		<item name="foodMushroomRice" count="2,4"/>
+		<item name="foodPrepperPotPie" count="2,4"/>
+		<item name="foodGritsAndBits" count="2,4"/>
+		<item name="foodHoneyPumpkinPie" count="2,4"/>
+		<item name="foodBlueberryBreadPudding" count="2,4"/>
+		<item name="foodNavezganeHDR" count="2,4"/>
+		<item name="foodSuperMeatStew" count="2,4"/>
+	</append>
+	
+	<!-- *** twitch_foodT3 -->
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_foodT3']">
+		<item name="foodChickenStew" count="2,4"/>
+		<item name="foodMushroomRice" count="2,4"/>
+		<item name="foodPrepperPotPie" count="2,4"/>
+		<item name="foodGritsAndBits" count="2,4"/>
+		<item name="foodHoneyPumpkinPie" count="2,4"/>
+		<item name="foodBlueberryBreadPudding" count="2,4"/>
+		<item name="foodNavezganeHDR" count="2,4"/>
+		<item name="foodSuperMeatStew" count="2,4"/>
+	</append>
+	
+	<!-- *** twitch_drink -->
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_drinkspecial1']">
+		<item name="drinkCanPreppoSoda" count="1,2"/>
+	</append>
+	
+	<!-- Mod Schematics and Mod Appendages -->
+	
+	<!-- *** T2_Armor_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modArmorT2']">
+		<item name="modArmorRunningShoesHP"/>
+	</append>
+	
+	<!-- *** T3_Armor_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modArmorT3']">
+		<item name="modArmorPrepperFittings"/>
+		<item name="modArmorPrepperPlatingReinforced"/>
+	</append>
+	
+	<!-- *** T1_Melee_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']">
+		<item name="modMeleeSpartanSledgeStamina"/>
+	</append>
+	
+	<!-- *** T1_Ranged_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT1']">
+		<item name="modWeaponMaintenance"/>
+	</append>
+	
+	<!-- *** T2_Ranged_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT2']">
+		<item name="modGunMagnumMagazineExtender"/>
+		<item name="modGunBowArrowGrip"/>
+		<item name="modArcheryReloadSpeed"/>
+	</append>
+	
+	<!-- *** T0_Schematics -->
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
+		<item name="modWeaponMaintenanceSchematic"/>
+		<item name="modMeleeSpartanSledgeStaminaSchematic"/>
+	</append>
+	
+	<!-- *** T2_Schematics -->
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+		<item name="modGunBowArrowGripSchematic"/>
+		<item name="modArcheryReloadSpeedSchematic"/>
+		<item name="modArmorRunningShoesHPSchematic"/>
+		<item name="modArmorPrepperFittingsSchematic"/>
+		<item name="modArmorPrepperPlatingReinforcedSchematic"/>
+		<item name="modGunMagnumMagazineExtenderSchematic"/>
+	</append>
+	
+	<append xpath="/lootcontainers">
+	
+	<!-- cntAmmoPileSmall copy from default TFP small ammo as a token gesture for Relootable Military Cartons since they are in context -->
+	<lootcontainer name="ammoPileSmallpalletCartonMilitary" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item group="groupAmmoPileSmall"/>
+	</lootcontainer>
+	
+	<!-- Oakraven Fish Trap Loot -->
+	
+	<lootcontainer name="cntFishTrap" count="3,6" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="resourceCrawfish" count="5,15" prob="0.5"/>
+		<item name="resourceCatfish" count="1" prob="0.4"/>
+		<item name="resourceYuccaFibers" count="10,30" prob="0.3"/>
+		<item name="foodWildWheat" count="10,20" prob="0.3"/>
+		<item name="foodWildRice" count="10,20" prob="0.3"/>		
+		<item name="resourceCloth" count="2,6" prob="0.3"/>		
+		<item name="foodRottingFlesh" count="2,6" prob="0.3"/>
+		<item name="treePlantedOak1m" count="2,4" prob="0.2"/>
+		<item name="treePlantedMountainPine1m" count="2,4" prob="0.2"/>
+		<item name="treePlantedWinterPine1m" count="2,4" prob="0.2"/>
+		<item name="resourceRope" count="2,4" prob="0.2"/>
+		<item name="oldCash" count="10,20" prob="0.2"/>
+		<item name="resourceBone" count="2,6" prob="0.2"/>
+		<item name="resourceLeather" count="2,3" prob="0.2"/>		
+		<item name="foodNavezganeHDR" count="1" prob="0.05"/>
+		<item name="armorPrimitiveBoots" count="1" prob="0.05"/>
+	</lootcontainer>
+	
+	<!-- Oakraven Chicken Coops -->
+	
+	<lootcontainer name="birdNest" count="1" size="6,2" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+		<item group="groupBirdNest"/>
+	</lootcontainer>	
+	
+	<lootcontainer name="EggsReady" count="1" size="6,2" destroy_on_close="true" sound_open="UseActions/Chicken6Sounds" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="foodEgg" count="2,5" prob="1"/>
+		<item name="resourceFeather" count="3,8" prob="1"/>
+		<item name="GrownChicken" count="1,2" prob="0.7"/>
+	</lootcontainer>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']">
+		<item name="CaughtChick" loot_prob_template="low"/>
+	</append>
+	
+	<!-- Oakraven Bee Hives -->
+	
+	<append xpath="/lootcontainers">
+		<lootcontainer name="Honey" count="1" size="7,2" destroy_on_close="true" sound_open="UseActions/BeeHiveOpen" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="foodHoneyComb" count="1,4" prob="1" />
+	</lootcontainer>
+	</append>
+	
+	<!-- Oakraven Rock Drill -->
+
+	<append xpath="/lootcontainers">	
+		<lootcontainer name="RockDrill" count="3,4" size="6,2" destroy_on_close="true" sound_open="UseActions/open_cooler" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="resourceRockSmall" count="1000,2000" prob="1"/>
+		<item name="resourceCrushedSand" count="1000,2000" prob="1"/>
+		<item name="resourceScrapIron" count="350,500" prob="0.5"/>
+		<item name="resourceClayLump" count="1000,2000" prob="0.5"/>
+		<item name="resourceOilShale" count="200,300" prob="0.3"/>
+		<item name="resourceScrapLead" count="350,500" prob="0.3"/>
+		<item name="resourceCoal" count="350,500" prob="0.3"/>
+		<item name="resourcePotassiumNitratePowder" count="350,500" prob="0.3"/>
+		<item name="resourceSilverNugget" count="1,3" prob="0.1"/>
+		<item name="resourceGoldNugget" count="1,2" prob="0.1"/>
+		<item name="resourceRawDiamond" count="1" prob="0.075"/>
+	</lootcontainer>
+	
+	</append>
+	
+	<!-- Oaks T1 Pot, T3 Pan, and Can Can -->
+	
+<!-- *** T0_Weapons_All -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']">
+		<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
+<!-- *** T0_Melee_Weapons -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']">
+		<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
+<!-- *** T1_Melee_Weapons -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']">
+		<item name="meleeWpnClubT1CanCanBat"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
+		<item name="meleeWpnClubT1Pot"/>
+	</append>
+
+<!-- *** Quest_Rewards -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT1']">
+		<item name="meleeWpnClubT1CanCanBat"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
+		<item name="meleeWpnClubT1Pot"/>	
+	</append>
+
+<!-- *** T2&T3_Melee_Weapons -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
+		<item name="meleeWpnClubT1CanCanBat"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
+		<item name="meleeWpnClubT3Pan"/>	
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
+		<item name="meleeWpnClubT3Pan"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupInfestedT5MeleeRanged']">
+		<item name="meleeWpnClubT3Pan"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>		
+	</append>
+	
+	<!-- Swiss Vetterli Rifle -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_DeadEye']">
+		<item name="gunRifleT2LeverActionRifleSwissVetterli"/>	
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT2']">
+		<item name="gunRifleT2LeverActionRifleSwissVetterli"/>	
+	</append>
+	
+<!-- Vehicles -->
+
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuest4x4Parts']">
+	<lootgroup name="groupQuestPreppocalypticCarParts" count="all">
+		<item name="questRewardPreppocalypticCarPartsBundle"/>
+	</lootgroup>
+	</insertBefore>
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
+	<lootgroup name="PreppocalypticCarParts">
+		<item name="vehiclePreppocalypticCarChassis"/>
+		<item name="vehiclePreppocalypticCarAccessories"/>
+		<item name="vehicleWheels"/>
+		<item name="smallEngine"/>
+		<item name="carBattery"/>
+	</lootgroup>	
+	</insertBefore>
+	
+	<!-- Twitch Crate Loot -->
+	
+	<append xpath="/lootcontainers">
+	
+	<lootgroup name="twitch_preppoammoall" count="1">
+		<item name="ammoRocketFire" count="10,15"/>
+		<item name="ammoBundle44MagnumBulletSilver" count="2,5"/>
+		<item name="ammo762mmBulletBall" count="75,100"/>
+		<item name="ammoShotgunShell" count="30,45"/>
+		<item name="ammo44MagnumBulletBall" count="50,75"/>
+	</lootgroup>
+	
+	<lootgroup name="twitch_preppoammo" count="all">
+		<item group="twitch_preppoammoall" />	
+		<item group="twitch_preppoammoall" />
+		<item group="twitch_preppoammoall" />		
+	</lootgroup>
+	
+	<lootcontainer name="twitch_preppoammo" count="1" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true" unmodified_lootstage="true">
+		<item group="twitch_preppoammo" />
+	</lootcontainer>
+
+	</append>
+	
+</Preppocalypse>

@@ -1,0 +1,1302 @@
+<Preppocalypse>
+
+<!-- Vehicles -->
+
+	<set xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='groupQuestBicycle']/@id">groupQuestMinibike</set>
+
+	<append xpath="/quests/quest[@id='quest_tier3complete']">
+		<reward type="LootItem" id="groupQuestPreppocalypticCarParts" ischosen="true" value="4"/>
+	</append>
+	
+ 	<append xpath="/quests">
+	
+<!-- *** STARTER MESSAGE -->
+	
+	<!-- White River Citizen 0 - Start Point -->
+	<quest id="quest_whiteRiverCitizen0">
+		<property name="group_name_key" value="quest_WhiteRiverCitizen0"/>
+		<property name="name_key" value="quest_WhiteRiverCitizen0_name"/>
+		<property name="subtitle_key" value="quest_WhiteRiverCitizen0_subtitle"/>
+		<property name="description_key" value="quest_WhiteRiverCitizen0_description"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<action type="ShowMessageWindow">
+			<property name="message" value="quest_WhiteRiverCitizen0_description"/>
+			<property name="title" value="quest_WhiteRiverCitizen0_description_title"/>
+			<property name="delay" value="3"/>
+		</action>
+	</quest>
+	
+	<!-- CUSTOM QUESTS -->
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 1 -->	
+	<quest id="quest_prepperstockpile01">
+		<property name="offer_key" value="quest_prepperstockpile01_offer"/>
+		<property name="name_key" value="quest_prepperstockpile01_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile01_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile01_description"/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceRockSmall" value="5" phase="1"/>
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="campfire"/>
+			<property name="count" value="1"/>
+		</objective>
+		
+		<objective type="BlockPlace" id="campfire" value="1" phase="2"/>
+
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_prepperstockpile02"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 2 -->	
+	<quest id="quest_prepperstockpile02">
+		<property name="offer_key" value="quest_prepperstockpile02_offer"/>
+		<property name="name_key" value="quest_prepperstockpile02_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile02_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile02_description"/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="toolCookingPot" value="1" phase="1"/>
+		<objective type="FetchKeep" id="foodRawMeat" value="25" phase="1"/>		
+		<objective type="FetchKeep" id="foodEgg" value="15" phase="1"/>
+		
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_prepperstockpile03"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 3 -->	
+	<quest id="quest_prepperstockpile03">
+		<property name="offer_key" value="quest_prepperstockpile03_offer"/>
+		<property name="name_key" value="quest_prepperstockpile03_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile03_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile03_description"/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="treePlantedOak1m" value="20" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="foodAcornFlour"/>
+			<property name="count" value="5"/>
+		</objective>
+		
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_prepperstockpile04"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 4 -->	
+	<quest id="quest_prepperstockpile04">
+		<property name="offer_key" value="quest_prepperstockpile04_offer"/>
+		<property name="name_key" value="quest_prepperstockpile04_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile04_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile04_description"/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+	
+		<objective type="FetchKeep" id="foodAcornBiscuits" value="5" phase="1"/>
+		
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_prepperstockpile05"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 5 -->	
+	<quest id="quest_prepperstockpile05">
+		<property name="offer_key" value="quest_prepperstockpile05_offer"/>
+		<property name="name_key" value="quest_prepperstockpile05_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile05_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile05_description"/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="foodBaconAndEggsAndAcornBiscuits" value="5" phase="1"/>
+
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+		<reward type="Item" id="toolCookingGrill" value="1"/>		
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile06"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 1 -->	
+	<quest id="quest_prepperstockpile06">
+		<property name="offer_key" value="quest_prepperstockpile06_offer"/>
+		<property name="name_key" value="quest_prepperstockpile06_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile06_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile06_description"/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="forge" value="1" phase="1"/>
+
+		<reward type="Exp" value="750"/>
+		<reward type="Quest" id="quest_prepperstockpile07"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 2 -->	
+	<quest id="quest_prepperstockpile07">
+		<property name="offer_key" value="quest_prepperstockpile07_offer"/>
+		<property name="name_key" value="quest_prepperstockpile07_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile07_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile07_description"/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="gunHandgunT0PipePistol" value="1" phase="1"/>
+		<objective type="FetchKeep" id="gunMGT0PipeMachineGun" value="1" phase="1"/>
+		<objective type="FetchKeep" id="gunRifleT0PipeRifle" value="1" phase="1"/>
+		<objective type="FetchKeep" id="gunShotgunT0PipeShotgun" value="1" phase="1"/>
+
+		<reward type="Exp" value="750"/>
+		<reward type="Quest" id="quest_prepperstockpile08"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 3 -->	
+	<quest id="quest_prepperstockpile08">
+		<property name="offer_key" value="quest_prepperstockpile08_offer"/>
+		<property name="name_key" value="quest_prepperstockpile08_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile08_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile08_description"/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceCoal" value="100" phase="1"/>
+		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="100" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="resourceGunPowder"/>
+			<property name="count" value="50"/>
+		</objective>
+		
+		<reward type="Exp" value="750"/>
+		<reward type="Quest" id="quest_prepperstockpile09"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 4 -->	
+	<quest id="quest_prepperstockpile09">
+		<property name="offer_key" value="quest_prepperstockpile09_offer"/>
+		<property name="name_key" value="quest_prepperstockpile09_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile09_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile09_description"/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceArrowHeadIron" value="50" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="50" phase="1"/>
+		<objective type="FetchKeep" id="resourceFeather" value="50" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="ammoArrowIron"/>
+			<property name="count" value="50"/>
+		</objective>
+	
+		<reward type="Exp" value="750"/>
+		<reward type="Quest" id="quest_prepperstockpile10"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 5 -->	
+	<quest id="quest_prepperstockpile10">
+		<property name="offer_key" value="quest_prepperstockpile10_offer"/>
+		<property name="name_key" value="quest_prepperstockpile10_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile10_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile10_description"/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceRockSmall" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="3" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="meleeWpnSpearT0StoneSpear"/>
+			<property name="count" value="1"/>
+		</objective>
+
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+		<reward type="Item" id="modWeaponMaintenance" value="1"/>		
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile11"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 1 -->
+	<quest id="quest_prepperstockpile11">
+		<property name="offer_key" value="quest_prepperstockpile11_offer"/>
+		<property name="name_key" value="quest_prepperstockpile11_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile11_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile11_description"/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="workbench" value="1" phase="1"/>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile12"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 2 -->
+	<quest id="quest_prepperstockpile12">
+		<property name="offer_key" value="quest_prepperstockpile13_offer"/>
+		<property name="name_key" value="quest_prepperstockpile13_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile13_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile13_description"/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="CaughtChick" value="2" phase="1"/>
+		<objective type="FetchKeep" id="QueenBee" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceFishBait" value="1" phase="1"/>
+		<objective type="FetchKeep" id="foodCropYuccaFruit" value="20" phase="1"/>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile13"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 3 -->
+	<quest id="quest_prepperstockpile13">
+		<property name="offer_key" value="quest_prepperstockpile12_offer"/>
+		<property name="name_key" value="quest_prepperstockpile12_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile12_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile12_description"/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="IvyCoopEmpty" value="1" phase="1"/>
+		<objective type="BlockPlace" id="SquareHiveEmpty" value="1" phase="1"/>
+		<objective type="BlockPlace" id="farmPlotBlockPlayer" value="4" phase="1"/>
+		<objective type="BlockPlace" id="playerWoodBurningPrepperStove" value="1" phase="1"/>
+		<objective type="BlockPlace" id="FishTrapEmpty" value="1" phase="1"/>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile14"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 4 -->	
+	<quest id="quest_prepperstockpile14">
+		<property name="offer_key" value="quest_prepperstockpile14_offer"/>
+		<property name="name_key" value="quest_prepperstockpile14_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile14_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile14_description"/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="TarTrap" value="1" phase="1"/>
+		<objective type="BlockPlace" id="CactusTrap" value="1" phase="1"/>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile15"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 5 -->
+	<quest id="quest_prepperstockpile15">
+		<property name="offer_key" value="quest_prepperstockpile15_offer"/>
+		<property name="name_key" value="quest_prepperstockpile15_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile15_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile15_description"/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="GrownChicken" value="2" phase="1"/>
+		<objective type="FetchKeep" id="foodHoneyComb" value="12" phase="1"/>
+		<objective type="FetchKeep" id="resourceCatfish" value="2" phase="1"/>
+
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+		<reward type="Item" id="modMeleeBunkerBuster" value="1"/>
+		<reward type="Exp" value="2000"/>
+		<reward type="Quest" id="quest_prepperstockpile16"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 1 -->
+	<quest id="quest_prepperstockpile16">
+		<property name="offer_key" value="quest_prepperstockpile16_offer"/>
+		<property name="name_key" value="quest_prepperstockpile16_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile16_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile16_description"/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceOilShale" value="2000" phase="1"/>
+
+		<reward type="Exp" value="1250"/>
+		<reward type="Quest" id="quest_prepperstockpile17"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 2 -->	
+	<quest id="quest_prepperstockpile17">
+		<property name="offer_key" value="quest_prepperstockpile17_offer"/>
+		<property name="name_key" value="quest_prepperstockpile17_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile17_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile17_description"/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="chemistryStation" value="1" phase="1"/>
+
+		<reward type="Exp" value="1250"/>
+		<reward type="Quest" id="quest_prepperstockpile18"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 3 -->
+	<quest id="quest_prepperstockpile18">
+		<property name="offer_key" value="quest_prepperstockpile18_offer"/>
+		<property name="name_key" value="quest_prepperstockpile18_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile18_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile18_description"/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="ammoGasCan" value="3000" phase="1"/>
+		<objective type="FetchKeep" id="DrillGasCan" value="5" phase="1"/>
+
+		<reward type="Exp" value="1250"/>
+		<reward type="Quest" id="quest_prepperstockpile19"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 4 -->
+	<quest id="quest_prepperstockpile19">
+		<property name="offer_key" value="quest_prepperstockpile19_offer"/>
+		<property name="name_key" value="quest_prepperstockpile19_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile19_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile19_description"/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="RockDrillEmpty" value="1" phase="1"/>
+
+		<reward type="Exp" value="1250"/>
+		<reward type="Quest" id="quest_prepperstockpile20"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 5 -->
+	<quest id="quest_prepperstockpile20">
+		<property name="offer_key" value="quest_prepperstockpile20_offer"/>
+		<property name="name_key" value="quest_prepperstockpile20_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile20_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile20_description"/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="3000" phase="1"/>
+		<objective type="FetchKeep" id="resourceCoal" value="3000" phase="1"/>
+		<objective type="FetchKeep" id="resourceScrapLead" value="3000" phase="1"/>
+		<objective type="FetchKeep" id="resourceCrushedSand" value="6000" phase="1"/>
+		<objective type="FetchKeep" id="resourceRockSmall" value="6000" phase="1"/>
+		
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+		<reward type="Item" id="modMeleeDiamondTip" value="1"/>
+		<reward type="Exp" value="2500"/>
+		<reward type="Quest" id="quest_prepperstockpile21"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 1 -->
+	<quest id="quest_prepperstockpile21">
+		<property name="offer_key" value="quest_prepperstockpile21_offer"/>
+		<property name="name_key" value="quest_prepperstockpile21_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile21_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile21_description"/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="ammo9mmBulletBall" value="500" phase="1"/>
+		<objective type="FetchKeep" id="ammo762mmBulletBall" value="350" phase="1"/>
+		<objective type="FetchKeep" id="ammoShotgunShell" value="250" phase="1"/>
+		<objective type="FetchKeep" id="ammo44MagnumBulletBall" value="200" phase="1"/>
+		<objective type="FetchKeep" id="ammoJunkTurretRegular" value="500" phase="1"/>
+
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile22"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 2 -->
+	<quest id="quest_prepperstockpile22">
+		<property name="offer_key" value="quest_prepperstockpile22_offer"/>
+		<property name="name_key" value="quest_prepperstockpile22_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile22_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile22_description"/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="doorWoodLargeGate" value="1" phase="1"/>
+		<objective type="FetchKeep" id="LogWallsVariantHelper" value="10" phase="1"/>
+		<objective type="FetchKeep" id="banditPlatformVariantHelper" value="10" phase="1"/>
+		<objective type="FetchKeep" id="banditWallCorrugatedVariantHelper" value="10" phase="1"/>
+		<objective type="FetchKeep" id="crushedCars01WhiteVariantHelper" value="4" phase="1"/>
+
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile23"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 3 -->
+	<quest id="quest_prepperstockpile23">
+		<property name="offer_key" value="quest_prepperstockpile23_offer"/>
+		<property name="name_key" value="quest_prepperstockpile23_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile23_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile23_description"/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="thrownAmmoMolotovCocktail" value="20" phase="1"/>
+		<objective type="FetchKeep" id="thrownAmmoPipeBomb" value="20" phase="1"/>
+		<objective type="FetchKeep" id="mineCandyTin" value="20" phase="1"/>
+		<objective type="FetchKeep" id="trapSpikesIronDmg0" value="20" phase="1"/>
+		<objective type="FetchKeep" id="barbedWireSpindleVariantHelper" value="10" phase="1"/>
+
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile24"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 4 -->
+	<quest id="quest_prepperstockpile24">
+		<property name="offer_key" value="quest_prepperstockpile24_offer"/>
+		<property name="name_key" value="quest_prepperstockpile24_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile24_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile24_description"/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="decoCowSkull" value="1" phase="1"/>
+		<objective type="BlockPlace" id="woodenBear" value="1" phase="1"/>
+		<objective type="BlockPlace" id="rugBear" value="1" phase="1"/>
+		<objective type="BlockPlace" id="flagPoleWhiteRiver" value="1" phase="1"/>
+		<objective type="BlockPlace" id="helipad" value="1" phase="1"/>
+		
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile25"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 5 -->
+	<quest id="quest_prepperstockpile25">
+		<property name="offer_key" value="quest_prepperstockpile25_offer"/>
+		<property name="name_key" value="quest_prepperstockpile25_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile25_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile25_description"/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="drugVitamins" value="5" phase="1"/>
+		<objective type="FetchKeep" id="medicalFirstAidKit" value="4" phase="1"/>
+		<objective type="FetchKeep" id="drugHerbalAntibiotics" value="3" phase="1"/>
+		<objective type="FetchKeep" id="medicalPlasterCast" value="2" phase="1"/>
+		<objective type="FetchKeep" id="drugHealthBar" value="1" phase="1"/>
+		
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+		<reward type="Item" id="questRewardPreppocalypticCarPartsBundle" value="1"/>
+		<reward type="Exp" value="3000"/>
+	</quest>
+	
+	<!-- Looping Zombie Elimination Quest -->
+	<quest id="quest_eliminatezombies10">
+	<property name="offer_key" value="quest_eliminatezombies10_offer"/>
+    <property name="name_key" value="quest_eliminatezombies10_name"/>
+	<property name="subtitle_key" value="quest_eliminatezombies10_subtitle"/>
+	<property name="description_key" value="quest_eliminatezombies10_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieSMGArlenePREPPER,zombieSMGArleneRadiatedPREPPER,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombiePumpShotgunBikerPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieSwissVetterliBoePREPPER,zombieSwissVetterliBoeRadiatedPREPPER,zombieBowler,zombieBowlerFeral,zombieBowlerRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieCrispyPREPPER,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombiePistolBusinessManPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieM60DemolitionPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieMiniDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieBatonFatCopPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBigNightFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieInmate,zombieInmateFeral,zombieInmateRadiated,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieBatonHazmatPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieSteelPanMarlenePREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieChainsawMoePREPPER,zombieChainsawMoeRadiatedPREPPER,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieBogeymanPREPPER,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombieBoltNursePREPPER,zombieBoltNurseRadiatedPREPPER,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieMachetePartyGirlPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieTARifleSoldierPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieMiniSoldier,zombieMiniSoldierFeral,zombieMiniSoldierRadiated,zombieMiniTARifleSoldierPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieDesertVultureTomClarkPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieNailgunUtilityWorkerPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightRadiationShowerPREPPER,zombieBigNightWightRadiated,zombieYo,zombieYoFeral,zombieYoRadiated" value="10"/>
+
+	<reward type="Item" id="casinoCoin" value="500"/>
+	<reward type="Quest" id="quest_eliminatezombies15">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies15">
+	<property name="offer_key" value="quest_eliminatezombies15_offer"/>
+    <property name="name_key" value="quest_eliminatezombies15_name"/>
+	<property name="subtitle_key" value="quest_eliminatezombies15_subtitle"/>
+	<property name="description_key" value="quest_eliminatezombies15_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieSMGArlenePREPPER,zombieSMGArleneRadiatedPREPPER,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombiePumpShotgunBikerPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieSwissVetterliBoePREPPER,zombieSwissVetterliBoeRadiatedPREPPER,zombieBowler,zombieBowlerFeral,zombieBowlerRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieCrispyPREPPER,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombiePistolBusinessManPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieM60DemolitionPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieMiniDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieBatonFatCopPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBigNightFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieInmate,zombieInmateFeral,zombieInmateRadiated,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieBatonHazmatPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieSteelPanMarlenePREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieChainsawMoePREPPER,zombieChainsawMoeRadiatedPREPPER,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieBogeymanPREPPER,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombieBoltNursePREPPER,zombieBoltNurseRadiatedPREPPER,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieMachetePartyGirlPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieTARifleSoldierPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieMiniSoldier,zombieMiniSoldierFeral,zombieMiniSoldierRadiated,zombieMiniTARifleSoldierPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieDesertVultureTomClarkPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieNailgunUtilityWorkerPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightRadiationShowerPREPPER,zombieBigNightWightRadiated,zombieYo,zombieYoFeral,zombieYoRadiated" value="15"/>
+
+	<reward type="Exp" value="1500"/>
+	<reward type="Quest" id="quest_eliminatezombies25">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies25">
+	<property name="offer_key" value="quest_eliminatezombies25_offer"/>
+    <property name="name_key" value="quest_eliminatezombies25_name"/>
+	<property name="subtitle_key" value="quest_eliminatezombies25_subtitle"/>
+	<property name="description_key" value="quest_eliminatezombies25_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieSMGArlenePREPPER,zombieSMGArleneRadiatedPREPPER,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombiePumpShotgunBikerPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieSwissVetterliBoePREPPER,zombieSwissVetterliBoeRadiatedPREPPER,zombieBowler,zombieBowlerFeral,zombieBowlerRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieCrispyPREPPER,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombiePistolBusinessManPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieM60DemolitionPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieMiniDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieBatonFatCopPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBigNightFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieInmate,zombieInmateFeral,zombieInmateRadiated,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieBatonHazmatPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieSteelPanMarlenePREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieChainsawMoePREPPER,zombieChainsawMoeRadiatedPREPPER,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieBogeymanPREPPER,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombieBoltNursePREPPER,zombieBoltNurseRadiatedPREPPER,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieMachetePartyGirlPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieTARifleSoldierPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieMiniSoldier,zombieMiniSoldierFeral,zombieMiniSoldierRadiated,zombieMiniTARifleSoldierPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieDesertVultureTomClarkPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieNailgunUtilityWorkerPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightRadiationShowerPREPPER,zombieBigNightWightRadiated,zombieYo,zombieYoFeral,zombieYoRadiated" value="25"/>
+	
+	<reward type="Item" id="casinoCoin" value="1250"/>
+	<reward type="Quest" id="quest_eliminatezombies50">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies50">
+	<property name="offer_key" value="quest_eliminatezombies50_offer"/>
+    <property name="name_key" value="quest_eliminatezombies50_name"/>
+	<property name="subtitle_key" value="quest_eliminatezombies50_subtitle"/>
+	<property name="description_key" value="quest_eliminatezombies50_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieSMGArlenePREPPER,zombieSMGArleneRadiatedPREPPER,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombiePumpShotgunBikerPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieSwissVetterliBoePREPPER,zombieSwissVetterliBoeRadiatedPREPPER,zombieBowler,zombieBowlerFeral,zombieBowlerRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieCrispyPREPPER,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombiePistolBusinessManPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieM60DemolitionPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieMiniDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieBatonFatCopPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBigNightFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieInmate,zombieInmateFeral,zombieInmateRadiated,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieBatonHazmatPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieSteelPanMarlenePREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieChainsawMoePREPPER,zombieChainsawMoeRadiatedPREPPER,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieBogeymanPREPPER,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombieBoltNursePREPPER,zombieBoltNurseRadiatedPREPPER,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieMachetePartyGirlPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieTARifleSoldierPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieMiniSoldier,zombieMiniSoldierFeral,zombieMiniSoldierRadiated,zombieMiniTARifleSoldierPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieDesertVultureTomClarkPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieNailgunUtilityWorkerPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightRadiationShowerPREPPER,zombieBigNightWightRadiated,zombieYo,zombieYoFeral,zombieYoRadiated" value="50"/>
+	
+	<reward type="Exp" value="5000"/>
+	<reward type="Quest" id="quest_eliminatezombies75">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies75">
+	<property name="offer_key" value="quest_eliminatezombies75_offer"/>
+    <property name="name_key" value="quest_eliminatezombies75_name"/>
+	<property name="subtitle_key" value="quest_eliminatezombies75_subtitle"/>
+	<property name="description_key" value="quest_eliminatezombies75_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieSMGArlenePREPPER,zombieSMGArleneRadiatedPREPPER,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombiePumpShotgunBikerPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieSwissVetterliBoePREPPER,zombieSwissVetterliBoeRadiatedPREPPER,zombieBowler,zombieBowlerFeral,zombieBowlerRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieCrispyPREPPER,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombiePistolBusinessManPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieM60DemolitionPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieMiniDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieBatonFatCopPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBigNightFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieInmate,zombieInmateFeral,zombieInmateRadiated,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieBatonHazmatPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieMoe,zombieSteelPanMarlenePREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMoeFeral,zombieMoeRadiated,zombieChainsawMoePREPPER,zombieChainsawMoeRadiatedPREPPER,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieBogeymanPREPPER,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombieBoltNursePREPPER,zombieBoltNurseRadiatedPREPPER,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieMachetePartyGirlPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieTARifleSoldierPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieMiniSoldier,zombieMiniSoldierFeral,zombieMiniSoldierRadiated,zombieMiniTARifleSoldierPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieDesertVultureTomClarkPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieNailgunUtilityWorkerPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightRadiationShowerPREPPER,zombieBigNightWightRadiated,zombieYo,zombieYoFeral,zombieYoRadiated" value="75"/>
+	
+	<reward type="Item" id="casinoCoin" value="3750"/>
+	<reward type="Quest" id="quest_eliminatezombies125">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies125">
+	<property name="offer_key" value="quest_eliminatezombies125_offer"/>
+    <property name="name_key" value="quest_eliminatezombies125_name"/>
+	<property name="subtitle_key" value="quest_eliminatezombies125_subtitle"/>
+	<property name="description_key" value="quest_eliminatezombies125_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieSMGArlenePREPPER,zombieSMGArleneRadiatedPREPPER,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombiePumpShotgunBikerPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieSwissVetterliBoePREPPER,zombieSwissVetterliBoeRadiatedPREPPER,zombieBowler,zombieBowlerFeral,zombieBowlerRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieCrispyPREPPER,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombiePistolBusinessManPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieM60DemolitionPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieMiniDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieBatonFatCopPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBigNightFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieInmate,zombieInmateFeral,zombieInmateRadiated,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieBatonHazmatPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieSteelPanMarlenePREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieChainsawMoePREPPER,zombieChainsawMoeRadiatedPREPPER,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieBogeymanPREPPER,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombieBoltNursePREPPER,zombieBoltNurseRadiatedPREPPER,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieMachetePartyGirlPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieTARifleSoldierPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieMiniSoldier,zombieMiniSoldierFeral,zombieMiniSoldierRadiated,zombieMiniTARifleSoldierPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieDesertVultureTomClarkPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieNailgunUtilityWorkerPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightRadiationShowerPREPPER,zombieBigNightWightRadiated,zombieYo,zombieYoFeral,zombieYoRadiated" value="125"/>
+	
+	<reward type="Exp" value="12500"/>
+	<reward type="Quest" id="quest_eliminatezombies200">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies200">
+	<property name="offer_key" value="quest_eliminatezombies200_offer"/>
+    <property name="name_key" value="quest_eliminatezombies200_name"/>
+	<property name="subtitle_key" value="quest_eliminatezombies200_subtitle"/>
+	<property name="description_key" value="quest_eliminatezombies200_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieArlene,zombieArleneFeral,zombieArleneRadiated,zombieSMGArlenePREPPER,zombieSMGArleneRadiatedPREPPER,zombieBiker,zombieBikerFeral,zombieBikerRadiated,zombiePumpShotgunBikerPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBoe,zombieBoeFeral,zombieBoeRadiated,zombieSwissVetterliBoePREPPER,zombieSwissVetterliBoeRadiatedPREPPER,zombieBowler,zombieBowlerFeral,zombieBowlerRadiated,zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieCrispyPREPPER,zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated,zombiePistolBusinessManPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieDarlene,zombieDarleneFeral,zombieDarleneRadiated,zombieDemolition,zombieM60DemolitionPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieMiniDemolition,zombieFatCop,zombieFatCopFeral,zombieFatCopRadiated,zombieBatonFatCopPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBigNightFatCopRadiated,zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieFemaleFat,zombieFemaleFatFeral,zombieFemaleFatRadiated,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieInmate,zombieInmateFeral,zombieInmateRadiated,zombieJanitor,zombieJanitorFeral,zombieJanitorRadiated,zombieJoe,zombieJoeFeral,zombieJoeRadiated,zombieLab,zombieLabFeral,zombieLabRadiated,zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMaleHazmat,zombieMaleHazmatFeral,zombieMaleHazmatRadiated,zombieBatonHazmatPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieMarlene,zombieMarleneFeral,zombieMarleneRadiated,zombieSteelPanMarlenePREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMoe,zombieMoeFeral,zombieMoeRadiated,zombieChainsawMoePREPPER,zombieChainsawMoeRadiatedPREPPER,zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieBogeymanPREPPER,zombieNurse,zombieNurseFeral,zombieNurseRadiated,zombieBoltNursePREPPER,zombieBoltNurseRadiatedPREPPER,zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated,zombieMachetePartyGirlPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated,zombieSkateboarder,zombieSkateboarderFeral,zombieSkateboarderRadiated,zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieTARifleSoldierPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieMiniSoldier,zombieMiniSoldierFeral,zombieMiniSoldierRadiated,zombieMiniTARifleSoldierPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSteve,zombieSteveCrawler,zombieSteveCrawlerFeral,zombieSteveFeral,zombieSteveRadiated,zombieTomClark,zombieTomClarkFeral,zombieTomClarkRadiated,zombieDesertVultureTomClarkPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombieUtilityWorker,zombieUtilityWorkerFeral,zombieUtilityWorkerRadiated,zombieNailgunUtilityWorkerPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieWight,zombieWightFeral,zombieWightRadiated,zombieWightRadiationShowerPREPPER,zombieBigNightWightRadiated,zombieYo,zombieYoFeral,zombieYoRadiated" value="200"/>
+	
+	<reward type="SkillPoints" value="2" chainreward="false"/>	
+	<reward type="Quest" id="quest_eliminatezombies10">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<!-- Looping Animal Elimination Quest - Influenced by TMB's Animals Hunting Quest -->
+	
+    <!-- Animals Part 1 -->
+	<quest id="quest_eliminateanimals01">
+	<property name="offer_key" value="quest_eliminateanimals01_offer"/>
+    <property name="name_key" value="quest_eliminateanimals01_name"/>
+	<property name="subtitle_key" value="quest_eliminateanimals01_subtitle"/>
+	<property name="description_key" value="quest_eliminateanimals01_description"/>
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+	
+			<objective type="EntityKill" id="animalChicken" value="4"/>			
+			<objective type="EntityKill" id="animalRabbit" value="4"/>			
+		
+	<reward type="Exp" value="2000"/>
+	<reward type="Item" id="casinoCoin" value="750"/>
+	<reward type="Quest" id="quest_eliminateanimals02">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+	
+    <!-- Animals Part 2 -->
+	<quest id="quest_eliminateanimals02">
+	<property name="offer_key" value="quest_eliminateanimals02_offer"/>
+    <property name="name_key" value="quest_eliminateanimals02_name"/>
+	<property name="subtitle_key" value="quest_eliminateanimals02_subtitle"/>
+	<property name="description_key" value="quest_eliminateanimals02_description"/>
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+
+			<objective type="EntityKill" id="animalDoe" value="3"/>
+			<objective type="EntityKill" id="animalBoar" value="3"/>
+			<objective type="EntityKill" id="animalWolf" value="3"/>
+			<objective type="EntityKill" id="animalCoyote" value="3"/>			
+		
+	<reward type="Exp" value="4000"/>
+	<reward type="Item" id="casinoCoin" value="1500"/>
+	<reward type="Quest" id="quest_eliminateanimals03">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+
+    <!-- Animals Part 3 -->
+	<quest id="quest_eliminateanimals03">
+	<property name="offer_key" value="quest_eliminateanimals03_offer"/>
+    <property name="name_key" value="quest_eliminateanimals03_name"/>
+	<property name="subtitle_key" value="quest_eliminateanimals03_subtitle"/>
+	<property name="description_key" value="quest_eliminateanimals03_description"/>
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+
+			<objective type="EntityKill" id="animalBear" value="2"/>
+			<objective type="EntityKill" id="animalMountainLion" value="2"/>
+			<objective type="EntityKill" id="animalStag" value="2"/>
+			<objective type="EntityKill" id="animalPaindeerPREPPER" value="2"/>			
+		
+	<reward type="Exp" value="8000"/>
+	<reward type="Item" id="casinoCoin" value="3000"/>
+	<reward type="Quest" id="quest_eliminateanimals04">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+
+    <!-- Animals Part 4 -->
+	<quest id="quest_eliminateanimals04">
+	<property name="offer_key" value="quest_eliminateanimals04_offer"/>
+    <property name="name_key" value="quest_eliminateanimals04_name"/>
+	<property name="subtitle_key" value="quest_eliminateanimals04_subtitle"/>
+	<property name="description_key" value="quest_eliminateanimals04_description"/>
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+			
+			<objective type="EntityKill" id="animalZombieBear" value="1"/>
+			<objective type="EntityKill" id="animalZombieBunnyPREPPER" value="1"/>
+			<objective type="EntityKill" id="animalZombieChickenPREPPER" value="1"/>
+			<objective type="EntityKill" id="animalDireWolf" value="1"/>
+			<objective type="EntityKill" id="animalBossZombieGracePREPPER" value="1"/>			
+		
+	<reward type="Exp" value="16000"/>
+	<reward type="Item" id="casinoCoin" value="6000"/>
+	<reward type="SkillPoints" value="2" chainreward="false"/>
+	<reward type="Quest" id="quest_eliminateanimals01">
+				<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+	
+	<!-- Adds the "I.V. Stand Challenge with the Screamers" -->	
+	<!-- I.V. Stand Craft and Place -->
+	<quest id="quest_prepperivstandscreamer01">
+	<property name="offer_key" value="quest_prepperivstandscreamer01_offer"/>
+	<property name="name_key" value="quest_prepperivstandscreamer01_name"/>
+	<property name="subtitle_key" value="quest_prepperivstandscreamer01_subtitle"/>
+	<property name="description_key" value="quest_prepperivstandscreamer01_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="veryeasy"/>
+	<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="screamQueenPrepperstandIV" value="1" phase="1"/>
+
+	<reward type="Exp" value="2500"/>		
+	<reward type="Quest" id="quest_prepperivstandscreamer02"/>
+	</quest>
+	
+	<!-- Adds the "Looping Screamer" Challenge -->
+	<quest id="quest_prepperivstandscreamer02">
+	<property name="offer_key" value="quest_prepperivstandscreamer02_offer"/>
+	<property name="name_key" value="quest_prepperivstandscreamer02_name"/>
+	<property name="subtitle_key" value="quest_prepperivstandscreamer02_subtitle"/>
+	<property name="description_key" value="quest_prepperivstandscreamer02_description"/>
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated," value="100"/>
+
+	<reward type="Exp" value="5000"/>
+	<reward type="SkillPoints" value="2" chainreward="false"/>
+	<reward type="Quest" id="quest_prepperivstandscreamer02">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+	
+	<!-- Nailgun Run - Utility Workers -->
+	<quest id="quest_nailgunutilityworkers">
+		<property name="offer_key" value="quest_nailgunutilityworkers_offer"/>
+		<property name="name_key" value="quest_nailgunutilityworkers_name"/>
+		<property name="subtitle_key" value="quest_nailgunutilityworkers_subtitle"/>
+		<property name="description_key" value="quest_nailgunutilityworkers_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieNailgunUtilityWorkerPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeToolRepairT3Nailgun"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Stun Baton - Hazmat Entity -->
+	<quest id="quest_stunbatonhazmat">
+		<property name="offer_key" value="quest_stunbatonhazmat_offer"/>
+		<property name="name_key" value="quest_stunbatonhazmat_name"/>
+		<property name="subtitle_key" value="quest_stunbatonhazmat_subtitle"/>
+		<property name="description_key" value="quest_stunbatonhazmat_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieBatonHazmatPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeWpnBatonT2StunBaton"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- SMG - Arlene -->
+	<quest id="quest_smgarlene">
+		<property name="offer_key" value="quest_smgarlene_offer"/>
+		<property name="name_key" value="quest_smgarlene_name"/>
+		<property name="subtitle_key" value="quest_smgarlene_subtitle"/>
+		<property name="description_key" value="quest_smgarlene_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSMGArlenePREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunHandgunT3SMG5"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- M60 - Demolition -->
+	<quest id="quest_m60demolition">
+		<property name="offer_key" value="quest_m60demolition_offer"/>
+		<property name="name_key" value="quest_m60demolition_name"/>
+		<property name="subtitle_key" value="quest_m60demolition_subtitle"/>
+		<property name="description_key" value="quest_m60demolition_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieM60DemolitionPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunMGT3M60"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Tactical Assault Rifle Soldier -->
+	<quest id="quest_tariflesoldier">
+		<property name="offer_key" value="quest_tariflesoldier_offer"/>
+		<property name="name_key" value="quest_tariflesoldier_name"/>
+		<property name="subtitle_key" value="quest_tariflesoldier_subtitle"/>
+		<property name="description_key" value="quest_tariflesoldier_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieTARifleSoldierPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunMGT2TacticalAR"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Steel Axe Lumberjack -->
+	<quest id="quest_steelaxelumberjack">
+		<property name="offer_key" value="quest_steelaxelumberjack_offer"/>
+		<property name="name_key" value="quest_steelaxelumberjack_name"/>
+		<property name="subtitle_key" value="quest_steelaxelumberjack_subtitle"/>
+		<property name="description_key" value="quest_steelaxelumberjack_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSteelAxeLumberjackPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeToolAxeT2SteelAxe"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Machete Party Girl -->
+	<quest id="quest_machetepartygirl">
+		<property name="offer_key" value="quest_machetepartygirl_offer"/>
+		<property name="name_key" value="quest_machetepartygirl_name"/>
+		<property name="subtitle_key" value="quest_machetepartygirl_subtitle"/>
+		<property name="description_key" value="quest_machetepartygirl_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieMachetePartyGirlPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeWpnBladeT3Machete"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Pistol Business Man -->
+	<quest id="quest_pistolbusinessman">
+		<property name="offer_key" value="quest_pistolbusinessman_offer"/>
+		<property name="name_key" value="quest_pistolbusinessman_name"/>
+		<property name="subtitle_key" value="quest_pistolbusinessman_subtitle"/>
+		<property name="description_key" value="quest_pistolbusinessman_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombiePistolBusinessManPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunHandgunT1Pistol"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Compound Spiders -->
+	<quest id="quest_compoundspider">
+		<property name="offer_key" value="quest_compoundspider_offer"/>
+		<property name="name_key" value="quest_compoundspider_name"/>
+		<property name="subtitle_key" value="quest_compoundspider_subtitle"/>
+		<property name="description_key" value="quest_compoundspider_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunBowT3CompoundBow"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Swiss Vetterli Boe -->
+	<quest id="quest_swissvetterliboe">
+		<property name="offer_key" value="quest_swissvetterliboe_offer"/>
+		<property name="name_key" value="quest_swissvetterliboe_name"/>
+		<property name="subtitle_key" value="quest_swissvetterliboe_subtitle"/>
+		<property name="description_key" value="quest_swissvetterliboe_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSwissVetterliBoePREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunRifleT2LeverActionRifleSwissVetterli"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Chainsaw Moe -->
+	<quest id="quest_chainsawmoe">
+		<property name="offer_key" value="quest_chainsawmoe_offer"/>
+		<property name="name_key" value="quest_chainsawmoe_name"/>
+		<property name="subtitle_key" value="quest_chainsawmoe_subtitle"/>
+		<property name="description_key" value="quest_chainsawmoe_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieChainsawMoePREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeToolAxeT3Chainsaw"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Desert Vulture Tom Clark -->
+	<quest id="quest_desertvulturetomclark">
+		<property name="offer_key" value="quest_desertvulturetomclark_offer"/>
+		<property name="name_key" value="quest_desertvulturetomclark_name"/>
+		<property name="subtitle_key" value="quest_desertvulturetomclark_subtitle"/>
+		<property name="description_key" value="quest_desertvulturetomclark_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieDesertVultureTomClarkPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunHandgunT3DesertVulture"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Pump Shotgun Biker -->
+	<quest id="quest_pumpshotgunbiker">
+		<property name="offer_key" value="quest_pumpshotgunbiker_offer"/>
+		<property name="name_key" value="quest_pumpshotgunbiker_name"/>
+		<property name="subtitle_key" value="quest_pumpshotgunbiker_subtitle"/>
+		<property name="description_key" value="quest_pumpshotgunbiker_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombiePumpShotgunBikerPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunShotgunT2PumpShotgun"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Pipe Baton Fat Cop -->
+	<quest id="quest_batonfatcop">
+		<property name="offer_key" value="quest_batonfatcop_offer"/>
+		<property name="name_key" value="quest_batonfatcop_name"/>
+		<property name="subtitle_key" value="quest_batonfatcop_subtitle"/>
+		<property name="description_key" value="quest_batonfatcop_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieBatonFatCopPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeWpnBatonT0PipeBaton"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Steel Club Big Momma -->
+	<quest id="quest_steelclubfemalefat">
+		<property name="offer_key" value="quest_steelclubfemalefat_offer"/>
+		<property name="name_key" value="quest_steelclubfemalefat_name"/>
+		<property name="subtitle_key" value="quest_steelclubfemalefat_subtitle"/>
+		<property name="description_key" value="quest_steelclubfemalefat_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSteelClubFemaleFatPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeWpnClubT3SteelClub"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Bolt Nurse -->
+	<quest id="quest_boltnurse">
+		<property name="offer_key" value="quest_boltnurse_offer"/>
+		<property name="name_key" value="quest_boltnurse_name"/>
+		<property name="subtitle_key" value="quest_boltnurse_subtitle"/>
+		<property name="description_key" value="quest_boltnurse_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieBoltNursePREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="gunBowT3CompoundCrossbow"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Steel Sledgehammer Fat Hawaiian -->
+	<quest id="quest_steelsledgehammerfathawaiian">
+		<property name="offer_key" value="quest_steelsledgehammerfathawaiian_offer"/>
+		<property name="name_key" value="quest_steelsledgehammerfathawaiian_name"/>
+		<property name="subtitle_key" value="quest_steelsledgehammerfathawaiian_subtitle"/>
+		<property name="description_key" value="quest_steelsledgehammerfathawaiian_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSteelSledgehammerFatHawaiianPREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeWpnSledgeT3SteelSledgehammer"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Steel Pan Marlene -->
+	<quest id="quest_steelpanmarlene">
+		<property name="offer_key" value="quest_steelpanmarlene_offer"/>
+		<property name="name_key" value="quest_steelpanmarlene_name"/>
+		<property name="subtitle_key" value="quest_steelpanmarlene_subtitle"/>
+		<property name="description_key" value="quest_steelpanmarlene_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSteelPanMarlenePREPPER" value="10" phase="1"/>
+		<requirement type="Quests.Requirements.Holding" id="meleeWpnClubT3Pan"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Radiated Wasteland/Burnt Preppers as a group -->
+	<quest id="quest_radiatedpreppers">
+		<property name="offer_key" value="quest_radiatedpreppers_offer"/>
+		<property name="name_key" value="quest_radiatedpreppers_name"/>
+		<property name="subtitle_key" value="quest_radiatedpreppers_subtitle"/>
+		<property name="description_key" value="quest_radiatedpreppers_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="hard"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSMGArleneRadiatedPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliBoeRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER" value="100" phase="1"/>
+		
+		<reward type="Exp" value="50000"/>
+		<reward type="Item" id="casinoCoin" value="25000"/>
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+	</quest>
+
+	<!-- ATM Skill Chance Drop -->	
+	<quest id="quest_1Skill">
+		<property name="offer_key" value="qc_1Skill_offer"/>
+		<property name="name_key" value="qc_1Skill_name"/>
+		<property name="subtitle_key" value="qc_1Skill_subtitle"/>
+		<property name="description_key" value="qc_1Skill_description"/>
+		<property name="icon" value="ui_game_symbol_atm" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="difficulty" value="medium" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	
+	<quest id="quest_2Skill">
+		<property name="offer_key" value="qc_2Skill_offer"/>
+		<property name="name_key" value="qc_2Skill_name"/>
+		<property name="subtitle_key" value="qc_2Skill_subtitle"/>
+		<property name="description_key" value="qc_2Skill_description"/>
+		<property name="icon" value="ui_game_symbol_atm" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="difficulty" value="hard" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
+	
+	</append>
+
+</Preppocalypse>

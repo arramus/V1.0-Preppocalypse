@@ -1,0 +1,172 @@
+<configs>
+	<append xpath="/twitch">
+	
+	<!-- Single Zombies -->
+	
+	<action name="twitch_preppomeleeZombie">
+		<property name="start_gamestage" value="10" />
+		<property name="command" value="#spawn_preppomelee" />
+		<property name="command_key" value="TwitchAction_SpawnPreppoMeleeCommand" />
+		<property name="title_key" value="TwitchAction_SpawnPreppoMelee" />
+		<property name="category" value="Spawns" />
+		<property name="event_name" value="spawn_preppomeleeZombie" />
+		<property name="default_cost" value="111" />
+		<property name="description_key" value="TwitchAction_SpawnPreppoMeleeDesc" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown" value="10" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+	
+	<action name="twitch_prepporangedZombie">
+		<property name="start_gamestage" value="20" />
+		<property name="command" value="#spawn_prepporanged" />
+		<property name="command_key" value="TwitchAction_SpawnPreppoRangedCommand" />
+		<property name="title_key" value="TwitchAction_SpawnPreppoRanged" />
+		<property name="category" value="Spawns" />
+		<property name="event_name" value="spawn_prepporangedZombie" />
+		<property name="default_cost" value="111" />
+		<property name="description_key" value="TwitchAction_SpawnPreppoRangedDesc" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown" value="10" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+	
+	<action name="twitch_preppoflyersZombie">
+		<property name="start_gamestage" value="30" />
+		<property name="command" value="#spawn_preppoflyers" />
+		<property name="command_key" value="TwitchAction_SpawnPreppoFlyersCommand" />
+		<property name="title_key" value="TwitchAction_SpawnPreppoFlyers" />
+		<property name="category" value="Spawns" />
+		<property name="event_name" value="spawn_preppoflyersZombie" />
+		<property name="default_cost" value="111" />
+		<property name="description_key" value="TwitchAction_SpawnPreppoFlyersDesc" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown" value="10" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+	
+	<action name="twitch_preppobossyZombie">
+		<property name="start_gamestage" value="50" />
+		<property name="command" value="#spawn_preppobossy" />
+		<property name="command_key" value="TwitchAction_SpawnPreppoBossyCommand" />
+		<property name="title_key" value="TwitchAction_SpawnPreppoBossy" />
+		<property name="category" value="Spawns" />
+		<property name="event_name" value="spawn_preppobossyZombie" />
+		<property name="default_cost" value="222" />
+		<property name="description_key" value="TwitchAction_SpawnPreppoBossyDesc" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown" value="15" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+
+	<!-- Preppo Ammo -->
+	
+	<action name="twitch_PreppoAmmoCrate" extends="twitch_spawnWeapon1">
+		<property name="command" value="#supply_preppoammo" />
+		<property name="command_key" value="TwitchAction_SupplyPreppoAmmoCommand" />
+		<property name="title_key" value="TwitchAction_SupplyPreppoAmmo" />
+		<property name="description_key" value="TwitchAction_SupplyPreppoAmmoDesc" />
+		<property name="event_name" value="spawn_preppoammo" />
+		<property name="start_gamestage" value="10" />
+		<property name="default_cost" value="222" />
+		<property name="cooldown" value="600" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+	
+	<!-- Group Preppo Zombies  -->
+	
+	<action name="twitch_groupPreppoMeleeZombies">
+		<property name="command" value="#group_preppomelee" />
+		<property name="command_key" value="TwitchAction_SpawnGroupPreppoMeleeCommand" />
+		<property name="title_key" value="TwitchAction_SpawnGroupPreppoMelee" />
+		<property name="description_key" value="TwitchAction_SpawnGroupPreppoMeleeDesc" />
+		<property name="category" value="Spawns" />
+		<property name="start_gamestage" value="100" />
+		<property name="event_name" value="group_preppomelee" />
+		<property name="default_cost" value="666" />
+		<property name="is_positive" value="false" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown_add_amount" value="50" />
+		<property name="cooldown" value="60" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="vote_cooldown_add" value="30" />
+		<property name="min_respawn_count" value="3" />
+		<property name="max_respawn_count" value="3" />
+		<property name="presets" value="standard,hardcore" />
+	</action>
+	
+	<action name="twitch_groupPreppoRangedZombies">
+		<property name="command" value="#group_prepporanged" />
+		<property name="command_key" value="TwitchAction_SpawnGroupPreppoRangedCommand" />
+		<property name="title_key" value="TwitchAction_SpawnGroupPreppoRanged" />
+		<property name="description_key" value="TwitchAction_SpawnGroupPreppoRangedDesc" />
+		<property name="category" value="Spawns" />
+		<property name="start_gamestage" value="100" />
+		<property name="event_name" value="group_prepporanged" />
+		<property name="default_cost" value="666" />
+		<property name="is_positive" value="false" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown_add_amount" value="50" />
+		<property name="cooldown" value="60" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="vote_cooldown_add" value="30" />
+		<property name="min_respawn_count" value="3" />
+		<property name="max_respawn_count" value="3" />
+		<property name="presets" value="standard,hardcore" />
+	</action>
+	
+	<action name="twitch_groupPreppoFlyersZombies">
+		<property name="command" value="#group_preppoflyers" />
+		<property name="command_key" value="TwitchAction_SpawnGroupPreppoFlyersCommand" />
+		<property name="title_key" value="TwitchAction_SpawnGroupPreppoFlyers" />
+		<property name="description_key" value="TwitchAction_SpawnGroupPreppoFlyersDesc" />
+		<property name="category" value="Spawns" />
+		<property name="start_gamestage" value="100" />
+		<property name="event_name" value="group_preppoflyers" />
+		<property name="default_cost" value="666" />
+		<property name="is_positive" value="false" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown_add_amount" value="50" />
+		<property name="cooldown" value="60" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="vote_cooldown_add" value="30" />
+		<property name="min_respawn_count" value="3" />
+		<property name="max_respawn_count" value="3" />
+		<property name="presets" value="standard,hardcore" />
+	</action>
+	
+	<action name="twitch_groupPreppoBossyZombies">
+		<property name="command" value="#group_preppobossy" />
+		<property name="command_key" value="TwitchAction_SpawnGroupPreppoBossyCommand" />
+		<property name="title_key" value="TwitchAction_SpawnGroupPreppoBossy" />
+		<property name="description_key" value="TwitchAction_SpawnGroupPreppoBossyDesc" />
+		<property name="category" value="Spawns" />
+		<property name="start_gamestage" value="100" />
+		<property name="event_name" value="group_preppobossy" />
+		<property name="default_cost" value="1111" />
+		<property name="is_positive" value="false" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown_add_amount" value="50" />
+		<property name="cooldown" value="60" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="vote_cooldown_add" value="30" />
+		<property name="min_respawn_count" value="3" />
+		<property name="max_respawn_count" value="3" />
+		<property name="presets" value="standard,hardcore" />
+	</action>
+	
+	</append>
+		
+</configs>

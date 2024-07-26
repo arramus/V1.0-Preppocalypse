@@ -1,0 +1,24 @@
+﻿<Preppocalypse>
+
+	<set xpath="/doc/backgrounds">
+		<tex file="@modfolder(V1_Preppocalypse):Textures/loadingimage01.png"/>
+		<tex file="@modfolder(V1_Preppocalypse):Textures/loadingimage02.png"/>
+		<tex file="@modfolder(V1_Preppocalypse):Textures/loadingimage03.png"/>
+	</set>
+
+	<append xpath="/doc/tips">
+		<tip key="loadingTipPrepperVehicles"/>	
+		<tip key="loadingTipPrepperPOIs"/>
+		<tip key="loadingTipPrepperOakMods"/>
+		<tip key="loadingTipPrepperRecipes"/>
+		<tip key="loadingTipPrepperCommunityMods"/>
+		<tip key="loadingTipPrepperWanderingHordes"/>
+		<tip key="loadingTipPrepperCustomMods"/>
+		<tip key="loadingTipPrepperToolsWeapons"/>
+		<tip key="loadingTipPrepperUltraTriathlete"/>
+		<tip key="loadingTipPrepperKnowledge"/>
+		<tip key="loadingTipPrepperTraps"/>
+		<tip key="loadingTipPrepperATM"/>		
+	</append>
+
+</Preppocalypse>

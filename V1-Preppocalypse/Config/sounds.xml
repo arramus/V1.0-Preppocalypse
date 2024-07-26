@@ -1,0 +1,355 @@
+<Preppocalypse>
+
+	<append xpath="/Sounds">
+	
+	<!-- Mini Zombie dogs -->
+
+<SoundDataNode name="minizombiedogalert"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogalert1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogalert2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogalert3"/>
+	<Channel name="Mouth"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogattack"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogattack1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogattack2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogattack3"/>
+	<Channel name="Mouth"/>
+	<Priority name="2"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.8"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogdeath"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogdeath1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogdeath2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogdeath3"/>
+	<Channel name="Mouth"/>
+	<Priority name="0"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedoggiveup"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedoggiveup1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedoggiveup2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedoggiveup3"/>
+	<Channel name="Mouth"/>
+	<Priority name="5"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogpain"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogpain1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogpain2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogpain3"/>
+	<Channel name="Mouth"/>
+	<Priority name="1"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.8"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogroam"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogroam1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogroam2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogroam3"/>
+	<Channel name="Mouth"/>
+	<Priority name="6"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogsense"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense3"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense4"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense5"/>
+	<Channel name="Mouth"/>
+	<Priority name="4"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<!-- Mini Vulture -->
+
+<SoundDataNode name="minivulturealert"> <AudioSource name="Sounds/AudioSource_Creatures100Meter"/>
+	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturealert1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturealert2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturealert3"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturealert4"/>
+	<Channel name="Mouth"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivultureattack"> <AudioSource name="Sounds/AudioSource_Creatures100Meter"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureattack1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureattack2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureattack3"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureattack4"/>
+	<Channel name="Mouth"/>
+	<Priority name="2"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivulturedeath"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturedeath1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturedeath2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturedeath3"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturedeath4"/>
+	<Channel name="Mouth"/>
+	<Priority name="0"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivulturegiveup"> <AudioSource name="Sounds/AudioSource_Creatures100Meter"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturegiveup1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturegiveup2"/>
+	<Channel name="Mouth"/>
+	<Priority name="5"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivulturepain"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain3"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain4"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain5"/>
+	<Channel name="Mouth"/>
+	<Priority name="1"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivultureroam"> <AudioSource name="Sounds/AudioSource_Creatures"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureroam1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureroam2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureroam3"/>
+	<Channel name="Mouth"/>
+	<Priority name="6"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivulturesense"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturesense1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturesense2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturesense3"/>
+	<Channel name="Mouth"/>
+	<Priority name="4"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+	
+	<!-- Preppo Sound -->
+	
+	<SoundDataNode name="preppo_bicycle_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?BicycleSingle01"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/bike_silly_horn" AltSound="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	
+	<SoundDataNode name="preppo_minibike_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?BicycleDouble01"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/minibike_silly_horn" AltSound="true"/>
+	<LowestPitch name="0.9"/>
+	<HighestPitch name="0.9"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	
+	<SoundDataNode name="preppo_motorbike_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?MotorcycleHorn01"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/moto_silly_horn" AltSound="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	
+	<SoundDataNode name="preppo_suv_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?TruckHonk01"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_horn" AltSound="true"/>
+	<LowestPitch name="0.9"/>
+	<HighestPitch name="0.9"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	
+	<SoundDataNode name="preppo_gyrocopter_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?OogahHorn01"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/gyro_silly_horn" AltSound="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+	<SoundDataNode name="preppo_preppocar_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?OogahHorn02"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/gyro_silly_horn" AltSound="true"/>
+	<LowestPitch name="0.7"/>
+	<HighestPitch name="0.7"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+ 
+		<!-- SUV octave drop for Preppolyptic Engine Sounds     -->
+
+<SoundDataNode name="preppo_suv_startup"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_startup1"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_startup2"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_start" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_shutoff"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_shutoff"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_off" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_accel1"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel1"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_accel" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_accel2"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel2"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_accel" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_accel3"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel3"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_accel" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_turbo"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_turbo"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_accel" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_decel1"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_decel1"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_decel" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_decel2"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_decel2"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_decel" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_empty"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_empty_1"/>
+	<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_empty_2"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_no_gas" AltSound="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_idle_lp"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_idle_lp" Loop="true"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_idle_lp" AltSound="true" Loop="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="preppo_suv_max_speed_lp"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_max_speed_lp" Loop="true"/>
+	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_run_lp" AltSound="true" Loop="true" />
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.65"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+	<!-- Oak Chicken Coops -->
+  
+	<SoundDataNode name="Chicken6Sounds">
+	<AudioSource name="Sounds/AudioSource_VO" />
+	<Noise ID="3" range="3" volume="25" time="10" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60" />
+	<AudioClip ClipName="#@modfolder:Resources/ChickenCoops.unity3d?Chicken1" />
+	<LocalCrouchVolumeScale name="1.0" />
+	<CrouchNoiseScale name="0.5" />
+	<NoiseScale name="1" />
+	<MaxVoices name="10" />
+	<MaxRepeatRate name="1.111" />
+	</SoundDataNode>
+  
+	<!-- Oak Bee Hives -->
+
+	<SoundDataNode name="BeeHiveOpen">
+	<AudioSource name="Sounds/AudioSource_VO" />
+	<Noise ID="3" range="3" volume="25" time="10" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60" />
+	<AudioClip ClipName="#@modfolder:Resources/BeeHivesV1.unity3d?zBeeSound2" />
+	<LocalCrouchVolumeScale name="1.0" />
+	<CrouchNoiseScale name="0.5" />
+	<NoiseScale name="1" />
+	<MaxVoices name="10" />
+	<MaxRepeatRate name="1.111" />
+	</SoundDataNode>
+	
+	<!-- Oak Melee Pots and Pans -->
+
+	<SoundDataNode name="pot_metalhitorganic"> <AudioSource name="Sounds/AudioSource_Impact"/>
+	<Noise ID="2" noise="20" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?PanClang"/>
+	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.95"/>
+	<LocalCrouchVolumeScale value="0.3"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	
+	<SoundDataNode name="pan_metalhitorganic"> <AudioSource name="Sounds/AudioSource_Impact"/>
+	<Noise ID="2" noise="20" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?PanClang"/>
+	<LowestPitch name="0.95"/>
+	<HighestPitch name="1.25"/>
+	<LocalCrouchVolumeScale value="0.3"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+	</append>
+
+</Preppocalypse>
+
+
+

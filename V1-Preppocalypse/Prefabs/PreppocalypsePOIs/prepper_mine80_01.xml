@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="5" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="QuestTags" value="clear, fetch, infested" />
+  <property name="TraderArea" value="False" />
+  <property name="PrefabSize" value="80, 50, 80" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="YOffset" value="-30" />
+  <property name="Tags" value="wilderness" />
+  <property name="SleeperVolumeSize" value="10, 22, 11#31, 14, 28#26, 18, 29#27, 14, 28#20, 8, 25#47, 13, 37#33, 9, 40#50, 8, 7#25, 10, 21#17, 9, 24" />
+  <property name="SleeperVolumeStart" value="36, 1, 40#48, 9, 23#2, 10, 43#48, 12, 51#28, 12, 51#-1, 0, 3#46, 0, 1#14, 4, 72#28, 2, 51#53, 0, 44" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="Prepper_Flyer_Entities,3,5,Prepper_Mixed_Entities,3,4,Prepper_Mixed_Entities,4,8,Prepper_Mixed_Entities,5,6,Prepper_Mixed_Entities,5,7,Prepper_Mixed_Entities,6,7,Prepper_Mixed_Entities,6,9,Prepper_Mixed_Entities,3,5,Prepper_Mixed_Entities,4,5,Prepper_Mixed_Entities,6,8" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="2,0,0,0,0,0,0,2,0,0" />
+  <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # " />
+  <property class="Stats">
+    <property name="TotalVertices" value="608041" />
+    <property name="TotalTriangles" value="397524" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="510945" />
+      <property name="Triangles" value="287580" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="29134" />
+      <property name="Triangles" value="16408" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="14784" />
+      <property name="Triangles" value="7392" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="53178" />
+      <property name="Triangles" value="86144" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="challenge_polymers">
+      <property name="0" value="40, 13, 58" />
+      <property name="1" value="44, 3, 61" />
+      <property name="2" value="42, 14, 70" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="77, 3, 4" />
+    </property>
+    <property class="quest_wood_trees">
+      <property name="0" value="75, 30, 60" />
+    </property>
+    <property class="challenge_gore">
+      <property name="0" value="78, 3, 5" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="23, 30, 53" />
+    </property>
+    <property class="challenge_pallet">
+      <property name="0" value="57, 3, 24" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="41, 31, 41" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="57, 5, 3" />
+    </property>
+    <property class="challenge_cars">
+      <property name="0" value="70, 30, 60" />
+    </property>
+  </property>
+</prefab>

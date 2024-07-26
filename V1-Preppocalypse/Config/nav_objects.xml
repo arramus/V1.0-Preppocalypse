@@ -1,0 +1,17 @@
+<configs>
+
+<append xpath="/nav_object_classes">
+	<nav_object_class name="preppocalypticcar" extends="bicycle">
+		<property name="requirement_type" value="IsVehicleOwner" />
+
+		<compass_settings>
+			<property name="sprite_name" value="ui_game_symbol_preppocalypticcar"/>
+		</compass_settings>
+
+		<onscreen_settings>
+			<property name="sprite_name" value="ui_game_symbol_preppocalypticcar"/>
+		</onscreen_settings>
+	</nav_object_class>
+</append>
+
+</configs>

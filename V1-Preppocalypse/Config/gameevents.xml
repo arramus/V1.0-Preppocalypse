@@ -1,0 +1,85 @@
+<configs>
+
+	<set xpath="/gameevents/action_sequence[@name='challenge_group_reward_basics']/action/property[@name='skill_points']/@value">7</set>
+	
+	<append xpath="/gameevents/action_sequence[@name='game_first_spawn']">	
+		<action class="AddQuest">
+			<property name="phase" value="1" />
+			<property name="quest" value="quest_whiteRiverCitizen0" />
+		</action>
+	</append>
+
+	<append xpath="/gameevents">
+	
+	<!-- Single Preppo Zombies -->
+
+	<action_sequence name="spawn_preppomeleeZombie" template="spawn_single">
+		<variable name="zombiename" value="zombieBatonHazmatPREPPER,zombieSteelAxeLumberjackPREPPER,zombieMachetePartyGirlPREPPER,zombieChainsawMoePREPPER,zombieBatonFatCopPREPPER,zombieSteelClubFemaleFatPREPPER,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelPanMarlenePREPPER" />
+		<variable name="alertsound" value="zombiemalealert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_prepporangedZombie" template="spawn_single">
+		<variable name="zombiename" value="zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER" />
+		<variable name="alertsound" value="zombiemalealert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_preppoflyersZombie" template="spawn_single">
+		<variable name="zombiename" value="animalZombieLargePlasmaVulturePREPPER,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER" />
+		<variable name="alertsound" value="zombiemalealert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_preppobossyZombie" template="spawn_single">
+		<variable name="zombiename" value="zombieWightRadiationShowerPREPPER,zombieBogeymanPREPPER,zombieCrispyPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated" />
+		<variable name="alertsound" value="zombiemalealert" />
+	</action_sequence>
+	
+	<!-- Ammo Crate -->
+	
+	<action_sequence name="spawn_preppoammo" template="spawn_crate_template">
+		<variable name="cratename" value="TwitchAction_SupplyPreppoAmmo" />
+	</action_sequence>
+
+	<!-- Group Preppo Zombies -->
+	
+	<action_sequence name="group_preppomelee" template="spawn_group">
+		<variable name="zombiename" value="zombieBatonHazmatPREPPER,zombieSteelAxeLumberjackPREPPER,zombieMachetePartyGirlPREPPER,zombieChainsawMoePREPPER,zombieBatonFatCopPREPPER,zombieSteelClubFemaleFatPREPPER,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelPanMarlenePREPPER" />
+		<variable name="spawncount" value="5" />
+		<variable name="alertsound" value="wolfalert" />
+		<variable name="gamestage_extra1" value="150" />
+		<variable name="spawncount_extra1" value="2" />
+		<variable name="gamestage_extra2" value="200" />
+		<variable name="spawncount_extra2" value="3" />
+	</action_sequence>
+	
+	<action_sequence name="group_prepporanged" template="spawn_group">
+		<variable name="zombiename" value="zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER" />
+		<variable name="spawncount" value="5" />
+		<variable name="alertsound" value="wolfalert" />
+		<variable name="gamestage_extra1" value="150" />
+		<variable name="spawncount_extra1" value="2" />
+		<variable name="gamestage_extra2" value="200" />
+		<variable name="spawncount_extra2" value="3" />
+	</action_sequence>
+	
+	<action_sequence name="group_preppoflyers" template="spawn_group">
+		<variable name="zombiename" value="animalZombieLargePlasmaVulturePREPPER,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER" />
+		<variable name="spawncount" value="5" />
+		<variable name="alertsound" value="Animals/Vulture/vultureattack" />
+		<variable name="gamestage_extra1" value="150" />
+		<variable name="spawncount_extra1" value="2" />
+		<variable name="gamestage_extra2" value="200" />
+		<variable name="spawncount_extra2" value="3" />
+	</action_sequence>
+
+	<action_sequence name="group_preppobossy" template="spawn_group">
+		<variable name="zombiename" value="zombieWightRadiationShowerPREPPER,zombieBogeymanPREPPER,zombieCrispyPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated" />
+		<variable name="spawncount" value="5" />
+		<variable name="alertsound" value="Animals/Bear/bearattack" />
+		<variable name="gamestage_extra1" value="150" />
+		<variable name="spawncount_extra1" value="2" />
+		<variable name="gamestage_extra2" value="200" />
+		<variable name="spawncount_extra2" value="3" />
+	</action_sequence>	
+
+	</append>
+</configs>
