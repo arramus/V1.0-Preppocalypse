@@ -66,11 +66,11 @@
 	   </item_property_overrides>	   	                
     </append>	
 	
-<!-- Vertteli Mod Attachments -->
+<!-- Vetterli Mod Attachments -->
 
 	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">	
 			<effect_group tiered="false" name="internal attachment prefab (Preppocalypse)">
-				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
+				<requirement name="HoldingItemHasTags" tags="SwissVetterli"/>
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Sides/side_attachment_laserPrefab.prefab" parent_transform="Handle/Muzzle" local_rotation="-1.4,-2.2,0" local_offset="0,-0.035,0.11"/>
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="gunlaser"/>
 					
@@ -91,46 +91,13 @@
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunFlashlight']">	
 			<effect_group tiered="false" name="internal attachment prefab (Preppocalypse)">
-				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
+				<requirement name="HoldingItemHasTags" tags="SwissVetterli"/>
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Handle/Muzzle" local_offset="0,-0.065,0.075"/>
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="flashlight"/>
 
 					<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="Muzzle" transform_path="lightSource"/>
 					<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="Muzzle" transform_path="lightSource"/>
 					<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="Muzzle" transform_path="lightSource"/>
-			</effect_group>
-    </append>
-
-	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">	
-			<effect_group tiered="false" name="internal attachment prefab (Preppocalypse)">
-				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
-					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Barrels/SilencerPrefab.prefab" parent_transform="Handle/Muzzle" local_offset="0.0025,-0.0558,0.1075"/>
-			</effect_group>
-    </append>
-	
-	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">	
-		<!-- visible attachment: scope x2 -->
-			<effect_group tiered="false" name="internal attachment prefab (Preppocalypse)">
-				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
-				<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
-					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_2xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.012,0"/>
-			</effect_group>
-    </append>
-	
-	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']">	
-		<!-- visible attachment: scope x4 -->
-			<effect_group tiered="false" name="internal attachment prefab (Preppocalypse)">
-				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
-				<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
-					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_4xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.018,0.018"/>
-			</effect_group>
-    </append>
-	
-	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']">	
-		<!-- visible attachment: scope x8 -->
-			<effect_group tiered="false" name="internal attachment prefab (Preppocalypse)">
-				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
-					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_4xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.018,0.018"/>
 			</effect_group>
     </append>
 	
@@ -142,7 +109,7 @@
 			</item_property_overrides>
 
 			<effect_group tiered="false" name="internal attachment prefab (Preppocalypse)">
-				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
+				<requirement name="HoldingItemHasTags" tags="SwissVetterli"/>
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_laser_reflexPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.015,0"/>
 			</effect_group>
     </append>

@@ -2404,7 +2404,7 @@
 	
 <!-- Swiss Vetterli Rifle -->
 <item name="gunRifleT2LeverActionRifleSwissVetterli">
-	<property name="Tags" value="SwissVertteli,weapon,revolver,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill"/>
+	<property name="Tags" value="SwissVetterli,weapon,revolver,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="85"/>
 	<property name="Meshfile" value="#@modfolder:Resources/Vetterli.unity3d?Vetterli"/>
