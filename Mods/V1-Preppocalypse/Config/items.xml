@@ -2240,6 +2240,18 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
+		
+<!-- Vetterli Magazine Extender Mod Schematic -->	
+		<item name="modGunSwissVetterliMagazineExtenderSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunSwissVetterliMagazineExtender"/>
+			<property name="Unlocks" value="modGunSwissVetterliMagazineExtender"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunSwissVetterliMagazineExtender" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
 
 <!-- CUSTOM WEAPONS -->
 <!-- Oakraven Can Can Bat -->
@@ -2404,7 +2416,7 @@
 	
 <!-- Swiss Vetterli Rifle -->
 <item name="gunRifleT2LeverActionRifleSwissVetterli">
-	<property name="Tags" value="SwissVetterli,weapon,revolver,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill"/>
+	<property name="Tags" value="swissvetterlimagazine,SwissVetterli,weapon,revolver,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="85"/>
 	<property name="Meshfile" value="#@modfolder:Resources/Vetterli.unity3d?Vetterli"/>

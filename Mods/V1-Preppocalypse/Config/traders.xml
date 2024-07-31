@@ -50,7 +50,8 @@
 	<!-- *** T2_Ranged_Mods -->
 		<item name="modGunBowArrowGrip"/>
 		<item name="modArcheryReloadSpeed"/>
-		<item name="modGunMagnumMagazineExtender"/>		
+		<item name="modGunMagnumMagazineExtender"/>
+		<item name="modGunSwissVetterliMagazineExtender"/>		
 	</append>
 	
 	<!-- Group Armor Mods -->

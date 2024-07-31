@@ -479,7 +479,7 @@
 		<property name="name_key" value="quest_prepperstockpile21_name"/>
 		<property name="subtitle_key" value="quest_prepperstockpile21_subtitle"/>
 		<property name="description_key" value="quest_prepperstockpile21_description"/>
-		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="icon" value="ui_game_symbol_ammopress_allammo"/>
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -502,7 +502,7 @@
 		<property name="name_key" value="quest_prepperstockpile22_name"/>
 		<property name="subtitle_key" value="quest_prepperstockpile22_subtitle"/>
 		<property name="description_key" value="quest_prepperstockpile22_description"/>
-		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -525,7 +525,7 @@
 		<property name="name_key" value="quest_prepperstockpile23_name"/>
 		<property name="subtitle_key" value="quest_prepperstockpile23_subtitle"/>
 		<property name="description_key" value="quest_prepperstockpile23_description"/>
-		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="icon" value="ui_game_symbol_ammopress_allammo"/>
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -548,7 +548,7 @@
 		<property name="name_key" value="quest_prepperstockpile24_name"/>
 		<property name="subtitle_key" value="quest_prepperstockpile24_subtitle"/>
 		<property name="description_key" value="quest_prepperstockpile24_description"/>
-		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -571,7 +571,7 @@
 		<property name="name_key" value="quest_prepperstockpile25_name"/>
 		<property name="subtitle_key" value="quest_prepperstockpile25_subtitle"/>
 		<property name="description_key" value="quest_prepperstockpile25_description"/>
-		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="icon" value="ui_game_symbol_health_cross"/>
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
