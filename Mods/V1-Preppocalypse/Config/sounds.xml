@@ -1,5 +1,8 @@
 <Preppocalypse>
 
+	<!-- Thank you Ragsy for sharing -->
+	<set xpath="/Sounds/SoundDataNode[@name='vehicle_turbo']/AudioClip/@ClipName">Sounds/Misc/silencefiller</set>
+
 	<append xpath="/Sounds">
 	
 	<!-- Mini Zombie dogs -->
