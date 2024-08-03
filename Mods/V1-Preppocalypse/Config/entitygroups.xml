@@ -337,52 +337,37 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .1
 		zombieBurntRadiated, .05
-		zombieCrispyPREPPER, .045
-		zombieScorcherRadiatedPREPPER, .045
-		animalZombieBunnyPREPPER, .04
-		animalZombieSnakePREPPER, .04
-		animalZombieChickenPREPPER, .04
-		zombieSMGArlenePREPPER, .04
-		zombieSMGArleneRadiatedPREPPER, .04
-		zombieTARifleSoldierPREPPER, .04
-		zombieTARifleSoldierRadiatedPREPPER, .04		
-		zombieBatonHazmatPREPPER, .04
-		zombieBatonHazmatRadiatedPREPPER, .04		
-		zombieSteelAxeLumberjackPREPPER, .04
-		zombieSteelAxeLumberjackRadiatedPREPPER, .04		
-		zombieMachetePartyGirlPREPPER, .04
-		zombieMachetePartyGirlRadiatedPREPPER, .04		
-		zombiePistolBusinessManPREPPER, .04
-		zombiePistolBusinessManRadiatedPREPPER, .04		
-		zombieNailgunUtilityWorkerPREPPER, .04
-		zombieNailgunUtilityWorkerRadiatedPREPPER, .04		
-		zombieSwissVetterliBoePREPPER, .04
-		zombieSwissVetterliBoeRadiatedPREPPER, .04		
-		zombieChainsawMoePREPPER, .04
-		zombieChainsawMoeRadiatedPREPPER, .04		
-		zombieDesertVultureTomClarkPREPPER, .04
-		zombieDesertVultureTomClarkRadiatedPREPPER, .04		
-		zombiePumpShotgunBikerPREPPER, .04
-		zombiePumpShotgunBikerRadiatedPREPPER, .04		
-		zombieBatonFatCopPREPPER, .04
-		zombieBatonFatCopRadiatedPREPPER, .04		
-		zombieSteelClubFemaleFatPREPPER, .04
-		zombieSteelClubFemaleFatRadiatedPREPPER, .04		
-		zombieBoltNursePREPPER, .04
-		zombieBoltNurseRadiatedPREPPER, .04		
-		zombieSteelSledgehammerFatHawaiianPREPPER, .04
-		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .04
-		zombieSteelPanMarlenePREPPER, .04
-		zombieSteelPanMarleneRadiatedPREPPER, .04
-		animalZombieLargePlasmaVulturePREPPER, .0125		
-		zombieSpiderFeralBomberPREPPER, .0125
-		zombieSpiderFeralGliderPREPPER, .0125
-		zombieM60DemolitionPREPPER, .0125
-		animalBossZombieGracePREPPER, .0125
-		animalPaindeerPREPPER, .0125
-		zombieWightRadiationShowerPREPPER, .0125
-		zombieBogeymanPREPPER, .0125
-		zombieRocketRadiatedPREPPER, .01	
+		zombieSteveCrawlerFeral, .05
+		zombieCrispyPREPPER, .015
+		zombieScorcherPREPPER, .015
+		zombieWightRadiationShowerPREPPER, .01
+		zombieBogeymanPREPPER, .01
+		animalZombieBunnyPREPPER, .01
+		animalZombieSnakePREPPER, .01
+		animalZombieChickenPREPPER, .01
+		zombieSMGArlenePREPPER, .01
+		zombieTARifleSoldierPREPPER, .01
+		zombieBatonHazmatPREPPER, .01
+		zombieSteelAxeLumberjackPREPPER, .01
+		zombieMachetePartyGirlPREPPER, .01
+		zombiePistolBusinessManPREPPER, .01
+		zombieNailgunUtilityWorkerPREPPER, .01
+		zombieSwissVetterliBoePREPPER, .01
+		zombieChainsawMoePREPPER, .01
+		zombieDesertVultureTomClarkPREPPER, .01
+		zombiePumpShotgunBikerPREPPER, .01
+		zombieBatonFatCopPREPPER, .01
+		zombieSteelClubFemaleFatPREPPER, .01
+		zombieBoltNursePREPPER, .01
+		zombieSteelSledgehammerFatHawaiianPREPPER, .01
+		zombieSteelPanMarlenePREPPER, .01
+		animalZombieLargePlasmaVulturePREPPER, .01		
+		zombieSpiderFeralBomberPREPPER, .01
+		zombieSpiderFeralGliderPREPPER, .01
+		zombieM60DemolitionPREPPER, .01
+		animalBossZombieGracePREPPER, .01		
+		animalPaindeerPREPPER, .01
+		zombieRocketPREPPER, .005
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_LUMBERJACK_GROUPS -->
@@ -756,7 +741,7 @@
 		animalZombieEagle, 3
 		animalBearSmall, 3
 		animalBear, 2
-		animalDireWolf, 1
+		animalMiniDireWolf, 1
 		none, 65
 	</set>
 	
@@ -769,7 +754,7 @@
 		animalZombieEagle, 3
 		animalBearSmall, 3
 		animalBear, 2
-		animalDireWolf, 1
+		animalMiniDireWolf, 1
 		none, 65
 	</set>
 
@@ -777,6 +762,13 @@
 	<!-- *** ENEMY_ANIMAL_DESERT -->
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" >
 		animalZombieEagle, 3
+		animalMiniDireWolf, 2
+	</csv>
+	
+	<!-- *** ENEMY_ANIMAL_DESERT_NIGHT-->
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesertNight']/text()" delim="\n" op="add" >
+		animalDireWolf, 5
+		animalMiniDireWolf, 5
 	</csv>
 	
 	<!-- *** SNOW -->
@@ -784,6 +776,32 @@
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
 		animalZombieEagle, 4
 		animalDireWolf, 3
+	</csv>
+	
+	<!-- *** ENEMY_ANIMAL_SNOW_NIGHT -->	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnowNight']/text()" delim="\n" op="add" >
+		animalDireFireWolf, 4
+		animalMiniDireWolf, 3
+	</csv>
+	
+	<!-- *** WASTELAND -->
+	<!-- *** ENEMY_ANIMAL_WASTELAND -->	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
+		animalDireFireWolf, 10
+		animalMiniDireWolf, 10
+		animalZombieEagle, 5
+	</csv>
+	
+	<!-- *** ENEMY_ANIMAL_WASTELAND_NIGHT -->	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWastelandNight']/text()" delim="\n" op="add" >
+		animalDireFireWolf, 10
+		animalMiniDireWolf, 10
+	</csv>
+	
+<!-- ***WANDERING_HORDE_AND_LEVEL_DESIGN_SLEEPER_BLOCKS -->
+	<!-- *** ENEMY_ANIMAL_WOLFPACK_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='WolfPack']/text()" delim="\n" op="add" >
+		animalMiniDireWolf, .25
 	</csv>
 	
 <!-- *** INTEGRATION FOR SLEEPERS -->
@@ -1282,6 +1300,8 @@
 		zombieBigNightWightRadiated, .5
 		zombieBigNightScreamerRadiated, .5
 		zombieBigNightFatCopRadiated, .5
+		animalDireFireWolf, .5
+		animalMiniDireWolf, .5
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->

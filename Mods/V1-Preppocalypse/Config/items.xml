@@ -2971,6 +2971,48 @@
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="20"/><!--InfectionRadiated-->
 	</effect_group>
 </item>
+
+<item name="meleeHandAnimalDireFireWolf">
+	<property name="Extends" value="meleeHandAnimalWolf"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Delay" value=".8"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2.2"/>
+		<property name="DamageEntity" value="70"/>
+		<property name="DamageBlock" value="50"/>
+		<property name="Buff" value="buffBurningZombie"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffArmBroken,buffLegBroken,buffLaceration,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".1,.1,.25,.40,.15"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="150"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffBurningZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalMiniDireWolf">
+	<property name="Extends" value="meleeHandAnimalWolf"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Delay" value=".8"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2.2"/>
+		<property name="DamageEntity" value="33"/>
+		<property name="DamageBlock" value="35"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffArmBroken,buffLegBroken,buffLaceration,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".1,.1,.25,.40,.15"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="150"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
 		
 <item name="meleeHandZombieM60DemolitionPREPPER"> <!-- + 10% hits and gains -->
 	<property name="Extends" value="meleeHandMaster"/>
