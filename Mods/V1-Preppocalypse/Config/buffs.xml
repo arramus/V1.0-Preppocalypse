@@ -256,7 +256,8 @@
 			<duration value="0"/>
 			<update_rate value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="4" buff="zombieWightRadiationShowerPREPPERAOEEffect">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" target="selfAOE" range="12" particle="RadiatedParticlesOnMesh" parent_transform="Origin"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="zombieWightRadiationShowerPREPPERAOEEffect">
 					<requirement name="!EntityTagCompare" target="other" tags="vehicle,zombie,turret,drone"/>
 				</triggered_effect>
 			</effect_group>
