@@ -684,6 +684,104 @@
 		zombieSpiderFeralGliderPREPPER
 	</entitygroup>
 	
+	<!-- Prepper Mixed Soldier Entities for GS -->
+	
+	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS01">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniTARifleSoldierPREPPER, .5
+		zombieMiniTARifleSoldierRadiatedPREPPER, .5
+		zombieMiniDemolition, .5
+		zombieMutated, .5
+		zombieMutatedFeral, .5
+		zombieMutatedRadiated, .25
+		zombieTARifleSoldierPREPPER, .25
+		zombieTARifleSoldierRadiatedPREPPER, .25
+		zombieBogeymanPREPPER, .1
+		zombieDemolition, .1
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS50">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniTARifleSoldierPREPPER, .75
+		zombieMiniTARifleSoldierRadiatedPREPPER, .75
+		zombieMiniDemolition, .75
+		zombieMutated, .75
+		zombieMutatedFeral, .75
+		zombieMutatedRadiated, .35
+		zombieTARifleSoldierPREPPER, .35
+		zombieTARifleSoldierRadiatedPREPPER, .35
+		zombieBogeymanPREPPER, .15
+		zombieDemolition, .15
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS100">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniTARifleSoldierPREPPER
+		zombieMiniTARifleSoldierRadiatedPREPPER
+		zombieMiniDemolition
+		zombieMutated
+		zombieMutatedFeral
+		zombieMutatedRadiated, .75
+		zombieTARifleSoldierPREPPER, .5
+		zombieTARifleSoldierRadiatedPREPPER, .5
+		zombieBogeymanPREPPER, .25
+		zombieDemolition, .25
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS200">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniTARifleSoldierPREPPER
+		zombieMiniTARifleSoldierRadiatedPREPPER
+		zombieMiniDemolition
+		zombieMutated
+		zombieMutatedFeral
+		zombieMutatedRadiated
+		zombieTARifleSoldierPREPPER, .75
+		zombieTARifleSoldierRadiatedPREPPER, .75
+		zombieBogeymanPREPPER, .35
+		zombieDemolition, .35
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS400">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniTARifleSoldierPREPPER
+		zombieMiniTARifleSoldierRadiatedPREPPER
+		zombieMiniDemolition
+		zombieMutated
+		zombieMutatedFeral
+		zombieMutatedRadiated
+		zombieTARifleSoldierPREPPER
+		zombieTARifleSoldierRadiatedPREPPER
+		zombieBogeymanPREPPER, .5
+		zombieDemolition, .5
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS800">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniTARifleSoldierPREPPER
+		zombieMiniTARifleSoldierRadiatedPREPPER
+		zombieMiniDemolition
+		zombieMutated
+		zombieMutatedFeral
+		zombieMutatedRadiated
+		zombieTARifleSoldierPREPPER
+		zombieTARifleSoldierRadiatedPREPPER
+		zombieBogeymanPREPPER, .75
+		zombieDemolition, .75
+	</entitygroup>
+	
 	</append>
 	
 	<!-- *** INTEGRATION FOR ANIMALS -->

@@ -21,7 +21,7 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='14']/spawn[@group='FwanderingHordeStageGS10' 	and @num='06']/@num">21</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='15']/spawn[@group='ZombieBikerBarGroup' 		and @num='08']/@num">23</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='16']/spawn[@group='FwanderingHordeStageGS13' 	and @num='09']/@num">24</set>
-	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='17']/spawn[@group='wanderingHordeStageGS18' 	and @num='09']/@num">24</set>
+	<!--set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='17']/spawn[@group='wanderingHordeStageGS18' 	and @num='09']/@num">24</set-->
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='18']/spawn[@group='wanderingHordeStageGS22' 	and @num='07']/@num">22</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='19']/spawn[@group='wanderingHordeStageGS27' 	and @num='08']/@num">23</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='20']/spawn[@group='ZombieDogGroup' 			and @num='06']/@num">07</set>
@@ -40,7 +40,7 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='33']/spawn[@group='wanderingHordeStageGS52' 	and @num='06']/@num">21</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='34']/spawn[@group='ZombieDogGroup' 			and @num='07']/@num">08</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='35']/spawn[@group='wanderingHordeStageGS58' 	and @num='09']/@num">24</set>
-	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='36']/spawn[@group='wanderingHordeStageGS64' 	and @num='08']/@num">23</set>
+	<!--set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='36']/spawn[@group='wanderingHordeStageGS64' 	and @num='08']/@num">23</set-->
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='37']/spawn[@group='FwanderingHordeStageGS40' 	and @num='10']/@num">25</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='38']/spawn[@group='ZombieAnimalsGroup' 		and @num='05']/@num">06</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='39']/spawn[@group='FwanderingHordeStageGS44' 	and @num='05']/@num">20</set>
@@ -58,9 +58,11 @@
 
 	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='10']"/>
 	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='12']"/>
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='17']"/>
 	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='23']"/>
 	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='27']"/>
 	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='29']"/>
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='36']"/>
 	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='47']"/>
 	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='49']"/>
 
@@ -72,6 +74,11 @@
 	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[11]">
 		<gamestage stage="12">
 			<spawn group="PrepperMixedEntitiesGroupGS01" num="10" maxAlive="30" duration="09"/>
+		</gamestage>
+	</insertAfter>
+	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[16]">
+		<gamestage stage="17">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS01" num="10" maxAlive="30" duration="09"/>
 		</gamestage>
 	</insertAfter>
 	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[22]">
@@ -87,6 +94,11 @@
 	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[28]">
 		<gamestage stage="29">
 			<spawn group="PrepperMixedEntitiesGroupGS01" num="16" maxAlive="30" duration="09"/>
+		</gamestage>
+	</insertAfter>
+	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[35]">
+		<gamestage stage="36">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS01" num="16" maxAlive="30" duration="09"/>
 		</gamestage>
 	</insertAfter>
 	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[46]">
@@ -106,6 +118,8 @@
 	<group name="Prepper_Mixed_Entities" spawner="PrepperMixedEntities"/>	
 	<!-- Prepper Flyer Entities -->
 	<group name="Prepper_Flyer_Entities" spawner="PrepperFlyerEntities"/>
+	<!-- Prepper Mixed Soldier Entities -->
+	<group name="Prepper_Mixed_Soldier_Entities" spawner="PrepperMixedSoldierEntities"/>
 	
 	<!-- Prepper Mixed Entities for GS -->
 	<spawner name="PrepperMixedEntities">
@@ -148,6 +162,28 @@
 		</gamestage>
 		<gamestage stage="800">
 			<spawn group="PrepperFlyerEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Mixed Soldier Entities for GS -->
+	<spawner name="PrepperMixedSoldierEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
 		</gamestage>
 	</spawner>
 	
