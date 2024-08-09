@@ -234,59 +234,47 @@
 				<filledsprite depth="4" name="BarContent" color="{stealthcolor}" type="filled" fill="0" />
 				<sprite depth="5" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_stealth2" size="27,27" pos="32,-18" pivot="center" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="44,-19" font_size="26" color="[white]" justify="center" pivot="left" text="{statcurrent}" width="60" height="35"/> <!-- width number was 125 and this shifts left -->
-
 				<texture depth="9" pos="-25,-19" width="192" height="37" pivot="left" texture="@modfolder:Textures/border.png"/>
 			</rect>				
 		</rect>
-		
-		   <rect pos="100,136" width="75" height="75" >
-			<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/border.png"/>
-             </rect>
-		
-		   <rect pos="100,99" width="75" height="75" >
-			<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/border.png"/>
-             </rect>
-		
-           <rect pos="100,62" width="75" height="75" >
-			<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/border.png"/>
-             </rect>
-			 
-			 <rect pos="100,25" width="75" height="75" >
-			<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/border.png"/>
-             </rect>
                                                              <!-- Health -->
-				<rect pos="100,137" width="76" height="76" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
+			<rect pos="100,137" width="76" height="76" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="1" pos="-72,18" width="137" height="35" color="0,0,0,250" type="sliced" foregroundlayer="true"/>
 				<sprite name="BarContent" depth="2" pivot="center" size="137,102" type="filled" filldirection="horizontal" fill="0" atlas="ItemIconAtlas" sprite="plaqueHP" />
 				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_health_cross" size="22,22" pos="-50,10" foregroundlayer="true"/>
 				<label depth="3" width="136" pos="-50,12" font_size="24" text="[DECEA3]{statcurrentwithmax}" color="[white]" effect="outline" upper_case="true" justify="center" />
+				<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/border.png"/>
 			</rect>
 				                                              <!-- Stamina -->
-				<rect pos="100,99" width="76" height="76" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+			<rect pos="100,99" width="76" height="76" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="1" pos="-72,19" width="137" height="35" color="0,0,0,250" type="sliced" foregroundlayer="true"/>
 				<sprite name="BarContent" depth="2" pivot="center" size="137,102" type="filled" filldirection="horizontal" fill="0" atlas="ItemIconAtlas" sprite="plaqueStam" />
 				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_stamina" size="22,22" pos="-50,11" foregroundlayer="true"/>
-				<label depth="3" width="136" pos="-50,14" font_size="24" text="[DECEA3]{statcurrentwithmax}" color="[white]" effect="outline" upper_case="true" justify="center" />				
+				<label depth="3" width="136" pos="-50,14" font_size="24" text="[DECEA3]{statcurrentwithmax}" color="[white]" effect="outline" upper_case="true" justify="center" />
+				<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/border.png"/>
+				<sprite depth="8" visible="{sprintactive}" name="sprint" atlas="{uiatlas}" sprite="server_z_always_run" size="32,32" pos="86,0" pivot="left"/>			
 			</rect>
 			
 			                                                    <!-- Food -->
-				<rect pos="100,62" width="76" height="76" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
+			<rect pos="100,62" width="76" height="76" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="1" pos="-72,19" width="137" height="35" color="0,0,0,250" type="sliced" foregroundlayer="true"/>
 				<sprite name="BarContent" depth="2" pivot="center" size="137,102" type="filled" filldirection="horizontal" fill="0" atlas="ItemIconAtlas" sprite="plaqueFood" />
 				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_food" size="22,22" pos="-50,11" foregroundlayer="true"/>
-				<label depth="3" width="136" pos="-50,14" font_size="24" text="[DECEA3]{statcurrent}%" color="[white]" effect="outline" upper_case="true" justify="center" />				
+				<label depth="3" width="136" pos="-50,14" font_size="24" text="[DECEA3]{statcurrent}%" color="[white]" effect="outline" upper_case="true" justify="center" />
+				<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/border.png"/>				
 			</rect>
 			
 			                                                  <!-- Water -->
-				<rect pos="100,25" width="76" height="76" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
+			<rect pos="100,25" width="76" height="76" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
 				<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 				<sprite depth="1" pos="-72,19" width="137" height="35" color="0,0,0,250" type="sliced" foregroundlayer="true"/>
 				<sprite name="BarContent" depth="2" pivot="center" size="137,102" type="filled" filldirection="horizontal" fill="0" atlas="ItemIconAtlas" sprite="plaqueWater" />
 				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_water" size="22,22" pos="-50,11" foregroundlayer="true"/>
-				<label depth="3" width="136" pos="-50,14" font_size="24" text="[DECEA3]{statcurrent}%" color="[white]" effect="outline" upper_case="true" justify="center" />				
+				<label depth="3" width="136" pos="-50,14" font_size="24" text="[DECEA3]{statcurrent}%" color="[white]" effect="outline" upper_case="true" justify="center" />
+				<texture depth="4" width="192" height="37" pivot="center" texture="@modfolder:Textures/border.png"/>				
 			</rect>
 	
 			<rect name="hud" pos="90,180" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
@@ -295,7 +283,7 @@
 				<sprite depth="4" name="Icon" size="40,40" pos="-54,0" pivot="center" color="[transparent]"/>
 				<label depth="6" name="TextContent" pos="-37,0" font_size="28" color="[white]" justify="center" width="118" height="40" pivot="left"/>
 			</panel>
-		</rect>
+			</rect>
 							
 	</window>
 		

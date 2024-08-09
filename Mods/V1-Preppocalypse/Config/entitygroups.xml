@@ -407,7 +407,15 @@
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieScouts']/text()" delim="\n" op="add" >
-		zombieBigNightScreamerRadiated
+		zombieBigNightScreamerRadiated, .2
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='ZombieScoutsFeral']/text()" delim="\n" op="add" >
+		zombieBigNightScreamerRadiated, .35
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='ZombieScoutsRadiated']/text()" delim="\n" op="add" >
+		zombieBigNightScreamerRadiated, .5
 	</csv>
 	
 	<append xpath="/entitygroups">
