@@ -164,7 +164,7 @@
 		<buff name="zombieBatonHazmatPREPPERDeco" hidden="true">
 			<effect_group>				
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/TaserBaton/TaserBatonPrefab.prefab" local_offset="0.1,0.04,0" local_rotation="270,180,-180" parent_transform="RightHand"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->				
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" local_offset="0.1,0.04,0" local_rotation="270,180,-180" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" local_offset="0.09,0.06,-0.55" local_rotation="270,180,-180" parent_transform="RightHand"/>
 			</effect_group>
 		</buff>
 		

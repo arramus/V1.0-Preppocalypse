@@ -69,6 +69,7 @@
 	<prefab_spawn_adjust partial_name="preppo_skyscraper_04" min_count="5" max_count="10" bias="5"/>
 	<prefab_spawn_adjust partial_name="preppo_store_hardware_02" min_count="5" max_count="10" bias="4"/>
 	<prefab_spawn_adjust partial_name="preppo_TheCompound" min_count="8" max_count="12" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_Wildpig_Castle" min_count="8" max_count="12" bias="4"/>
 	<prefab_spawn_adjust partial_name="store_book_01_prepper" min_count="5" max_count="10" bias="5"/>
 	<prefab_spawn_adjust partial_name="store_clothing_02_prepper" min_count="5" max_count="10" bias="4"/>
 
