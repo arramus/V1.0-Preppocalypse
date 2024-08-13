@@ -405,6 +405,29 @@
 			<effect_group>				
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/lantern_02PlayerPrefab" local_offset="0,0.25,0" local_rotation="0,0,0" parent_transform="Head"/>				
 			</effect_group>
+		</buff>	
+
+		<buff name="buffzombieBigNightBurntSiren" hidden="true">
+			<update_rate value=".1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="positionAOE" range="30" buff="buffzombieBigNightBurntSirenPassiveA">
+					<requirement name="EntityTagCompare" target="other" tags="player"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffzombieBigNightBurntSirenPassiveA" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieBigNightBurntSirenStrong" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="StopSound" sound="zombieBigNightBurntSirenStrong" />
+			</effect_group>
+		</buff>
+		<buff name="zombieBigNightBurntSirenDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/speakerLoudWallPrefab" local_offset="0,-0.075,0.45" local_rotation="0,0,0" parent_transform="Head"/> <!-- Up/Down - Side/Side - Front/Back -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Commercial/bookShelfSpeakerPrefab" local_offset="0,0.425,-0.2" local_rotation="0,180,0" parent_transform="Head"/>			
+			</effect_group>
 		</buff>		
 		
 	</append>

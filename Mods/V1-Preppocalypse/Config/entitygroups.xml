@@ -41,6 +41,7 @@
 		zombieBigNightWightRadiated, .175
 		zombieBigNightScreamerRadiated, .175
 		zombieBigNightFatCopRadiated, .175
+		zombieBigNightBurntSiren, .175
 		animalZombieBunnyPREPPER, .07
 		animalZombieSnakePREPPER, .07
 		animalZombieChickenPREPPER, .07
@@ -113,6 +114,7 @@
 		zombieBigNightWightRadiated, .175
 		zombieBigNightScreamerRadiated, .175
 		zombieBigNightFatCopRadiated, .175
+		zombieBigNightBurntSiren, .175
 		animalZombieBunnyPREPPER, .07
 		animalZombieSnakePREPPER, .07
 		animalZombieChickenPREPPER, .07
@@ -235,6 +237,7 @@
 		zombieBigNightWightRadiated, 1.25
 		zombieBigNightScreamerRadiated, 1.25
 		zombieBigNightFatCopRadiated, 1.25
+		zombieBigNightBurntSiren, 1.25
 		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
 		animalZombieChickenPREPPER, 1.25
@@ -338,6 +341,7 @@
 		zombieBurntFeral, .1
 		zombieBurntRadiated, .05
 		zombieSteveCrawlerFeral, .05
+		zombieBigNightBurntSiren, .025
 		zombieCrispyPREPPER, .015
 		zombieScorcherPREPPER, .015
 		zombieWightRadiationShowerPREPPER, .01
@@ -1406,6 +1410,7 @@
 		zombieBigNightWightRadiated, .5
 		zombieBigNightScreamerRadiated, .5
 		zombieBigNightFatCopRadiated, .5
+		zombieBigNightBurntSiren, .5
 		animalDireFireWolf, .5
 		animalMiniDireWolf, .5
 	</csv> <!-- GS 147 -->

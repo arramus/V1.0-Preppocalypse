@@ -176,6 +176,81 @@
 	<HighestPitch name="1.35"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
 	
+	<!-- BIG NIGHT BURNT SIREN -->
+	
+		<SoundDataNode name="zombieBigNightBurntSirenIdle"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Bob/trader_bob_announce_closed_01" Subtitle="trader_bob_announce_closed_01"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Bob/trader_bob_announce_closing_02" Subtitle="trader_bob_announce_closing_02"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Bob/trader_bob_buy_rare_item_03" Subtitle="trader_bob_buy_rare_item_03"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Bob/trader_bob_quest_complete_08" Subtitle="trader_bob_quest_complete_08"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Bob/trader_bob_greetbloodmoon_03" Subtitle="trader_bob_greetbloodmoon_03"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Bob/trader_bob_laugh_03" Subtitle="trader_bob_laugh_03"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Bob/trader_bob_helpful_tip_07" Subtitle="trader_bob_helpful_tip_07"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Bob/trader_bob_summon_player_01" Subtitle="trader_bob_summon_player_01"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_closing_03" Subtitle="trader_jen_announce_closing_03"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_special_02" Subtitle="trader_jen_announce_special_02"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_sale_accepted_04" Subtitle="trader_jen_sale_accepted_04"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_quest_accepted_06" Subtitle="trader_jen_quest_accepted_06"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_firstgreet_01" Subtitle="trader_jen_firstgreet_01"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_greetbloodmoon_05" Subtitle="trader_jen_greetbloodmoon_05"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_laugh_08" Subtitle="trader_jen_laugh_08"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_singing_02" Subtitle="trader_jen_singing_02"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_singing_07" Subtitle="trader_jen_singing_07"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_monolog_09" Subtitle="trader_jen_monolog_09"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/Ambient_Loops/caralarm1_dying"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Announcements/trader_announce_closing"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Joel/trader_joel_greetbloodmoon_05" Subtitle="trader_joel_greetbloodmoon_05"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Joel/trader_joel_announce_special_03" Subtitle="trader_joel_announce_special_03"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Hugh/trader_hugh_rumor_09" Subtitle="trader_hugh_rumor_09"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Hugh/trader_hugh_greetbloodmoon_01" Subtitle="trader_hugh_greetbloodmoon_01"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+			<LowestPitch name="0.75"/>
+			<HighestPitch name="0.95"/>
+			<Channel name="Mouth"/>
+			<Priority name="2"/>
+			<maxVoicesPerEntity value="1"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+			
+		
+		<SoundDataNode name="zombieBigNightBurntSirenSpawn"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+			<LowestPitch name="0"/>
+			<HighestPitch name="0"/>
+			<Channel name="Mouth"/>
+			<Priority name="1"/>
+			<maxVoicesPerEntity value="1"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/>
+		</SoundDataNode>			
+		
+		<SoundDataNode name="zombieBigNightBurntSirenStrong"> <AudioSource name="Sounds/AudioSource_Notifications"/>
+			<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_kill_lp" Loop="true"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+	
 	<!-- Preppo Sound -->
 	
 	<SoundDataNode name="preppo_bicycle_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>

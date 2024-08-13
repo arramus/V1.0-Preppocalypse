@@ -3811,6 +3811,54 @@
 	<property name="Explosion.EntityDamage" value="250"/>
 </entity_class>
 
+		<!-- *** ZOMBIE_BIG_BURNT_SIREN-->
+<entity_class name="zombieBigNightBurntSiren" extends="zombieTemplateShort">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+	<property name="WalkType" value="7"/>
+	<property name="Mass" value="160"/>
+	<property name="SoundRandom" value="zombieBigNightBurntSirenIdle"/>
+	<property name="SoundSpawn" value="zombieBigNightBurntSirenSpawn"/>
+	<property name="SoundAlert" value=""/>
+	<property name="SoundAttack" value=""/>
+	<property name="SoundHurt" value=""/>
+	<property name="SoundDeath" value=""/>
+	<property name="SoundSense" value=""/>
+	<property name="SoundFootstepModifier" value="zombieburntfootstep"/>
+	<property name="PainResistPerHit" value="1"/>
+	<property name="ExperienceGain" value="1500"/><!-- A20 -->
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="SizeScale" value="1.8"/>
+	
+	<property name="DismemberMultiplierHead" value="0"/><property name="DismemberMultiplierArms" value="0"/><property name="DismemberMultiplierLegs" value=".0"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	
+  <!-- Dismemberment -->
+  <property name ="DismemberTag_L_HeadGore" value="Burnt/Blade/Head;Burnt/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true"/>
+  <property name ="DismemberTag_L_LeftLowerArmGore" value="Burnt/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftUpperArmGore" value="Burnt/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftUpperLegGore" value="Burnt/Blade/LeftUpperLeg" data="type=blade+target=leftupleg+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightLowerArmGore" value="Burnt/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightUpperArmGore" value="Burnt/Blade/RightUpperArm" data="type=blade+target=rightarmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightUpperLegGore" value="Burnt/Blade/RightUpperLeg" data="type=blade+target=rightupleg+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftLowerLegGore" value="linked" data="DismemberTag_L_LeftUpperLegGore"/>
+  <property name ="DismemberTag_L_RightLowerLegGore" value="linked" data="DismemberTag_L_RightUpperLegGore"/>
+
+  <!-- Gameplay zombieBurnt -->
+	<property name="SightRange" value="10"/> 
+	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
+	<property name="MoveSpeedAggro" value="0.1, 0.2"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="HandItem" value="meleeHandZombieBurning"/>
+	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1500"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigNightBurntSirenDeco"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffzombieBigNightBurntSiren"/>
+	</effect_group>
+</entity_class>
+
 <!-- Vehicles -->
 
 <entity_class name="vehiclePreppocalypticCar">
