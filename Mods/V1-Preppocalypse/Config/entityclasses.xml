@@ -3852,6 +3852,17 @@
 	<property name="MoveSpeedAggro" value="0.1, 0.2"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="HandItem" value="meleeHandZombieBurning"/>
 	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourceElectricParts" tag="allToolsHarvest" count="3,4" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigNightBurntSirenDeco"/>
