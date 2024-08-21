@@ -465,7 +465,7 @@
 	<property name="CustomIcon" value="cntBirdnest"/>
 	<property name="ItemTypeIcon" value="triangle"/>
 	<property name="ModelOffset" value="0.2,0,0.2"/>
-	<property name="GndAlign" value="0"/>
+	<property name="GndAlign" value="1"/>
 	<property name="SortOrder2" value="0001"/>
 	</block>
 
