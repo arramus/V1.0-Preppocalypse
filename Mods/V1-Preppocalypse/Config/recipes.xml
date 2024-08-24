@@ -317,7 +317,7 @@
 	
 	<!-- Oakraven Chicken Coops -->
 
-	<recipe name="ChickenCoopVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="ChickenCoopVariantHelper" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="15"/>
 	<ingredient name="resourceRockSmall" count="100"/>
 	<ingredient name="resourceLeather" count="10"/>
@@ -369,13 +369,13 @@
 	<ingredient name="resourceWood" count="1"/>
 	</recipe>
 	
-	<recipe name="foodWheatFlour" count="1" craft_time="30">
+	<recipe name="foodWheatFlour" count="1" craft_time="20">
 		<ingredient name="foodWildWheat" count="30"/>
 	</recipe>
 	
 	<!-- Oakraven Bee Hives -->
 
-	<recipe name="BeeHiveVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="BeeHiveVariantHelper" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceSpring" count="2"/>
 	<ingredient name="resourceLeather" count="10"/>
@@ -429,7 +429,7 @@
 	<!-- Oakraven Fish Traps -->
 
 	<recipe name="resourceRope" count="1">
-		<ingredient name="resourceYuccaFibers" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="8"/>
 	</recipe>
 	
 	<recipe name="resourceHook" count="1" material_based="true" craft_area="forge">
@@ -437,7 +437,7 @@
 		<ingredient name="unit_clay" count="3"/>
 	</recipe>
 
-	<recipe name="FishTrapEmpty" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="FishTrapEmpty" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceWood" count="100"/>
 		<ingredient name="resourceRockSmall" count="5"/>
 		<ingredient name="resourceScrapIron" count="25"/>

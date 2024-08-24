@@ -680,7 +680,7 @@
 <property name="CustomIcon" value="chickchick"/>
 	<property name="Meshfile" value="#@modfolder:Resources/ChickenCoops.unity3d?chickchick" />
 	<property name="Material" value="Morganic" />
-	<property name="HoldType" value="21" />
+	<property name="HoldType" value="74" />
 	<property name="CraftingIngredientTime" value="8" />
 	<property name="Stacknumber" value="1000" />
 	<property name="EconomicValue" value="10"/>
@@ -951,7 +951,7 @@
 <property name="CustomIcon" value="queenbee"/>
 	<property name="Meshfile" value="#@modfolder:Resources/BeeHivesV1.unity3d?QueenBee" />
 	<property name="Material" value="Morganic" />
-	<property name="HoldType" value="21" />
+	<property name="HoldType" value="74" />
 	<property name="CraftingIngredientTime" value="8" />
 	<property name="Stacknumber" value="1000" />
 	<property class="Action1">
@@ -1197,7 +1197,7 @@
 		<property name="CustomIcon" value="resourceFishBait"/>
 		<property name="Meshfile" value="#@modfolder:Resources/FishTrapsCone.unity3d?FishBait"/>
 		<property name="Material" value="Morganic" />
-		<property name="HoldType" value="31" />
+		<property name="HoldType" value="74" />
 		<property name="CraftingIngredientTime" value="8" />
 		<property name="Stacknumber" value="250" />
 		<property class="Action1">

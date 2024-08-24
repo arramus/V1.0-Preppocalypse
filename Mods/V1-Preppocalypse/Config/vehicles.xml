@@ -352,27 +352,27 @@
 		</property>
 
 		<property class="wheel0">
-			<property name="steerTransform" value="Wheel0"/>
-			<property name="tireTransform" value="Wheel0"/>
+			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
+			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, .8"/>
 		</property>
 
 		<property class="wheel1">
-			<property name="steerTransform" value="Wheel1"/>
-			<property name="tireTransform" value="Wheel1"/>
+			<property name="steerTransform" value="Origin/frontRightWheelStear_joint"/>
+			<property name="tireTransform" value="Origin/frontRightWheelStear_joint/frontRightWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, .8"/>
 		</property>
 
 		<property class="wheel2">
-			<property name="tireTransform" value="Wheel2"/>
+			<property name="tireTransform" value="Origin/backRightWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
 		</property>
 
 		<property class="wheel3">
-			<property name="tireTransform" value="Wheel3"/>
+			<property name="tireTransform" value="Origin/backLeftWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
 		</property>

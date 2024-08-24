@@ -429,7 +429,7 @@
 		<property name="Material" value="MclothStable"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#@modfolder:Resources/birdnest.unity3d?birdnestPrefab" />
+		<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?birdnestPrefab" />
 		<property name="ModelOffset" value="0,0.5,0"/>
 		<property name="GndAlign" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
@@ -451,7 +451,7 @@
 		<property name="Material" value="MclothStable"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#@modfolder:Resources/birdnest.unity3d?birdnestEggs" />
+		<property name="Model" value="#@modfolder:Resources/ChickenCoops.unity3d?birdnestEggs" />
 		<property name="LootList" value="birdNest"/>
 		<property name="ModelOffset" value="0,0,0"/>
 		<property name="GndAlign" value="1"/>
