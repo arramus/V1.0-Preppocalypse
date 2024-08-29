@@ -22,7 +22,7 @@
 	<!-- Junk Turret Gun Light -->
 	<append xpath="/entity_classes/entity_class[@name='junkTurretGun']">
 		<effect_group>
-			<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset=".02,0,0.2" local_rotation="0,180,-90" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Muzzle" />
+			<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0.003,0,-0.215" local_rotation="0,0,-180" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Muzzle" />
 			<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Muzzle" transform_path="lightSource"/>
 		</effect_group>
 	</append>
@@ -30,7 +30,7 @@
 	<!-- Junk Turret Sledge Light -->	
 	<append xpath="/entity_classes/entity_class[@name='junkTurretSledge']">
 		<effect_group>
-			<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset=".01,0,-0.05" local_rotation="0,0,-90" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Head" />
+			<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset=".01,0,-0.05" local_rotation="0,0,-180" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Head" />
 			<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>
 		</effect_group>
 	</append>
