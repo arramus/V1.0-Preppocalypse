@@ -3897,7 +3897,7 @@
 
 <entity_class name="TwitchAction_SupplyPreppoAmmo" extends="twitch_crate_template">
 	<property name="UserSpawnType" value="Console"/>
-	<property name="Mesh" value="@:Entities/LootContainers/crate_store_ShotgunPrefab.prefab"/>
+	<property name="Mesh" value="@:Entities/LootContainers/shippingCrateShotgunPrefab.prefab"/>
 	<property name="LootListOnDeath" value="twitch_preppoammo"/>
 </entity_class>
 		
