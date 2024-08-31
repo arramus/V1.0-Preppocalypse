@@ -446,6 +446,7 @@ zombieMiniTARifleSoldierPREPPER,entityclasses,Entity,,,Tactical Assault Rifle Mi
 zombieMiniTARifleSoldierRadiatedPREPPER,entityclasses,Entity,,,Tactical Assault Rifle Mini Radiated Soldier,,,,,,,,,,,,,
 zombieBigNightBikerRadiated,entityclasses,Entity,,,Big Night Biker,,,,,,,,,,,,,
 zombieBigNightWightRadiated,entityclasses,Entity,,,Big Night Wight,,,,,,,,,,,,,
+zombieSmallNightScreamerRadiated,entityclasses,Entity,,,Small Night Plasma Screamer,,,,,,,,,,,,,
 zombieBigNightScreamerRadiated,entityclasses,Entity,,,Big Night Plasma Screamer,,,,,,,,,,,,,
 zombieBigNightFatCopRadiated,entityclasses,Entity,,,Big Night Cop,,,,,,,,,,,,,
 zombieBigNightBurntSiren,entityclasses,Entity,,,Big Night Burnt Siren,,,,,,,,,,,,
