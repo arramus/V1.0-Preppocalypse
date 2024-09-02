@@ -34,9 +34,12 @@
 			<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>
 		</effect_group>
 	</append>
-	
+
+
+	<!-- Hostile Animal Climbing -->
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='CanClimbLadders']/@value">true</set> <!-- Offset Ladder Horde Night and the new Dire Wolf -->	
 	<!-- Zombie Harvesting -->
-	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">500</set> <!-- Bear is 600 and reduced from 1000 -->
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">250</set> <!-- Bear is 600 and reduced from 1000 -->
 	<!-- Harvest does not extend on entities and manually listed for default -->
 	<!-- *** ZOMBIES_SLIM -->
 	<append xpath="/entity_classes/entity_class[@name='zombieArlene']">

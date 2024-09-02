@@ -149,11 +149,26 @@
 		<ingredient name="medicalBloodBag" count="10"/>
 	</recipe>
 	
-	<!-- Steel Nail for ammo -->
+	<!-- Steel Nail for ammo variants -->
 	<recipe name="resourceSteelNail" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
 		<ingredient name="unit_iron" count="3"/>
 		<ingredient name="unit_clay" count="1"/>
 		<ingredient name="unit_glass" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceSteelNailFlaming" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceSteelNail" count="1"/>
+		<ingredient name="resourceScrapPolymers" count="1"/>
+		<ingredient name="resourceGunPowder" count="1"/>
+		<ingredient name="resourceCloth" count="1"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceSteelNailExploding" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceSteelNail" count="1"/>
+		<ingredient name="resourceScrapPolymers" count="1"/>
+		<ingredient name="resourceGunPowder" count="3"/>
+		<ingredient name="resourceDuctTape" count="1"/>
 	</recipe>
 	
 	<!-- Rocket Fire Ammo for the Rocket Launcher -->		

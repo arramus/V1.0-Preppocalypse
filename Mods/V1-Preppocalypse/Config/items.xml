@@ -31,7 +31,7 @@
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Repair_amount']/@value">2000</set><!-- 1000 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/display_value[@name='dBlockRepairAmount']/@value">2000</set><!-- 1000 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/passive_effect[@name='MagazineSize']/@value">25</set><!-- Mag Size -->
-	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,resourceSteelNail</append><!-- Adding Steel Nail for the Nailgun -->	
+	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,resourceSteelNail,resourceSteelNailFlaming,resourceSteelNailExploding</append><!-- Adding Steel Nail for the Nailgun -->	
 	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='AttacksPerMinute'][@operation='base_set']/@value">70</set><!-- 55 Default -->
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='MagazineSize']/@value">3</set><!-- 3 Shots per mag -->
 	<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.16</set> <!-- .26 Default -->
@@ -532,6 +532,8 @@
 	<property name="EconomicBundleSize" value="10"/>
 	<property name="Tags" value="ammo,ranged,attStrength,perkMiner69r"/>
 	<property name="Group" value="Resources,Ammo/Weapons"/>
+	<property name="SoundPickup" value="nails_grab"/>
+	<property name="SoundPlace" value="nails_place"/>
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="Explosion.ParticleIndex" value="0"/>
@@ -548,6 +550,101 @@
 		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
 	</effect_group>
 	</item>
+	
+<item name="resourceSteelNailFlaming">
+	<property name="DisplayType" value="ammoArrowFlaming"/>
+	<property name="Meshfile" value="@:Other/Items/Tools/nailProjectilePrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceScrapIron"/>
+	<property name="UsableUnderwater" value="false"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Tags" value="ammo,ranged,attStrength,perkMiner69r"/>
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons"/>
+	<property name="Damage_type" value="Heat"/>
+	<property name="StickyOffset" value=".7"/>
+	<property name="SoundPickup" value="nails_grab"/>
+	<property name="SoundPlace" value="nails_place"/>
+	
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="FlyTime" value="1"/>
+		<property name="LifeTime" value=".75"/>
+		<property name="DamageBonus.wood" value="2"/>
+	</property>
+	<effect_group name="resourceSteelNailFlaming" tiered="false"> <!-- ammoArrowFlaming -->
+		<passive_effect name="EntityDamage" operation="base_set" value="12"/> <!-- Default 25 -->
+		<passive_effect name="BlockDamage" operation="base_set" value="3"/> <!-- Default 6 -->
+		<passive_effect name="BlockDamage" operation="base_add" value="50" tags="barrelExplosive"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,cloth"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="40"/>
+		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
+
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="7"> <!-- Default 14 -->
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="8"> <!-- Default 15 -->
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+			<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
+		</triggered_effect>
+
+		<display_value name="dEntityDamageFire" value="120"/>
+		<display_value name="dDuration" value="7"/>
+	</effect_group>
+</item>
+
+<item name="resourceSteelNailExploding">
+	<property name="DisplayType" value="ammoArrowExploding"/>
+	<property name="Meshfile" value="@:Other/Items/Tools/nailProjectilePrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceScrapIron"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Tags" value="ammo,ranged,attStrength,perkMiner69r"/>
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons"/>
+	<property name="UsableUnderwater" value="false"/>
+	<property name="SoundPickup" value="nails_grab"/>
+	<property name="SoundPlace" value="nails_place"/>
+	
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<!--<property name="Explosion.ParticleIndex" value="0"/> no expl. -->
+		<property name="FlyTime" value="1"/>
+		<property name="LifeTime" value=".75"/>
+		<property name="Explosion.BlockDamage" value="40"/> <!-- Default 80 -->
+		<property name="Explosion.EntityDamage" value="90"/> <!-- Default 180 -->
+		<property name="Explosion.ParticleIndex" value="11"/>
+		<property name="Explosion.RadiusBlocks" value="3"/>
+		<property name="Explosion.RadiusEntities" value="4"/>
+		<property name="Explosion.DamageBonus.stone" value=".3"/>
+		<property name="Explosion.DamageBonus.metal" value=".1"/>
+		<property name="Explosion.DamageBonus.earth" value="0"/> <!-- should work? -->
+		<property name="Explosion.DamageBonus.wood" value=".5"/>
+		<property name="Explosion.DamageBonus.water" value="0"/>
+	</property>
+	<effect_group name="resourceSteelNailExploding" tiered="false"> <!-- ammoArrowExploding -->
+		<passive_effect name="BlockDamage" operation="base_set" value="2"/> <!-- Only affects direct hit damage, explosion damage is above -->
+		<passive_effect name="BlockDamage" operation="base_add" value="50" tags="barrelExplosive"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="90"/> <!-- Default 180 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,water"/>
+			<!-- do we have damage modifiers for explosions? -->
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="40"/>
+		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
+		<display_value name="dExRadius" value="4"/>
+		<display_value name="dExBlockDamage" value="40"/>
+		<display_value name="dExEntityDamage" value="90"/>
+	</effect_group>
+</item>
 	
 <!-- Rocket Fire Ammo -->
 
