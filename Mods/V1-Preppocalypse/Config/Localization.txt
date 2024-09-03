@@ -328,7 +328,7 @@ resourceHookDesc,items,item,,,"Fish Trap Bait Hooks are used to craft Fish Trap 
 terrWaterPOI,blocks,Block,,,Fish Trap Water,,Fischfallenwasser,,,,,,,,,,,
 terrWaterFishTrapDesc,blocks,Block,,,"Use Fish Trap Water blocks to rapidly fill your Fish Trap farm pool.",,"Verwenden Sie Fischfallen-Wasserblöcke, um Ihren Fischfallen-Farmpool schnell zu füllen.",,,,,,,,,,,
 cntFishTrapWaterCollector,blocks,block,,,Fish Trap Water Collector,,Fischfalle-Wassersammler,,,,,,,,,,,
-cntFishTrapWaterCollectorDesc,blocks,Block,,,"Collects Fish Trap Water at an accelerated rate to fill your Fish Trap farm pool.\n\nRepair with Scrap Polymers, and destroy to receive a Water Filter.",,"Sammelt Fischfallenwasser mit beschleunigter Geschwindigkeit, um den Pool Ihrer Fischfalle-Farm zu füllen.\n\nMit Polymerschrott reparieren und zerstören, um einen Wasserfilter zu erhalten.",,,,,,,,,,,
+cntFishTrapWaterCollectorDesc,blocks,Block,,,"Collects Fish Trap Water at an accelerated rate to fill your Fish Trap farm pool.\n\nRepair with Scrap Polymers.",,"Sammelt Fischfallenwasser mit beschleunigter Geschwindigkeit, um den Pool Ihrer Fischfalle-Farm zu füllen.\n\nMit Polymerschrott reparieren.",,,,,,,,,,,
 resourceWaterFilterDesc,items,item,,,"A component used in the crafting of a Dew Collector or Fish Trap Water Collector.",,"Eine Komponente, die bei der Herstellung eines Tausammlers oder eines Fischfallen-Wassersammlers verwendet wird.",,,,,,,,,,,
 xuiDewCollector,UI,XUI,,,Water Collector,,Wassersammler,,,,,,,,,,,
 
