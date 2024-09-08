@@ -1901,8 +1901,8 @@
 		<property name="Sound_start" value="player_eating"/>
 	</property>
 	<effect_group tiered="false" name="Food Tier 1">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="15"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="22"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="7"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-3"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="5"/>		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
@@ -1911,6 +1911,39 @@
 		<display_value name="dCureInfection" value=".01"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
+
+<item name="foodJerkyAndEggs">
+	<property name="Tags" value="food,medical,medicalSkill,fitness"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodCureInfectionAndFood"/>
+	<property name="CustomIcon" value="foodJerkyAndEggs"/>
+	<property name="DescriptionKey" value="foodJerkyAndEggsDesc"/>	
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="66"/>
+	<property name="UnlockedBy" value="craftingFood"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Smell" value="largeSmell"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="40"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="15"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		
+		<display_value name="dCureInfection" value=".01"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>		
 	</effect_group>
 </item>
 
@@ -3612,7 +3645,7 @@
 		</effect_group>
 	</item>
 	
-<item name="meleeHandZombieSniperBoePREPPER">
+<item name="meleeHandZombieSniperWightPREPPER">
 	<property name="Extends" value="meleeHandZombieStrong"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
@@ -3626,7 +3659,7 @@
 			<property name="Delay" value=".3"/> <!-- obsolete if rounds per minute exists -->
 			<property name="Range" value="200"/>
 			<property name="Infinite_ammo" value="true"/>
-			<property name="Magazine_items" value="ammoProjectileZombieSniperBoePREPPER"/>
+			<property name="Magazine_items" value="ammoProjectileZombieSniperWightPREPPER"/>
 			<property name="Sound_warning" value="m60_reload"/>
 			<property name="Sound_start" value="lever_action_rifle_fire"/>
 			<property name="Sound_loop" value="smg_fire"/>
@@ -3636,7 +3669,7 @@
 			<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
 			<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>		
 		</property>
-		<effect_group name="meleeHandZombieSniperBoePREPPER" tiered="false">
+		<effect_group name="meleeHandZombieSniperWightPREPPER" tiered="false">
 			<passive_effect name="ModSlots" operation="base_set" value="0"/>
 			<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
 			<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
@@ -3657,7 +3690,7 @@
 		</effect_group>
 	</item>
 	
-	<item name="ammoProjectileZombieSniperBoePREPPER">
+	<item name="ammoProjectileZombieSniperWightPREPPER">
 		<property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
 		<property name="Material" value="Morganic"/>
 		<property name="CreativeMode" value="None"/>
@@ -3673,7 +3706,7 @@
 			<property name="DamageBonus.earth" value="0"/>
 			<property name="Buff" value="buffInfectionCatch"/>
 		</property>
-		<effect_group name="ammoProjectileZombieSniperBoePREPPER" tiered="false">
+		<effect_group name="ammoProjectileZombieSniperWightPREPPER" tiered="false">
 			<passive_effect name="ModSlots" operation="base_set" value="0"/>
 			<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
 			<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
@@ -4570,14 +4603,14 @@
 		</item>
 		
 	<!-- Swiss Vetterli - Boe Entity -->	
-		<item name="quest_swissvetterliboe">
+		<item name="quest_swissvetterliwight">
 			<property name="Extends" value="challengeQuestMaster"/>
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
-			<property name="DescriptionKey" value="quest_swissvetterliboeDesc"/>
-			<property name="CustomIcon" value="quest_swissvetterliboe"/>
+			<property name="DescriptionKey" value="quest_swissvetterliwightDesc"/>
+			<property name="CustomIcon" value="quest_swissvetterliwight"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
-				<property name="QuestGiven" value="quest_swissvetterliboe"/>
+				<property name="QuestGiven" value="quest_swissvetterliwight"/>
 			</property>
 		</item>
 		

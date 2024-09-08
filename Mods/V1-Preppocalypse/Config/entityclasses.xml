@@ -2406,10 +2406,9 @@
 
 		<!-- Sniper Boe -->
 
-<entity_class name="zombieSwissVetterliBoePREPPER" extends="zombieBoeRadiated"> <!-- + 10% hits and gains -->
+<entity_class name="zombieSwissVetterliWightPREPPER" extends="zombieWightRadiated"> <!-- + 10% hits and gains of Radiated Boe as Wight is a beast, and 10% smaller -->
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBoeFeral.prefab"/>
-	<property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Boe2.mat,@:Entities/Zombies/Zombies/Materials/HD_Boe3.mat"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZWightFeral.prefab"/>
 	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
 
 	<property name="AITask" value="
@@ -2422,7 +2421,7 @@
 	Wander|
 	"/>
 
-	<property name="HandItem" value="meleeHandZombieSniperBoePREPPER"/>
+	<property name="HandItem" value="meleeHandZombieSniperWightPREPPER"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
 	<!-- Gameplay zombieBoeRadiated --> <!-- + 10% hits and gains -->
@@ -2440,7 +2439,7 @@
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSwissVetterliBoePREPPERDeco"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSwissVetterliWightPREPPERDeco"/>
 		<passive_effect name="HealthMax" operation="base_set" value="1210"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 
@@ -2449,9 +2448,9 @@
 	</effect_group>
 </entity_class>
 
-<entity_class name="zombieSwissVetterliBoeRadiatedPREPPER" extends="zombieBoeRadiated"> <!-- + 25% hits and gains -->
+<entity_class name="zombieSwissVetterliWightRadiatedPREPPER" extends="zombieWightRadiated"> <!-- + 25% hits and gains -->
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBoeRadiated.prefab"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZWightRadiated.prefab"/>
 	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
 
 	<property name="AITask" value="
@@ -2464,7 +2463,7 @@
 	Wander|
 	"/>
 
-	<property name="HandItem" value="meleeHandZombieSniperBoePREPPER"/>
+	<property name="HandItem" value="meleeHandZombieSniperWightPREPPER"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
 	<!-- Gameplay zombieBoeRadiated --> <!-- + 25% hits and gains -->
@@ -2482,7 +2481,7 @@
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSwissVetterliBoePREPPERDeco"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSwissVetterliWightPREPPERDeco"/>
 		<passive_effect name="HealthMax" operation="base_set" value="1375"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 

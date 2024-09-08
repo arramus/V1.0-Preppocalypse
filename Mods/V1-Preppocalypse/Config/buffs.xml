@@ -192,9 +192,9 @@
 			</effect_group>
 		</buff>
 	
-		<buff name="zombieSwissVetterliBoePREPPERDeco" hidden="true">
+		<buff name="zombieSwissVetterliWightPREPPERDeco" hidden="true">
 			<effect_group>				
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/Vetterli.unity3d?Vetterli" local_offset="0.16,0.03,-0.06" local_rotation="187,-55,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/Vetterli.unity3d?Vetterli" local_offset="-0.17,0,0.09" local_rotation="187,125,90" parent_transform="LeftHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
 			</effect_group>
 		</buff>
 		

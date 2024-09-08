@@ -213,7 +213,7 @@
 			<unlock_entry item="foodCornBread,drinkJarGoldenRodTea" unlock_tier="2" />
 			<unlock_entry item="foodGrilledMeat,drinkJarRedTea" unlock_tier="3" />
 			<unlock_entry item="foodBoiledMeat,drinkJarYuccaJuice" unlock_tier="4" />
-			<unlock_entry item="foodBaconAndEggs,foodBaconAndEggsAndAcornBiscuits,foodPineConeJamGriddleCakes,foodFriedCatfish,foodCatfishNuggetsOnRice,drinkJarCoffee" unlock_tier="5" />
+			<unlock_entry item="foodBaconAndEggs,foodBaconAndEggsAndAcornBiscuits,foodJerkyAndEggs,foodPineConeJamGriddleCakes,foodFriedCatfish,foodCatfishNuggetsOnRice,drinkJarCoffee" unlock_tier="5" />
 		</display_entry>
 		<display_entry icon="foodPumpkinBread,foodPumpkinPie,foodPumpkinCheesecake,foodMeatStew,foodSteakAndPotato" name_key="foodT2-1,foodT2-2,foodT2-3,foodT2-4,foodT2-5" has_quality="false" unlock_level="11,14,18,22,26" >
 			<unlock_entry item="foodPumpkinBread,foodBlueberryPie" unlock_tier="1" />
@@ -242,7 +242,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,100" value="1" tags="foodCornBread,drinkJarGoldenRodTea"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,100" value="1" tags="foodGrilledMeat,drinkJarRedTea"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,100" value="1" tags="foodBoiledMeat,drinkJarYuccaJuice"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="foodBaconAndEggs,foodBaconAndEggsAndAcornBiscuits,foodPineConeJamGriddleCakes,foodFriedCatfish,foodCatfishNuggetsOnRice,drinkJarCoffee"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="foodBaconAndEggs,foodBaconAndEggsAndAcornBiscuits,foodJerkyAndEggs,foodPineConeJamGriddleCakes,foodFriedCatfish,foodCatfishNuggetsOnRice,drinkJarCoffee"/>
 
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="foodPumpkinBread,foodBlueberryPie"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="14,100" value="1" tags="foodPumpkinPie"/>
