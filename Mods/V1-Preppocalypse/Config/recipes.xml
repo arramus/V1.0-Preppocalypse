@@ -699,7 +699,17 @@
 			<ingredient name="resourceScrapPolymers" count="10"/>		
 		</recipe>
 		
-<!-- Magnum Magazine Extender Mod Schematic -->
+	<!-- Machete Armor Piercing Mod -->
+	
+		<recipe name="modMeleeMacheteArmorPiercing" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="5"/>	
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="2"/>	
+			<ingredient name="resourceGlue" count="1"/>
+			<ingredient name="resourceSpring" count="2"/>		
+		</recipe>
+		
+	<!-- Magnum Magazine Extender Mod Schematic -->
 		
 		<recipe name="modGunMagnumMagazineExtender" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="5"/>
@@ -708,7 +718,7 @@
 			<ingredient name="resourceSpring" count="10"/>
 		</recipe>
 		
-<!-- Vetterli Magazine Extender Mod Schematic -->
+	<!-- Vetterli Magazine Extender Mod Schematic -->
 		
 		<recipe name="modGunSwissVetterliMagazineExtender" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="5"/>
