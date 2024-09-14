@@ -586,6 +586,109 @@
 		<reward type="SkillPoints" value="2" chainreward="false"/>
 		<reward type="Item" id="questRewardPreppocalypticCarPartsBundle" value="1"/>
 		<reward type="Exp" value="3000"/>
+		<reward type="Quest" id="quest_prepperstockpile26"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 6 -->
+	<!-- Hunting 1 -->
+	<quest id="quest_prepperstockpile26">
+		<property name="offer_key" value="quest_prepperstockpile26_offer"/>
+		<property name="name_key" value="quest_prepperstockpile26_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile26_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile26_description"/>
+		<property name="icon" value="ui_game_symbol_direwolf"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="drinkCanPreppoSoda" value="3" phase="1"/>
+		<objective type="FetchKeep" id="foodNavezganeHDR" value="3" phase="1"/>
+
+		<reward type="Exp" value="1750"/>
+		<reward type="Quest" id="quest_prepperstockpile27"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 6 -->
+	<!-- Hunting 2 -->
+	<quest id="quest_prepperstockpile27">
+		<property name="offer_key" value="quest_prepperstockpile27_offer"/>
+		<property name="name_key" value="quest_prepperstockpile27_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile27_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile27_description"/>
+		<property name="icon" value="ui_game_symbol_direwolf"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="gunRifleT2LeverActionRifleSwissVetterli" value="1" phase="1"/>
+
+		<reward type="Exp" value="1750"/>
+		<reward type="Quest" id="quest_prepperstockpile28"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 6 -->
+	<!-- Hunting 3 -->
+	<quest id="quest_prepperstockpile28">
+		<property name="offer_key" value="quest_prepperstockpile28_offer"/>
+		<property name="name_key" value="quest_prepperstockpile28_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile28_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile28_description"/>
+		<property name="icon" value="ui_game_symbol_direwolf"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceSilverNugget" value="7" phase="1"/>
+		<objective type="FetchKeep" id="resourceGunPowder" value="455" phase="1"/>
+
+		<reward type="Exp" value="1750"/>
+		<reward type="Quest" id="quest_prepperstockpile29"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 6 -->
+	<!-- Hunting 4 -->
+	<quest id="quest_prepperstockpile29">
+		<property name="offer_key" value="quest_prepperstockpile29_offer"/>
+		<property name="name_key" value="quest_prepperstockpile29_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile29_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile29_description"/>
+		<property name="icon" value="ui_game_symbol_direwolf"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="ammoBundle44MagnumBulletSilver" value="7" phase="1"/>
+		
+		<reward type="Exp" value="1750"/>
+		<reward type="Quest" id="quest_prepperstockpile30"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 6 -->
+	<!-- Hunting 5 -->
+	<quest id="quest_prepperstockpile30">
+		<property name="offer_key" value="quest_prepperstockpile30_offer"/>
+		<property name="name_key" value="quest_prepperstockpile30_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile30_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile30_description"/>
+		<property name="icon" value="ui_game_symbol_direwolf"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="hard"/>
+		<property name="shareable" value="false"/>
+
+			<objective type="EntityKill" id="animalMiniDireWolf" value="5"/>
+			<objective type="EntityKill" id="animalDireWolf" value="4"/>
+			<objective type="EntityKill" id="animalDireFireWolf" value="3"/>
+		<requirement type="Quests.Requirements.Holding" id="gunRifleT2LeverActionRifleSwissVetterli"/>
+		
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+		<reward type="Item" id="questRewardGyrocopterPartsBundle" value="1"/>
+		<reward type="Item" id="modGunSwissVetterliMagazineExtender" value="1"/>
+		<reward type="Exp" value="3500"/>
 	</quest>
 	
 	<!-- Looping Zombie Elimination Quest -->

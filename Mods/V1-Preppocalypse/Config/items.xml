@@ -4473,6 +4473,16 @@
 			</property>
 		</item>
 		
+		<item name="quest_prepperstockpile06">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="DescriptionKey" value="quest_prepperstockpile06Desc"/>
+			<property name="CustomIcon" value="quest_prepperstockpile01"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_prepperstockpile26"/>
+			</property>
+		</item>
+		
 	<!-- Looping Zombie Elimination Quest -->
 		<item name="quest_eliminatezombies10">
 			<property name="Extends" value="challengeQuestMaster"/>
