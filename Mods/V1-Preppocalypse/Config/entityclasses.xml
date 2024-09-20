@@ -3063,6 +3063,94 @@
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 	</effect_group>
 	</entity_class>
+	
+ 		<!-- Magnum Janitor Bub -->
+	
+	<entity_class name="zombieMagnumJanitorBubPREPPER" extends="zombieJanitorRadiated"> <!-- + 10% hits and gains -->
+		<property name="UserSpawnType" value="Menu"/>
+		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+		<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZMechanicFeral.prefab"/>
+		<property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_MechanicZ2.mat"/>
+		<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
+
+		<property name="AITask" value="
+		BreakBlock|
+		ApproachDistraction|
+		RangedAttackTarget itemType=1;cooldown=4;duration=5|
+		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+		ApproachSpot|
+		Look|
+		Wander|
+		"/>
+
+		<!-- Gameplay zombieJanitorRadiated -->
+		<property name="ExplodeHealthThreshold" value="0"/>
+		<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+		<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+		<property name="ExperienceGain" value="1320"/><!-- XP grunt radiated -->
+		<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+		<property name="HandItem" value="meleeHandZombieMagnumJanitorBubPREPPER"/>
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="ammo44MagnumBulletBall" tag="allToolsHarvest" count="10,20" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+		<effect_group name="Base Effects">
+			<passive_effect name="HealthMax" operation="base_set" value="1210"/>
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieMagnumJanitorBubPREPPERDeco"/>
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+			<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4.5"/>
+			<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+		</effect_group>
+	</entity_class>
+	
+	<entity_class name="zombieMagnumJanitorBubRadiatedPREPPER" extends="zombieJanitorRadiated"> <!-- + 25% hits and gains -->
+		<property name="UserSpawnType" value="Menu"/>
+		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+		<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZMechanicRadiated.prefab"/>
+		<property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Mechanic_Radiated2.mat"/>
+		<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
+
+		<property name="AITask" value="
+		BreakBlock|
+		ApproachDistraction|
+		RangedAttackTarget itemType=1;cooldown=4;duration=5|
+		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+		ApproachSpot|
+		Look|
+		Wander|
+		"/>
+
+		<!-- Gameplay zombieJanitorRadiated -->
+		<property name="ExplodeHealthThreshold" value="0"/>
+		<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+		<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+		<property name="ExperienceGain" value="1500"/><!-- XP grunt radiated -->
+		<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+		<property name="HandItem" value="meleeHandZombieMagnumJanitorBubPREPPER"/>
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="ammo44MagnumBulletBall" tag="allToolsHarvest" count="10,20" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+		<effect_group name="Base Effects">
+			<passive_effect name="HealthMax" operation="base_set" value="1375"/>
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieMagnumJanitorBubPREPPERDeco"/>
+			<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+			<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4.5"/>
+			<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+		</effect_group>
+	</entity_class>
   
 		<!-- Radiated Feral Wight --> <!-- + 10% hits and gains -->
   

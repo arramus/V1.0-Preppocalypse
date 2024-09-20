@@ -3980,6 +3980,80 @@
 		</effect_group>
 	</item>
 	
+<item name="meleeHandZombieMagnumJanitorBubPREPPER">
+	<property name="Extends" value="meleeHandZombieStrong"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="50"/>
+	</property>
+		<property class="Action1"> <!-- UseAction -->		
+			<property name="Class" value="Vomit"/>
+			<property name="Hitmask_override" value="Arrow"/>
+			<property name="Delay" value=".3"/> <!-- obsolete if rounds per minute exists -->
+			<property name="Range" value="200"/>
+			<property name="Infinite_ammo" value="true"/>
+			<property name="Magazine_items" value="ammoProjectileZombieSniperWightPREPPER"/>
+			<property name="Sound_warning" value="m60_reload"/>
+			<property name="Sound_start" value="lever_action_rifle_fire"/>
+			<property name="Sound_loop" value="smg_fire"/>
+			<property name="Sound_end" value="smg_fire_end"/>
+			<property name="Sound_empty" value="dryfire"/>
+			<property name="Sound_reload" value="m60_reload"/>
+			<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+			<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>		
+		</property>
+		<effect_group name="meleeHandZombieMagnumJanitorBubPREPPER" tiered="false">
+			<passive_effect name="ModSlots" operation="base_set" value="0"/>
+			<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+			<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+			<passive_effect name="MaxRange" operation="base_set" value="100"/>
+			<passive_effect name="MagazineSize" operation="base_set" value="13"/>
+			<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+			<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.45"/>
+			<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.45"/>
+			<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="0.45"/>
+
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+				buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+				weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+				<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+		</effect_group>
+	</item>
+	
+	<item name="ammoProjectileZombieMagnumJanitorBubPREPPER">
+		<property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="CreativeMode" value="None"/>
+		<property class="Action1">
+			<property name="Class" value="Projectile"/>
+			<property name="DamageEntity" value="4"/>
+			<property name="DamageBlock" value="6"/>
+			<!-- property name="Explosion.ParticleIndex" value="7"/ -->
+			<property name="Velocity" value="30"/>
+			<property name="FlyTime" value="2"/>
+			<property name="LifeTime" value="4"/>
+			<property name="CollisionRadius" value=".1"/>
+			<property name="DamageBonus.earth" value="0"/>
+			<property name="Buff" value="buffInfectionCatch"/>
+		</property>
+		<effect_group name="ammoProjectileZombieMagnumJanitorBubPREPPER" tiered="false">
+			<passive_effect name="ModSlots" operation="base_set" value="0"/>
+			<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+			<passive_effect name="BuffProcChance" operation="base_set" value=".01" tags="buffInfectionCatch"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+				<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+			<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="lever_action_rifle_fire"/>
+		</effect_group>
+	</item>
+	
 		<item name="meleeHandZombieBogeymanPREPPER">
 			<property name="Extends" value="meleeHandzombieMutated"/>
 			<property name="CreativeMode" value="None"/>
@@ -4729,6 +4803,18 @@
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_steelpanmarlene"/>
+			</property>
+		</item>
+		
+	<!-- Magnum - Janitor Bub -->
+		<item name="quest_magnumjanitorbub">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
+			<property name="DescriptionKey" value="quest_magnumjanitorbubDesc"/>
+			<property name="CustomIcon" value="quest_magnumjanitorbub"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_magnumjanitorbub"/>
 			</property>
 		</item>
 		

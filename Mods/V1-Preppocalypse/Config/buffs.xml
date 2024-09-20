@@ -250,6 +250,13 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="zombieMagnumJanitorBubPREPPERDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Magnums/magnumPrefab.prefab" local_offset="0.12,0.03,-0.02" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Magnums/magnumPrefab.prefab" local_offset="-0.12,-0.03,0.02" local_rotation="7,-80,-90" parent_transform="LeftHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down --> <!-- Local Rotation Exorcist Spin/Nodding/Thinking -->	
+			</effect_group>
+		</buff>
+		
 		<buff name="zombieWightRadiationShowerPREPPERAOE" hidden="true">
 			<damage_type value="radiation"/>
 			<stack_type value="replace"/>

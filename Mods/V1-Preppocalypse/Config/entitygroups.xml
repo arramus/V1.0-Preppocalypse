@@ -22,6 +22,7 @@
 		zombieBoltNursePREPPER, .04
 		zombieSteelSledgehammerFatHawaiianPREPPER, .04
 		zombieSteelPanMarlenePREPPER, .04
+		zombieMagnumJanitorBubPREPPER, .04
 		animalZombieLargePlasmaVulturePREPPER, .015		
 		zombieSpiderFeralBomberPREPPER, .015
 		zombieSpiderFeralGliderPREPPER, .015
@@ -62,6 +63,7 @@
 		zombieBoltNursePREPPER, .07
 		zombieSteelSledgehammerFatHawaiianPREPPER, .07
 		zombieSteelPanMarlenePREPPER, .07
+		zombieMagnumJanitorBubPREPPER, .07		
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -96,6 +98,7 @@
 		zombieBoltNursePREPPER, .04
 		zombieSteelSledgehammerFatHawaiianPREPPER, .04
 		zombieSteelPanMarlenePREPPER, .04
+		zombieMagnumJanitorBubPREPPER, .04
 		animalZombieLargePlasmaVulturePREPPER, .015		
 		zombieSpiderFeralBomberPREPPER, .015
 		zombieSpiderFeralGliderPREPPER, .015
@@ -136,6 +139,7 @@
 		zombieBoltNursePREPPER, .07
 		zombieSteelSledgehammerFatHawaiianPREPPER, .07
 		zombieSteelPanMarlenePREPPER, .07
+		zombieMagnumJanitorBubPREPPER, .07
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -170,6 +174,7 @@
 		zombieBoltNursePREPPER, .04
 		zombieSteelSledgehammerFatHawaiianPREPPER, .04
 		zombieSteelPanMarlenePREPPER, .04
+		zombieMagnumJanitorBubPREPPER, .04
 		animalZombieLargePlasmaVulturePREPPER, .015		
 		zombieSpiderFeralBomberPREPPER, .015
 		zombieSpiderFeralGliderPREPPER, .015
@@ -220,7 +225,9 @@
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .75
 		zombieSteelPanMarlenePREPPER, .75
 		zombieSteelPanMarleneRadiatedPREPPER, .75
-		animalZombieLargePlasmaVulturePREPPER, .75		
+		zombieMagnumJanitorBubPREPPER, .75
+		zombieMagnumJanitorBubRadiatedPREPPER, .75
+		animalZombieLargePlasmaVulturePREPPER, .75
 		zombieSpiderFeralBomberPREPPER, .75
 		zombieSpiderFeralGliderPREPPER, .75
 		zombieM60DemolitionPREPPER, .75
@@ -276,7 +283,9 @@
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, 1.25
 		zombieSteelPanMarlenePREPPER, 1.25
 		zombieSteelPanMarleneRadiatedPREPPER, 1.25
-		animalZombieLargePlasmaVulturePREPPER, 1.25		
+		zombieMagnumJanitorBubPREPPER, 1.25
+		zombieMagnumJanitorBubRadiatedPREPPER, 1.25
+		animalZombieLargePlasmaVulturePREPPER, 1.25	
 		zombieSpiderFeralBomberPREPPER, 1.25
 		zombieSpiderFeralGliderPREPPER, 1.25
 		zombieM60DemolitionPREPPER, 1.25
@@ -325,8 +334,10 @@
 		zombieSteelSledgehammerFatHawaiianPREPPER, .04
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .04
 		zombieSteelPanMarlenePREPPER, .04
-		zombieSteelPanMarleneRadiatedPREPPER, .04		
-		animalZombieLargePlasmaVulturePREPPER, .0125		
+		zombieSteelPanMarleneRadiatedPREPPER, .04
+		zombieMagnumJanitorBubPREPPER, .04
+		zombieMagnumJanitorBubRadiatedPREPPER, .04
+		animalZombieLargePlasmaVulturePREPPER, .0125
 		zombieSpiderFeralBomberPREPPER, .0125
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
@@ -336,7 +347,7 @@
 		zombieBogeymanPREPPER, .0125
 		zombieCrispyPREPPER, .0125
 		zombieScorcherRadiatedPREPPER, .0125
-		zombieRocketRadiatedPREPPER, .005		
+		zombieRocketRadiatedPREPPER, .005
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
@@ -368,11 +379,12 @@
 		zombieBoltNursePREPPER, .01
 		zombieSteelSledgehammerFatHawaiianPREPPER, .01
 		zombieSteelPanMarlenePREPPER, .01
-		animalZombieLargePlasmaVulturePREPPER, .01		
+		zombieMagnumJanitorBubPREPPER, .01
+		animalZombieLargePlasmaVulturePREPPER, .01
 		zombieSpiderFeralBomberPREPPER, .01
 		zombieSpiderFeralGliderPREPPER, .01
 		zombieM60DemolitionPREPPER, .01
-		animalBossZombieGracePREPPER, .01		
+		animalBossZombieGracePREPPER, .01
 		animalPaindeerPREPPER, .01
 		zombieRocketPREPPER, .005
 	</csv>
@@ -401,7 +413,8 @@
 		zombieBoltNursePREPPER, .04
 		zombieSteelSledgehammerFatHawaiianPREPPER, .04
 		zombieSteelPanMarlenePREPPER, .04
-		animalZombieLargePlasmaVulturePREPPER, .0125		
+		zombieMagnumJanitorBubPREPPER, .04
+		animalZombieLargePlasmaVulturePREPPER, .0125
 		zombieSpiderFeralBomberPREPPER, .0125
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
@@ -410,7 +423,7 @@
 		zombieBogeymanPREPPER, .0125
 		zombieCrispyPREPPER, .0125
 		zombieScorcherPREPPER, .0125
-		zombieRocketPREPPER, .01		
+		zombieRocketPREPPER, .01
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieScouts']/text()" delim="\n" op="add" >
@@ -463,8 +476,9 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER
 		zombieSteelPanMarlenePREPPER
+		zombieMagnumJanitorBubPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
-		animalZombieLargePlasmaVulturePREPPER, .25		
+		animalZombieLargePlasmaVulturePREPPER, .25
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
 	</entitygroup>
@@ -488,6 +502,7 @@
 		zombieBoltNursePREPPER, .5
 		zombieSteelSledgehammerFatHawaiianPREPPER
 		zombieSteelPanMarlenePREPPER
+		zombieMagnumJanitorBubPREPPER, .5
 		zombieM60DemolitionPREPPER, .5
 		animalZombieLargePlasmaVulturePREPPER, .5		
 		zombieSpiderFeralBomberPREPPER, .5
@@ -514,6 +529,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS200">
@@ -536,8 +552,9 @@
 		zombieBoltNursePREPPER, .75
 		zombieSteelSledgehammerFatHawaiianPREPPER
 		zombieSteelPanMarlenePREPPER
+		zombieMagnumJanitorBubPREPPER, .75
 		zombieM60DemolitionPREPPER, .75
-		animalZombieLargePlasmaVulturePREPPER, .75		
+		animalZombieLargePlasmaVulturePREPPER, .75
 		zombieSpiderFeralBomberPREPPER, .75
 		zombieSpiderFeralGliderPREPPER, .75
 		animalBossZombieGracePREPPER, .25
@@ -562,6 +579,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS400">
@@ -584,6 +602,7 @@
 		zombieBoltNursePREPPER, .75
 		zombieSteelSledgehammerFatHawaiianPREPPER
 		zombieSteelPanMarlenePREPPER
+		zombieMagnumJanitorBubPREPPER, .75
 		zombieM60DemolitionPREPPER, .75
 		animalZombieLargePlasmaVulturePREPPER, .75		
 		zombieSpiderFeralBomberPREPPER, .75
@@ -610,6 +629,7 @@
 		zombieBoltNurseRadiatedPREPPER, .5
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .5
 		zombieSteelPanMarleneRadiatedPREPPER, .5
+		zombieMagnumJanitorBubRadiatedPREPPER, .5
 		zombieRocketRadiatedPREPPER, .5
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS800">
@@ -632,6 +652,7 @@
 		zombieBoltNursePREPPER, .75
 		zombieSteelSledgehammerFatHawaiianPREPPER
 		zombieSteelPanMarlenePREPPER
+		zombieMagnumJanitorBubPREPPER, .75
 		zombieM60DemolitionPREPPER, .75
 		animalZombieLargePlasmaVulturePREPPER, .75		
 		zombieSpiderFeralBomberPREPPER, .75
@@ -658,6 +679,7 @@
 		zombieBoltNurseRadiatedPREPPER, .75
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .75
 		zombieSteelPanMarleneRadiatedPREPPER, .75
+		zombieMagnumJanitorBubRadiatedPREPPER, .75
 		zombieRocketRadiatedPREPPER, .75
 	</entitygroup>
 	
@@ -1104,6 +1126,18 @@
 		zombiePistolBusinessManPREPPER, .9
 	</csv>
 	
+	<csv xpath="/entitygroups/entitygroup[@name='zombiePrisonGroupGS200']/text()" delim="\n" op="add" >
+		zombiePistolBusinessManPREPPER, .15
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombiePrisonGroupGS400']/text()" delim="\n" op="add" >
+		zombiePistolBusinessManPREPPER, .35
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombiePrisonGroupGS800']/text()" delim="\n" op="add" >
+		zombiePistolBusinessManPREPPER, .45
+	</csv>
+	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieNightClubGroupGS200']/text()" delim="\n" op="add" >
 		zombieBusinessManRadiated, .2
 		zombiePistolBusinessManPREPPER, .2
@@ -1132,7 +1166,7 @@
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieSoldierRadiated')]/text()" delim="\n" op="add">
 		zombieBusinessManRadiated, .9
 		zombiePistolBusinessManPREPPER, .9
-	</csv> <!-- GS 63 for Solider for balance -->
+	</csv> <!-- GS 65 for Solider for balance -->
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieBusinessManFeral')]/text()" delim="\n" op="add">
 		zombieBusinessManRadiated, .9
@@ -1141,18 +1175,19 @@
 	
 <!-- Nailgun Utility Worker PREPPER -->
 
+	<csv xpath="/entitygroups/entitygroup[@name='zombieUtilityWorkerGroupGS100']/text()" delim="\n" op="add" >
+		zombieNailgunUtilityWorkerPREPPER, .1
+	</csv>
+
 	<csv xpath="/entitygroups/entitygroup[@name='zombieUtilityWorkerGroupGS200']/text()" delim="\n" op="add" >
-		zombieUtilityWorkerRadiated, .2
 		zombieNailgunUtilityWorkerPREPPER, .2
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='zombieUtilityWorkerGroupGS400']/text()" delim="\n" op="add" >
-		zombieUtilityWorkerRadiated, .3
 		zombieNailgunUtilityWorkerPREPPER, .3
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='zombieUtilityWorkerGroupGS800']/text()" delim="\n" op="add" >
-		zombieUtilityWorkerRadiated, .4
 		zombieNailgunUtilityWorkerPREPPER, .4
 	</csv>
 	
@@ -1174,12 +1209,12 @@
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieSoldierRadiated')]/text()" delim="\n" op="add">
 		zombieUtilityWorkerRadiated, .9
 		zombieNailgunUtilityWorkerPREPPER, .9
-	</csv> <!-- GS 63 for Solider for balance -->
+	</csv> <!-- GS 65 for Solider for balance -->
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieUtilityWorkerFeral')]/text()" delim="\n" op="add">
 		zombieUtilityWorkerRadiated, .9
 		zombieNailgunUtilityWorkerPREPPER, .9
-	</csv> <!-- GS 104 -->
+	</csv> <!-- GS 103 -->
 	
 	<!-- Swiss Vetterli Boe PREPPER changed to Wight due to attachment deco weapon not showing but this remains a good group since Wight is often Bad Ass and Special Infected -->
 	
@@ -1339,6 +1374,10 @@
 		zombieBoltNursePREPPER, .45
 	</csv>
 	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'zombiePrisonGroupGS') and contains (text(), 'zombieNurseRadiated') and not ( contains(text(), 'zombieNurseRadiated, 0'))]/text()" delim="\n" op="add">
+		zombieBoltNursePREPPER, .05
+	</csv>
+	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and contains (text(), 'zombieNurseRadiated')]/text()" delim="\n" op="add">
 		zombieBoltNursePREPPER, .9
 	</csv> <!-- GS 148 -->
@@ -1401,11 +1440,66 @@
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieMarleneRadiated')]/text()" delim="\n" op="add">
 		zombieSteelPanMarlenePREPPER, .9
-	</csv> <!-- GS 79 -->
+	</csv> <!-- GS 130 -->
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieMarleneRadiated')]/text()" delim="\n" op="add">
 		zombieSteelPanMarlenePREPPER, .9
 	</csv> <!-- GS 117 -->
+	
+	<!-- Magnum Janitor Bub PREPPER -->
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombieUtilityWorkerGroupGS100']/text()" delim="\n" op="add" >
+		zombieMagnumJanitorBubPREPPER, .15
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombieUtilityWorkerGroupGS200']/text()" delim="\n" op="add" >
+		zombieMagnumJanitorBubPREPPER, .2
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombieUtilityWorkerGroupGS400']/text()" delim="\n" op="add" >
+		zombieMagnumJanitorBubPREPPER, .3
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombieUtilityWorkerGroupGS800']/text()" delim="\n" op="add" >
+		zombieMagnumJanitorBubPREPPER, .4
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombieJanitorGroupGS100']/text()" delim="\n" op="add" >
+		zombieMagnumJanitorBubPREPPER, .15
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombieJanitorGroupGS200']/text()" delim="\n" op="add" >
+		zombieMagnumJanitorBubPREPPER, .2
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombieJanitorGroupGS400']/text()" delim="\n" op="add" >
+		zombieMagnumJanitorBubPREPPER, .3
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='zombieJanitorGroupGS800']/text()" delim="\n" op="add" >
+		zombieMagnumJanitorBubPREPPER, .4
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'ZombieBikerBarGroupGS') and contains (text(), 'zombieMoeRadiated') and not ( contains(text(), 'zombieMoeRadiated, 0'))]/text()" delim="\n" op="add">
+		zombieJanitorRadiated, .25
+		zombieMagnumJanitorBubPREPPER, .25
+	</csv> <!-- Radiated Janitor is limited -->
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and contains (text(), 'zombieJanitorFeral')]/text()" delim="\n" op="add">
+		zombieMagnumJanitorBubPREPPER, .9
+	</csv> <!-- GS 82 -->
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS') and contains (text(), 'zombieJanitorFeral')]/text()" delim="\n" op="add">
+		zombieMagnumJanitorBubPREPPER, .9
+	</csv> <!-- GS 79 -->
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieJanitorFeral')]/text()" delim="\n" op="add">
+		zombieMagnumJanitorBubPREPPER, .9
+	</csv> <!-- GS 51 -->
+
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieJanitorFeral')]/text()" delim="\n" op="add">
+		zombieMagnumJanitorBubPREPPER, .9
+	</csv> <!-- GS 76 -->
 	
 	<!-- Night Biker and Night Wight -->
 	
@@ -1648,6 +1742,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1681,6 +1776,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1714,6 +1810,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1747,6 +1844,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1780,6 +1878,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1813,6 +1912,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1846,6 +1946,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1879,6 +1980,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1927,6 +2029,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1960,6 +2063,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -1993,6 +2097,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -2026,6 +2131,7 @@
 		zombieBoltNursePREPPER, .05
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 		zombieSteelPanMarlenePREPPER, .05
+		zombieMagnumJanitorBubPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
@@ -2060,6 +2166,7 @@
 		zombieBoltNursePREPPER, .075
 		zombieSteelSledgehammerFatHawaiianPREPPER, .075
 		zombieSteelPanMarlenePREPPER, .075
+		zombieMagnumJanitorBubPREPPER, .075
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
@@ -2093,6 +2200,7 @@
 		zombieBoltNursePREPPER, .075
 		zombieSteelSledgehammerFatHawaiianPREPPER, .075
 		zombieSteelPanMarlenePREPPER, .075
+		zombieMagnumJanitorBubPREPPER, .075
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
@@ -2127,6 +2235,7 @@
 		zombieBoltNursePREPPER, .075
 		zombieSteelSledgehammerFatHawaiianPREPPER, .075
 		zombieSteelPanMarlenePREPPER, .075
+		zombieMagnumJanitorBubPREPPER, .075
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
@@ -2175,6 +2284,7 @@
 		zombieBoltNursePREPPER, .075
 		zombieSteelSledgehammerFatHawaiianPREPPER, .075
 		zombieSteelPanMarlenePREPPER, .075
+		zombieMagnumJanitorBubPREPPER, .075
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
@@ -2208,6 +2318,7 @@
 		zombieBoltNursePREPPER, .075
 		zombieSteelSledgehammerFatHawaiianPREPPER, .075
 		zombieSteelPanMarlenePREPPER, .075
+		zombieMagnumJanitorBubPREPPER, .075
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
@@ -2241,6 +2352,7 @@
 		zombieBoltNursePREPPER, .075
 		zombieSteelSledgehammerFatHawaiianPREPPER, .075
 		zombieSteelPanMarlenePREPPER, .075
+		zombieMagnumJanitorBubPREPPER, .075
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
@@ -2274,6 +2386,7 @@
 		zombieBoltNursePREPPER, .075
 		zombieSteelSledgehammerFatHawaiianPREPPER, .075
 		zombieSteelPanMarlenePREPPER, .075
+		zombieMagnumJanitorBubPREPPER, .075
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
@@ -2308,6 +2421,7 @@
 		zombieBoltNursePREPPER, .1
 		zombieSteelSledgehammerFatHawaiianPREPPER, .1
 		zombieSteelPanMarlenePREPPER, .1
+		zombieMagnumJanitorBubPREPPER, .1
 		animalZombieLargePlasmaVulturePREPPER, .075		
 		zombieSpiderFeralBomberPREPPER, .075
 		zombieSpiderFeralGliderPREPPER, .075
@@ -2334,6 +2448,7 @@
 		zombieBoltNurseRadiatedPREPPER, .025
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .025
 		zombieSteelPanMarleneRadiatedPREPPER, .025
+		zombieMagnumJanitorBubRadiatedPREPPER, .025
 		zombieRocketRadiatedPREPPER, .025
 	</csv>
 	
@@ -2357,6 +2472,7 @@
 		zombieBoltNursePREPPER, .1
 		zombieSteelSledgehammerFatHawaiianPREPPER, .1
 		zombieSteelPanMarlenePREPPER, .1
+		zombieMagnumJanitorBubPREPPER, .1
 		animalZombieLargePlasmaVulturePREPPER, .075		
 		zombieSpiderFeralBomberPREPPER, .075
 		zombieSpiderFeralGliderPREPPER, .075
@@ -2383,6 +2499,7 @@
 		zombieBoltNurseRadiatedPREPPER, .025
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .025
 		zombieSteelPanMarleneRadiatedPREPPER, .025
+		zombieMagnumJanitorBubRadiatedPREPPER, .025
 		zombieRocketRadiatedPREPPER, .025
 	</csv>
 	
@@ -2422,6 +2539,7 @@
 		zombieBoltNursePREPPER, .15
 		zombieSteelSledgehammerFatHawaiianPREPPER, .15
 		zombieSteelPanMarlenePREPPER, .15
+		zombieMagnumJanitorBubPREPPER, .15
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
@@ -2447,7 +2565,8 @@
 		zombieSteelClubFemaleFatRadiatedPREPPER, .05
 		zombieBoltNurseRadiatedPREPPER, .05
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .05
-		zombieSteelPanMarleneRadiatedPREPPER, .05		
+		zombieSteelPanMarleneRadiatedPREPPER, .05
+		zombieMagnumJanitorBubRadiatedPREPPER, .05		
 		zombieRocketRadiatedPREPPER, .05
 	</csv>
 	
@@ -2471,6 +2590,7 @@
 		zombieBoltNursePREPPER, .15
 		zombieSteelSledgehammerFatHawaiianPREPPER, .15
 		zombieSteelPanMarlenePREPPER, .15
+		zombieMagnumJanitorBubPREPPER, .15
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
@@ -2497,6 +2617,7 @@
 		zombieBoltNurseRadiatedPREPPER, .05
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .05
 		zombieSteelPanMarleneRadiatedPREPPER, .05
+		zombieMagnumJanitorBubRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .05
 	</csv>
 	
@@ -2520,6 +2641,7 @@
 		zombieBoltNursePREPPER, .15
 		zombieSteelSledgehammerFatHawaiianPREPPER, .15
 		zombieSteelPanMarlenePREPPER, .15
+		zombieMagnumJanitorBubPREPPER, .15
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
@@ -2546,6 +2668,7 @@
 		zombieBoltNurseRadiatedPREPPER, .05
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .05
 		zombieSteelPanMarleneRadiatedPREPPER, .05
+		zombieMagnumJanitorBubRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .05
 	</csv>
 	
@@ -2569,6 +2692,7 @@
 		zombieBoltNursePREPPER, .15
 		zombieSteelSledgehammerFatHawaiianPREPPER, .15
 		zombieSteelPanMarlenePREPPER, .15
+		zombieMagnumJanitorBubPREPPER, .15
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
@@ -2595,6 +2719,7 @@
 		zombieBoltNurseRadiatedPREPPER, .05
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .05
 		zombieSteelPanMarleneRadiatedPREPPER, .05
+		zombieMagnumJanitorBubRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .05
 	</csv>
 	
@@ -2618,6 +2743,7 @@
 		zombieBoltNursePREPPER, .15
 		zombieSteelSledgehammerFatHawaiianPREPPER, .15
 		zombieSteelPanMarlenePREPPER, .15
+		zombieMagnumJanitorBubPREPPER, .15
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
@@ -2644,6 +2770,7 @@
 		zombieBoltNurseRadiatedPREPPER, .05
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .05
 		zombieSteelPanMarleneRadiatedPREPPER, .05
+		zombieMagnumJanitorBubRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .05
 	</csv>
 	
@@ -2683,6 +2810,7 @@
 		zombieBoltNursePREPPER, .175
 		zombieSteelSledgehammerFatHawaiianPREPPER, .175
 		zombieSteelPanMarlenePREPPER, .175
+		zombieMagnumJanitorBubPREPPER, .175
 		animalZombieLargePlasmaVulturePREPPER, .125		
 		zombieSpiderFeralBomberPREPPER, .125
 		zombieSpiderFeralGliderPREPPER, .125
@@ -2709,6 +2837,7 @@
 		zombieBoltNurseRadiatedPREPPER, .075
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .075
 		zombieSteelPanMarleneRadiatedPREPPER, .075
+		zombieMagnumJanitorBubRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
 	</csv>
 	
@@ -2732,6 +2861,7 @@
 		zombieBoltNursePREPPER, .175
 		zombieSteelSledgehammerFatHawaiianPREPPER, .175
 		zombieSteelPanMarlenePREPPER, .175
+		zombieMagnumJanitorBubPREPPER, .175
 		animalZombieLargePlasmaVulturePREPPER, .125		
 		zombieSpiderFeralBomberPREPPER, .125
 		zombieSpiderFeralGliderPREPPER, .125
@@ -2758,6 +2888,7 @@
 		zombieBoltNurseRadiatedPREPPER, .075
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .075
 		zombieSteelPanMarleneRadiatedPREPPER, .075
+		zombieMagnumJanitorBubRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
 	</csv>
 	
@@ -2781,6 +2912,7 @@
 		zombieBoltNursePREPPER, .175
 		zombieSteelSledgehammerFatHawaiianPREPPER, .175
 		zombieSteelPanMarlenePREPPER, .175
+		zombieMagnumJanitorBubPREPPER, .175
 		animalZombieLargePlasmaVulturePREPPER, .125		
 		zombieSpiderFeralBomberPREPPER, .125
 		zombieSpiderFeralGliderPREPPER, .125
@@ -2807,6 +2939,7 @@
 		zombieBoltNurseRadiatedPREPPER, .075
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .075
 		zombieSteelPanMarleneRadiatedPREPPER, .075
+		zombieMagnumJanitorBubRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
 	</csv>
 	
@@ -2830,6 +2963,7 @@
 		zombieBoltNursePREPPER, .175
 		zombieSteelSledgehammerFatHawaiianPREPPER, .175
 		zombieSteelPanMarlenePREPPER, .175
+		zombieMagnumJanitorBubPREPPER, .175
 		animalZombieLargePlasmaVulturePREPPER, .125		
 		zombieSpiderFeralBomberPREPPER, .125
 		zombieSpiderFeralGliderPREPPER, .125
@@ -2856,6 +2990,7 @@
 		zombieBoltNurseRadiatedPREPPER, .075
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .075
 		zombieSteelPanMarleneRadiatedPREPPER, .075
+		zombieMagnumJanitorBubRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
 	</csv>
 	
@@ -2879,6 +3014,7 @@
 		zombieBoltNursePREPPER, .175
 		zombieSteelSledgehammerFatHawaiianPREPPER, .175
 		zombieSteelPanMarlenePREPPER, .175
+		zombieMagnumJanitorBubPREPPER, .175
 		animalZombieLargePlasmaVulturePREPPER, .125		
 		zombieSpiderFeralBomberPREPPER, .125
 		zombieSpiderFeralGliderPREPPER, .125
@@ -2905,6 +3041,7 @@
 		zombieBoltNurseRadiatedPREPPER, .075
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .075
 		zombieSteelPanMarleneRadiatedPREPPER, .075
+		zombieMagnumJanitorBubRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
 	</csv>
 	
@@ -2928,6 +3065,7 @@
 		zombieBoltNursePREPPER, .175
 		zombieSteelSledgehammerFatHawaiianPREPPER, .175
 		zombieSteelPanMarlenePREPPER, .175
+		zombieMagnumJanitorBubPREPPER, .175
 		animalZombieLargePlasmaVulturePREPPER, .125		
 		zombieSpiderFeralBomberPREPPER, .125
 		zombieSpiderFeralGliderPREPPER, .125
@@ -2954,6 +3092,7 @@
 		zombieBoltNurseRadiatedPREPPER, .075
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .075
 		zombieSteelPanMarleneRadiatedPREPPER, .075
+		zombieMagnumJanitorBubRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
 	</csv>
 
@@ -2978,6 +3117,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3004,6 +3144,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3027,6 +3168,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3053,6 +3195,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3076,6 +3219,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3102,6 +3246,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3125,6 +3270,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3151,6 +3297,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3174,6 +3321,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3200,6 +3348,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3223,6 +3372,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3249,6 +3399,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3287,6 +3438,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3313,6 +3465,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3336,6 +3489,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3362,6 +3516,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3385,6 +3540,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3411,6 +3567,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3434,6 +3591,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3460,6 +3618,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3483,6 +3642,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3509,6 +3669,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3547,6 +3708,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3573,6 +3735,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3596,6 +3759,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3622,6 +3786,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3645,6 +3810,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3671,6 +3837,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3694,6 +3861,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3720,6 +3888,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3743,6 +3912,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3769,6 +3939,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3792,6 +3963,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3818,6 +3990,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3841,6 +4014,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3867,6 +4041,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3890,6 +4065,7 @@
 		zombieBoltNursePREPPER, .2
 		zombieSteelSledgehammerFatHawaiianPREPPER, .2
 		zombieSteelPanMarlenePREPPER, .2
+		zombieMagnumJanitorBubPREPPER, .2
 		animalZombieLargePlasmaVulturePREPPER, .15		
 		zombieSpiderFeralBomberPREPPER, .15
 		zombieSpiderFeralGliderPREPPER, .15
@@ -3916,6 +4092,7 @@
 		zombieBoltNurseRadiatedPREPPER, .1
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .1
 		zombieSteelPanMarleneRadiatedPREPPER, .1
+		zombieMagnumJanitorBubRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
 	</csv>
 	
@@ -3955,6 +4132,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -3981,6 +4159,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4004,6 +4183,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4030,6 +4210,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4053,6 +4234,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4079,6 +4261,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4102,6 +4285,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4128,6 +4312,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4151,6 +4336,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4177,6 +4363,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4200,6 +4387,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4226,6 +4414,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4249,6 +4438,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4275,6 +4465,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4298,6 +4489,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4324,6 +4516,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4347,6 +4540,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4373,6 +4567,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4396,6 +4591,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4422,6 +4618,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4460,6 +4657,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4486,6 +4684,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4509,6 +4708,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4535,6 +4735,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4558,6 +4759,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4584,6 +4786,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4607,6 +4810,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4633,6 +4837,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4656,6 +4861,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4682,6 +4888,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4705,6 +4912,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4731,6 +4939,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4754,6 +4963,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4780,6 +4990,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4803,6 +5014,7 @@
 		zombieBoltNursePREPPER, .225
 		zombieSteelSledgehammerFatHawaiianPREPPER, .225
 		zombieSteelPanMarlenePREPPER, .225
+		zombieMagnumJanitorBubPREPPER, .225
 		animalZombieLargePlasmaVulturePREPPER, .175		
 		zombieSpiderFeralBomberPREPPER, .175
 		zombieSpiderFeralGliderPREPPER, .175
@@ -4829,6 +5041,7 @@
 		zombieBoltNurseRadiatedPREPPER, .125
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .125
 		zombieSteelPanMarleneRadiatedPREPPER, .125
+		zombieMagnumJanitorBubRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
 	</csv>
 	
@@ -4868,6 +5081,7 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER, .25
 		zombieSteelPanMarlenePREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .2		
 		zombieSpiderFeralBomberPREPPER, .2
 		zombieSpiderFeralGliderPREPPER, .2
@@ -4894,6 +5108,7 @@
 		zombieBoltNurseRadiatedPREPPER, .15
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .15
 		zombieSteelPanMarleneRadiatedPREPPER, .15
+		zombieMagnumJanitorBubRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
 	</csv>
 	
@@ -4917,6 +5132,7 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER, .25
 		zombieSteelPanMarlenePREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .2		
 		zombieSpiderFeralBomberPREPPER, .2
 		zombieSpiderFeralGliderPREPPER, .2
@@ -4943,6 +5159,7 @@
 		zombieBoltNurseRadiatedPREPPER, .15
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .15
 		zombieSteelPanMarleneRadiatedPREPPER, .15
+		zombieMagnumJanitorBubRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
 	</csv>
 	
@@ -4966,6 +5183,7 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER, .25
 		zombieSteelPanMarlenePREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .2		
 		zombieSpiderFeralBomberPREPPER, .2
 		zombieSpiderFeralGliderPREPPER, .2
@@ -4992,6 +5210,7 @@
 		zombieBoltNurseRadiatedPREPPER, .15
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .15
 		zombieSteelPanMarleneRadiatedPREPPER, .15
+		zombieMagnumJanitorBubRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
 	</csv>
 	
@@ -5015,6 +5234,7 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER, .25
 		zombieSteelPanMarlenePREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .2		
 		zombieSpiderFeralBomberPREPPER, .2
 		zombieSpiderFeralGliderPREPPER, .2
@@ -5041,6 +5261,7 @@
 		zombieBoltNurseRadiatedPREPPER, .15
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .15
 		zombieSteelPanMarleneRadiatedPREPPER, .15
+		zombieMagnumJanitorBubRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
 	</csv>
 	
@@ -5064,6 +5285,7 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER, .25
 		zombieSteelPanMarlenePREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .2		
 		zombieSpiderFeralBomberPREPPER, .2
 		zombieSpiderFeralGliderPREPPER, .2
@@ -5090,6 +5312,7 @@
 		zombieBoltNurseRadiatedPREPPER, .15
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .15
 		zombieSteelPanMarleneRadiatedPREPPER, .15
+		zombieMagnumJanitorBubRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
 	</csv>
 	
@@ -5113,6 +5336,7 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER, .25
 		zombieSteelPanMarlenePREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .2		
 		zombieSpiderFeralBomberPREPPER, .2
 		zombieSpiderFeralGliderPREPPER, .2
@@ -5139,6 +5363,7 @@
 		zombieBoltNurseRadiatedPREPPER, .15
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .15
 		zombieSteelPanMarleneRadiatedPREPPER, .15
+		zombieMagnumJanitorBubRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
 	</csv>
 	
@@ -5162,6 +5387,7 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER, .25
 		zombieSteelPanMarlenePREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .2		
 		zombieSpiderFeralBomberPREPPER, .2
 		zombieSpiderFeralGliderPREPPER, .2
@@ -5188,6 +5414,7 @@
 		zombieBoltNurseRadiatedPREPPER, .15
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .15
 		zombieSteelPanMarleneRadiatedPREPPER, .15
+		zombieMagnumJanitorBubRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
 	</csv>
 	
@@ -5211,6 +5438,7 @@
 		zombieBoltNursePREPPER, .25
 		zombieSteelSledgehammerFatHawaiianPREPPER, .25
 		zombieSteelPanMarlenePREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .2		
 		zombieSpiderFeralBomberPREPPER, .2
 		zombieSpiderFeralGliderPREPPER, .2
@@ -5237,6 +5465,7 @@
 		zombieBoltNurseRadiatedPREPPER, .15
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .15
 		zombieSteelPanMarleneRadiatedPREPPER, .15
+		zombieMagnumJanitorBubRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
 	</csv>
 	
@@ -5276,6 +5505,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5302,6 +5532,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5325,6 +5556,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5351,6 +5583,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 
@@ -5374,6 +5607,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5400,6 +5634,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5423,6 +5658,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5449,6 +5685,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5472,6 +5709,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5498,6 +5736,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5521,6 +5760,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5547,6 +5787,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5570,6 +5811,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5596,6 +5838,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5619,6 +5862,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5645,6 +5889,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5668,6 +5913,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5694,6 +5940,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5732,6 +5979,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5758,6 +6006,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5781,6 +6030,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5807,6 +6057,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5830,6 +6081,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5856,6 +6108,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5879,6 +6132,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5905,6 +6159,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5928,6 +6183,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -5954,6 +6210,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -5977,6 +6234,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -6003,6 +6261,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -6026,6 +6285,7 @@
 		zombieBoltNursePREPPER, .275
 		zombieSteelSledgehammerFatHawaiianPREPPER, .275
 		zombieSteelPanMarlenePREPPER, .275
+		zombieMagnumJanitorBubPREPPER, .275
 		animalZombieLargePlasmaVulturePREPPER, .225		
 		zombieSpiderFeralBomberPREPPER, .225
 		zombieSpiderFeralGliderPREPPER, .225
@@ -6052,6 +6312,7 @@
 		zombieBoltNurseRadiatedPREPPER, .175
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .175
 		zombieSteelPanMarleneRadiatedPREPPER, .175
+		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
 	</csv>
 	
@@ -6091,6 +6352,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6117,6 +6379,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6140,6 +6403,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6166,6 +6430,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6189,6 +6454,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6215,6 +6481,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6238,6 +6505,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6264,6 +6532,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6287,6 +6556,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6313,6 +6583,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6336,6 +6607,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6362,6 +6634,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6385,6 +6658,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6411,6 +6685,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6434,6 +6709,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6460,6 +6736,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6483,6 +6760,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6509,6 +6787,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6532,6 +6811,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6558,6 +6838,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 
@@ -6581,6 +6862,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6607,6 +6889,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6630,6 +6913,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6656,6 +6940,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6679,6 +6964,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6705,6 +6991,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6728,6 +7015,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6754,6 +7042,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6777,6 +7066,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6803,6 +7093,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6826,6 +7117,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6852,6 +7144,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6890,6 +7183,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6916,6 +7210,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6939,6 +7234,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -6965,6 +7261,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -6988,6 +7285,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7014,6 +7312,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7037,6 +7336,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7063,6 +7363,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7086,6 +7387,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7112,6 +7414,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7135,6 +7438,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7161,6 +7465,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7184,6 +7489,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7210,6 +7516,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7233,6 +7540,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7259,6 +7567,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7282,6 +7591,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7308,6 +7618,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7331,6 +7642,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7357,6 +7669,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7380,6 +7693,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7406,6 +7720,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7429,6 +7744,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7455,6 +7771,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7478,6 +7795,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7504,6 +7822,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7527,6 +7846,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7553,6 +7873,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7576,6 +7897,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7602,6 +7924,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7640,6 +7963,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7666,6 +7990,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7689,6 +8014,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7715,6 +8041,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7738,6 +8065,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7764,6 +8092,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7787,6 +8116,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7813,6 +8143,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7836,6 +8167,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7862,6 +8194,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 	
@@ -7885,6 +8218,7 @@
 		zombieBoltNursePREPPER, .3
 		zombieSteelSledgehammerFatHawaiianPREPPER, .3
 		zombieSteelPanMarlenePREPPER, .3
+		zombieMagnumJanitorBubPREPPER, .3
 		animalZombieLargePlasmaVulturePREPPER, .25		
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
@@ -7911,6 +8245,7 @@
 		zombieBoltNurseRadiatedPREPPER, .2
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .2
 		zombieSteelPanMarleneRadiatedPREPPER, .2
+		zombieMagnumJanitorBubRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
 	</csv>
 
@@ -7935,6 +8270,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -7961,6 +8297,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -7984,6 +8321,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8010,6 +8348,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8033,6 +8372,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8059,6 +8399,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8082,6 +8423,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8108,6 +8450,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8131,6 +8474,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8157,6 +8501,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8180,6 +8525,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8206,6 +8552,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8229,6 +8576,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8255,6 +8603,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8293,6 +8642,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8319,6 +8669,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8342,6 +8693,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8368,6 +8720,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8391,6 +8744,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8417,6 +8771,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8440,6 +8795,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8466,6 +8822,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8489,6 +8846,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8515,6 +8873,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8538,6 +8897,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8564,6 +8924,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8587,6 +8948,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8613,6 +8975,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8636,6 +8999,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8662,6 +9026,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8685,6 +9050,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8711,6 +9077,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8734,6 +9101,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8760,6 +9128,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8783,6 +9152,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8809,6 +9179,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8832,6 +9203,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8858,6 +9230,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8881,6 +9254,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8907,6 +9281,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8930,6 +9305,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -8956,6 +9332,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -8994,6 +9371,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9020,6 +9398,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9043,6 +9422,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9069,6 +9449,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9092,6 +9473,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9118,6 +9500,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9141,6 +9524,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9167,6 +9551,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9190,6 +9575,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9216,6 +9602,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9239,6 +9626,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9265,6 +9653,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9288,6 +9677,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9314,6 +9704,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9337,6 +9728,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9363,6 +9755,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9386,6 +9779,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9412,6 +9806,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9435,6 +9830,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9461,6 +9857,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9484,6 +9881,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9510,6 +9908,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9533,6 +9932,7 @@
 		zombieBoltNursePREPPER, .35
 		zombieSteelSledgehammerFatHawaiianPREPPER, .35
 		zombieSteelPanMarlenePREPPER, .35
+		zombieMagnumJanitorBubPREPPER, .35
 		animalZombieLargePlasmaVulturePREPPER, .3		
 		zombieSpiderFeralBomberPREPPER, .3
 		zombieSpiderFeralGliderPREPPER, .3
@@ -9559,6 +9959,7 @@
 		zombieBoltNurseRadiatedPREPPER, .25
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
 		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
 	</csv>
 	
@@ -9598,6 +9999,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -9624,6 +10026,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -9647,6 +10050,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -9673,6 +10077,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -9696,6 +10101,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -9722,6 +10128,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -9745,6 +10152,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -9771,6 +10179,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -9794,6 +10203,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -9820,6 +10230,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -9843,6 +10254,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -9869,6 +10281,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -9892,6 +10305,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -9918,6 +10332,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 
@@ -9941,6 +10356,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -9967,6 +10383,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -9990,6 +10407,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10016,6 +10434,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10039,6 +10458,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10065,6 +10485,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10088,6 +10509,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10114,6 +10536,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10137,6 +10560,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10163,6 +10587,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10186,6 +10611,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10212,6 +10638,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10235,6 +10662,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10261,6 +10689,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10284,6 +10713,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10310,6 +10740,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10333,6 +10764,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10359,6 +10791,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10382,6 +10815,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10408,6 +10842,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10431,6 +10866,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10457,6 +10893,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10480,6 +10917,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10506,6 +10944,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10529,6 +10968,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10555,6 +10995,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10578,6 +11019,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10604,6 +11046,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10642,6 +11085,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10668,6 +11112,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10691,6 +11136,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10717,6 +11163,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10740,6 +11187,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10766,6 +11214,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10789,6 +11238,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10815,6 +11265,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10838,6 +11289,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10864,6 +11316,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10887,6 +11340,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10913,6 +11367,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10936,6 +11391,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -10962,6 +11418,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -10985,6 +11442,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -11011,6 +11469,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -11034,6 +11493,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -11060,6 +11520,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 	
@@ -11083,6 +11544,7 @@
 		zombieBoltNursePREPPER, .375
 		zombieSteelSledgehammerFatHawaiianPREPPER, .375
 		zombieSteelPanMarlenePREPPER, .375
+		zombieMagnumJanitorBubPREPPER, .375
 		animalZombieLargePlasmaVulturePREPPER, .325		
 		zombieSpiderFeralBomberPREPPER, .325
 		zombieSpiderFeralGliderPREPPER, .325
@@ -11109,6 +11571,7 @@
 		zombieBoltNurseRadiatedPREPPER, .275
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .275
 		zombieSteelPanMarleneRadiatedPREPPER, .275
+		zombieMagnumJanitorBubRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
 	</csv>
 
@@ -11133,6 +11596,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11159,6 +11623,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11182,6 +11647,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11208,6 +11674,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11231,6 +11698,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11257,6 +11725,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11280,6 +11749,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11306,6 +11776,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11329,6 +11800,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11355,6 +11827,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11378,6 +11851,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11404,6 +11878,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11427,6 +11902,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11453,6 +11929,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11476,6 +11953,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11502,6 +11980,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11525,6 +12004,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11551,6 +12031,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11574,6 +12055,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11600,6 +12082,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11638,6 +12121,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11664,6 +12148,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11687,6 +12172,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11713,6 +12199,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11736,6 +12223,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11762,6 +12250,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11785,6 +12274,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11811,6 +12301,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11834,6 +12325,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11860,6 +12352,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11883,6 +12376,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11909,6 +12403,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11932,6 +12427,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -11958,6 +12454,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -11981,6 +12478,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12007,6 +12505,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12030,6 +12529,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12056,6 +12556,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12079,6 +12580,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12105,6 +12607,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12128,6 +12631,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12154,6 +12658,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12177,6 +12682,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12203,6 +12709,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12226,6 +12733,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12252,6 +12760,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12275,6 +12784,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12301,6 +12811,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12324,6 +12835,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12350,6 +12862,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12373,6 +12886,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12399,6 +12913,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12422,6 +12937,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12448,6 +12964,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12471,6 +12988,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12497,6 +13015,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12520,6 +13039,7 @@
 		zombieBoltNursePREPPER, .4
 		zombieSteelSledgehammerFatHawaiianPREPPER, .4
 		zombieSteelPanMarlenePREPPER, .4
+		zombieMagnumJanitorBubPREPPER, .4
 		animalZombieLargePlasmaVulturePREPPER, .35		
 		zombieSpiderFeralBomberPREPPER, .35
 		zombieSpiderFeralGliderPREPPER, .35
@@ -12546,6 +13066,7 @@
 		zombieBoltNurseRadiatedPREPPER, .3
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .3
 		zombieSteelPanMarleneRadiatedPREPPER, .3
+		zombieMagnumJanitorBubRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
 	</csv>
 	
@@ -12585,6 +13106,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -12611,6 +13133,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -12634,6 +13157,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -12660,6 +13184,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -12683,6 +13208,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -12709,6 +13235,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -12732,6 +13259,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -12758,6 +13286,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -12781,6 +13310,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -12807,6 +13337,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -12830,6 +13361,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -12856,6 +13388,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -12879,6 +13412,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -12905,6 +13439,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -12928,6 +13463,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -12954,6 +13490,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -12977,6 +13514,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13003,6 +13541,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13026,6 +13565,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13052,6 +13592,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13075,6 +13616,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13101,6 +13643,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13124,6 +13667,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13150,6 +13694,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13173,6 +13718,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13199,6 +13745,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13222,6 +13769,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13248,6 +13796,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13271,6 +13820,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13297,6 +13847,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13320,6 +13871,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13346,6 +13898,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13369,6 +13922,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13395,6 +13949,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13418,6 +13973,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13444,6 +14000,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13467,6 +14024,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13493,6 +14051,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13516,6 +14075,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13542,6 +14102,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13565,6 +14126,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13591,6 +14153,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13629,6 +14192,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13655,6 +14219,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13678,6 +14243,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13704,6 +14270,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13727,6 +14294,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13753,6 +14321,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13776,6 +14345,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13802,6 +14372,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13825,6 +14396,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13851,6 +14423,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13874,6 +14447,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13900,6 +14474,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13923,6 +14498,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13949,6 +14525,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 	
@@ -13972,6 +14549,7 @@
 		zombieBoltNursePREPPER, .425
 		zombieSteelSledgehammerFatHawaiianPREPPER, .425
 		zombieSteelPanMarlenePREPPER, .425
+		zombieMagnumJanitorBubPREPPER, .425
 		animalZombieLargePlasmaVulturePREPPER, .375		
 		zombieSpiderFeralBomberPREPPER, .375
 		zombieSpiderFeralGliderPREPPER, .375
@@ -13998,6 +14576,7 @@
 		zombieBoltNurseRadiatedPREPPER, .325
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .325
 		zombieSteelPanMarleneRadiatedPREPPER, .325
+		zombieMagnumJanitorBubRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
 	</csv>
 
@@ -14022,6 +14601,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14048,6 +14628,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14071,6 +14652,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14097,6 +14679,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14120,6 +14703,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14146,6 +14730,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14169,6 +14754,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14195,6 +14781,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14218,6 +14805,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14244,6 +14832,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14267,6 +14856,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14293,6 +14883,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14316,6 +14907,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14342,6 +14934,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14365,6 +14958,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14391,6 +14985,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14429,6 +15024,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14455,6 +15051,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14478,6 +15075,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14504,6 +15102,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14527,6 +15126,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14553,6 +15153,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14576,6 +15177,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14602,6 +15204,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14625,6 +15228,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14651,6 +15255,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14674,6 +15279,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14700,6 +15306,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14723,6 +15330,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14749,6 +15357,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14772,6 +15381,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14798,6 +15408,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14821,6 +15432,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14847,6 +15459,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14870,6 +15483,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14896,6 +15510,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14919,6 +15534,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14945,6 +15561,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -14968,6 +15585,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -14994,6 +15612,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -15017,6 +15636,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -15043,6 +15663,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -15066,6 +15687,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -15092,6 +15714,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -15115,6 +15738,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -15141,6 +15765,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -15164,6 +15789,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -15190,6 +15816,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -15213,6 +15840,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -15239,6 +15867,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -15262,6 +15891,7 @@
 		zombieBoltNursePREPPER, .45
 		zombieSteelSledgehammerFatHawaiianPREPPER, .45
 		zombieSteelPanMarlenePREPPER, .45
+		zombieMagnumJanitorBubPREPPER, .45
 		animalZombieLargePlasmaVulturePREPPER, .4		
 		zombieSpiderFeralBomberPREPPER, .4
 		zombieSpiderFeralGliderPREPPER, .4
@@ -15288,6 +15918,7 @@
 		zombieBoltNurseRadiatedPREPPER, .35
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .35
 		zombieSteelPanMarleneRadiatedPREPPER, .35
+		zombieMagnumJanitorBubRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
 	</csv>
 	
@@ -15327,6 +15958,7 @@
 		zombieBoltNursePREPPER, .5
 		zombieSteelSledgehammerFatHawaiianPREPPER, .5
 		zombieSteelPanMarlenePREPPER, .5
+		zombieMagnumJanitorBubPREPPER, .5
 		animalZombieLargePlasmaVulturePREPPER, .5		
 		zombieSpiderFeralBomberPREPPER, .5
 		zombieSpiderFeralGliderPREPPER, .5
@@ -15353,6 +15985,7 @@
 		zombieBoltNurseRadiatedPREPPER, .4
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .4
 		zombieSteelPanMarleneRadiatedPREPPER, .4
+		zombieMagnumJanitorBubRadiatedPREPPER, .4
 		zombieRocketRadiatedPREPPER, .4
 	</csv>
 	
@@ -15376,6 +16009,7 @@
 		zombieBoltNursePREPPER, .5
 		zombieSteelSledgehammerFatHawaiianPREPPER, .5
 		zombieSteelPanMarlenePREPPER, .5
+		zombieMagnumJanitorBubPREPPER, .5
 		animalZombieLargePlasmaVulturePREPPER, .5		
 		zombieSpiderFeralBomberPREPPER, .5
 		zombieSpiderFeralGliderPREPPER, .5
@@ -15402,6 +16036,7 @@
 		zombieBoltNurseRadiatedPREPPER, .4
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .4
 		zombieSteelPanMarleneRadiatedPREPPER, .4
+		zombieMagnumJanitorBubRadiatedPREPPER, .4
 		zombieRocketRadiatedPREPPER, .4
 	</csv>
 	
@@ -15425,6 +16060,7 @@
 		zombieBoltNursePREPPER, .5
 		zombieSteelSledgehammerFatHawaiianPREPPER, .5
 		zombieSteelPanMarlenePREPPER, .5
+		zombieMagnumJanitorBubPREPPER, .5
 		animalZombieLargePlasmaVulturePREPPER, .5		
 		zombieSpiderFeralBomberPREPPER, .5
 		zombieSpiderFeralGliderPREPPER, .5
@@ -15451,6 +16087,7 @@
 		zombieBoltNurseRadiatedPREPPER, .4
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .4
 		zombieSteelPanMarleneRadiatedPREPPER, .4
+		zombieMagnumJanitorBubRadiatedPREPPER, .4
 		zombieRocketRadiatedPREPPER, .4
 	</csv>
 	
@@ -15474,6 +16111,7 @@
 		zombieBoltNursePREPPER, .5
 		zombieSteelSledgehammerFatHawaiianPREPPER, .5
 		zombieSteelPanMarlenePREPPER, .5
+		zombieMagnumJanitorBubPREPPER, .5
 		animalZombieLargePlasmaVulturePREPPER, .5		
 		zombieSpiderFeralBomberPREPPER, .5
 		zombieSpiderFeralGliderPREPPER, .5
@@ -15500,6 +16138,7 @@
 		zombieBoltNurseRadiatedPREPPER, .4
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .4
 		zombieSteelPanMarleneRadiatedPREPPER, .4
+		zombieMagnumJanitorBubRadiatedPREPPER, .4
 		zombieRocketRadiatedPREPPER, .4
 	</csv>
 	
@@ -15523,6 +16162,7 @@
 		zombieBoltNursePREPPER, .5
 		zombieSteelSledgehammerFatHawaiianPREPPER, .5
 		zombieSteelPanMarlenePREPPER, .5
+		zombieMagnumJanitorBubPREPPER, .5
 		animalZombieLargePlasmaVulturePREPPER, .5		
 		zombieSpiderFeralBomberPREPPER, .5
 		zombieSpiderFeralGliderPREPPER, .5
@@ -15549,6 +16189,7 @@
 		zombieBoltNurseRadiatedPREPPER, .5
 		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .5
 		zombieSteelPanMarleneRadiatedPREPPER, .5
+		zombieMagnumJanitorBubRadiatedPREPPER, .5
 		zombieRocketRadiatedPREPPER, .5
 		zombieMiniSoldier
 		zombieMiniSoldierFeral
