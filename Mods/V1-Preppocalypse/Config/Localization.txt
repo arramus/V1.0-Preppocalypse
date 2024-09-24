@@ -81,6 +81,7 @@ foodT4-4,progression,Attribute,,,Tier 4: Spaghetti & Fish Pie Mountain,,Stufe 4:
 
 carlot_02_prepper,POI,POIName,,x,Prepper Carl's Cars,,,,,,,,,,,,,
 evildeadcabin01_prepper,POI,POIName,,x,Evil Zed Cabin,,,,,,,,,,,,,
+oldwest_25x50_corn_01_arramus,POI,POIName,,x,Super Special Catacorn,,,,,,,,,,,,,
 oldwest_abandoned_house_01,POI,POIName,,x,ABA Law School,,,,,,,,,,,,,
 oldwest_abandoned_house_02,POI,POIName,,x,Musical Mam,,,,,,,,,,,,,
 oldwest_apper_01_arramus,POI,POIName,,x,Stinker Strip,,,,,,,,,,,,,
