@@ -55,7 +55,7 @@
 	<prefab_spawn_adjust partial_name="evildeadcabin01_prepper" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="prepper_bunker80_01" min_count="6" max_count="8" bias="5"/>
 	<prefab_spawn_adjust partial_name="prepper_countryresidentialbunker01" min_count="6" max_count="8" bias="4"/>
-	<prefab_spawn_adjust partial_name="prepper_Floppy_Games_Workshop_Medusa" min_count="6" max_count="8" bias="5"/>
+	<prefab_spawn_adjust partial_name="prepper_Floppy_Games_Workshop_Medusa" min_count="6" max_count="8" bias="8"/>
 	<prefab_spawn_adjust partial_name="prepper_house_old_gambrel_03" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="prepper_mine80_01" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="prepper_preppo_bunker42_01" min_count="6" max_count="8" bias="5"/>

@@ -951,11 +951,18 @@
 	<ingredient name="resourceScrapIron" count="2400"/>
 </recipe>
 
-	<!-- Swiss Vertteli Silver Magnum -->	
-	<recipe name="ammoBundle44MagnumBulletSilver" count="1" craft_time="60" craft_area="ammopress">
-		<ingredient name="resourceSilverNugget" count="1"/>
-		<ingredient name="resourceGunPowder" count="65"/>
-	</recipe>
+<!-- Swiss Vertteli Silver Magnum -->	
+<recipe name="ammoBundle44MagnumBulletSilver" count="1" craft_time="60" craft_area="ammopress">
+	<ingredient name="resourceSilverNugget" count="1"/>
+	<ingredient name="resourceGunPowder" count="65"/>
+</recipe>
+
+<!-- .22 Short Ammo -->
+<recipe name="ammo22ShortBulletBall" count="1">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
 
 <!-- Vehicles -->
 

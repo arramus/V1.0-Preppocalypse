@@ -19,7 +19,13 @@
 	<set xpath="/lootcontainers/lootcontainer[@name='playerCooler']/@size">8,9</set> <!-- Player Cooler from 6,2 as above -->
 	<set xpath="/lootcontainers/lootcontainer[@name='nightstandNOPOP']/@size">8,9</set> <!-- Player Night Stands from 6,2 as above -->	
 	<set xpath="/lootcontainers/lootcontainer[@name='lockersNOPOP']/@size">8,9</set> <!-- Player Lockers from 6,2 as above -->
-	<set xpath="/lootcontainers/lootcontainer[@name='refrigeratorNOPOP']/@size">8,9</set> <!-- Player Refrigerator from 6,4 as above -->	
+	<set xpath="/lootcontainers/lootcontainer[@name='refrigeratorNOPOP']/@size">8,9</set> <!-- Player Refrigerator from 6,4 as above -->
+	
+	<!-- Adding Double Trouble Pistol to toilet and adding Quality Tier from 1 - 5 based on V1 parameters -->
+	<set xpath="/lootcontainers/lootcontainer[@name='toilet']/@loot_quality_template">qualBaseTemplate</set> <!-- Toilet, all tiered items were QL 1 -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet02']">
+	<item name="gun22HandgunT0Pistol" count="1" loot_prob_template="low"/>
+	</append>
 	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	

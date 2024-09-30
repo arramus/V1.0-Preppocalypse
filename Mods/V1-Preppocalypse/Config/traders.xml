@@ -83,7 +83,8 @@
 	
 	<!-- *** Ranged_Weapons -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedAll']">
-		<item name="gunRifleT2LeverActionRifleSwissVetterli" quality="3,6"/>		
+		<item name="gunRifleT2LeverActionRifleSwissVetterli" quality="3,6"/>
+		<item name="gun22HandgunT0Pistol" quality="3,6"/>		
 	</append>
 	
 	<!-- *** Vehicles -->
