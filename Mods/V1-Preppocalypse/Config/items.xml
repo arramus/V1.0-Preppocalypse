@@ -780,7 +780,7 @@
 	<property name="Stacknumber" value="5000"/> <!-- STK ammo high -->
 	<property name="EconomicValue" value="4"/> <!-- Default 9 -->
 	<property name="TraderStageTemplate" value="ammoTier1"/><!-- ammo9mmBulletBall -->
-	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons"/>
+	<property name="Group" value="Ammo/Weapons,Ammo,RegularAmmo,Ranged Weapons"/>
 	<property name="SoundPickup" value="bullets_grab"/>
 	<property name="SoundPlace" value="bullets_place"/>
 	<effect_group name="ammo9mmBulletBall" tiered="false">

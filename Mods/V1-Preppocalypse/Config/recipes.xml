@@ -958,7 +958,14 @@
 </recipe>
 
 <!-- .22 Short Ammo -->
-<recipe name="ammo22ShortBulletBall" count="1">
+<recipe name="ammo22ShortBulletBall" count="1" craft_time="1" craft_area="ammopress">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+<!-- .22 Short Ammo -->
+<recipe name="ammo22ShortBulletBall" count="1" craft_time="1">
 	<ingredient name="resourceBulletTip" count="1"/>
 	<ingredient name="resourceGunPowder" count="1"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
