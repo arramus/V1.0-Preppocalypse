@@ -820,6 +820,62 @@
 		zombieDemolition, .75
 	</entitygroup>
 	
+	<!-- Prepper Mixed Animal Entities for GS -->
+	
+	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS01">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		animalZombieMiniDogPrepper
+		animalBossZombieGracePREPPER, .05
+		animalPaindeerPREPPER, .05
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS50">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		animalZombieMiniDogPrepper
+		animalBossZombieGracePREPPER, .1
+		animalPaindeerPREPPER, .1
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS100">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		animalZombieMiniDogPrepper
+		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS200">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		animalZombieMiniDogPrepper
+		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS400">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		animalZombieMiniDogPrepper
+		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3	
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS800">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		animalZombieMiniDogPrepper
+		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
+	</entitygroup>
+	
 	</append>
 	
 	<!-- *** INTEGRATION FOR ANIMALS -->

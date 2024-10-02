@@ -120,6 +120,8 @@
 	<group name="Prepper_Flyer_Entities" spawner="PrepperFlyerEntities"/>
 	<!-- Prepper Mixed Soldier Entities -->
 	<group name="Prepper_Mixed_Soldier_Entities" spawner="PrepperMixedSoldierEntities"/>
+	<!-- Prepper Mixed Animal Entities -->
+	<group name="Prepper_Mixed_Animal_Entities" spawner="PrepperMixedAnimalEntities"/>
 	
 	<!-- Prepper Mixed Entities for GS -->
 	<spawner name="PrepperMixedEntities">
@@ -184,6 +186,28 @@
 		</gamestage>
 		<gamestage stage="800">
 			<spawn group="PrepperMixedSoldierEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Mixed Animal Entities for GS -->
+	<spawner name="PrepperMixedAnimalEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
 		</gamestage>
 	</spawner>
 	
