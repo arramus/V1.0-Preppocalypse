@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<Name value="V1_Preppocalypse" />
-	<DisplayName value="V1.0 Preppocalypse" />
+	<DisplayName value="V1 Preppocalypse" />
 	<Description value="A Prepper's perspective leading from the before, during, and after the 'event'." />
 	<Author value="arramus, with an abundance of community support" />
 	<Version value="1.1.0.0" />

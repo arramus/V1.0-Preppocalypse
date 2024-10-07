@@ -1,6 +1,6 @@
 <Servers>
-  <ServerGroup Name="Preppocalypse (V1.0)">
-    <Server Name="Preppocalypse (V1.0)" Logo="https://i.imgur.com/yCvXBl1.jpg">
+  <ServerGroup Name="Preppocalypse (V1)">
+    <Server Name="Preppocalypse (V1)" Logo="https://i.imgur.com/yCvXBl1.jpg">
       <Description>7D2D from the perspective of a Prepper.
 	  
 Features Include:
@@ -17,11 +17,11 @@ Brought to you by arramus, with an abundance of community support.
 * Please install 0-Score Mod since Preppocalypse will activate its 'Crafting from Containers' feature *
 * Compatible with Bdubs Vehicles, Vehicle Madness, and Oakraven Vehicles, all at exactly the same time *
 	  </Description>
-        <Version>1.0</Version>
+        <Version>V1</Version>
 		<RSS/>
         <Excludes></Excludes>
         <ReleaseNotes></ReleaseNotes>
-        <Discord>https://discord.gg/3aWeEGrjJK</Discord>
+        <Discord></Discord>
         <Donate></Donate>
         <DownloadMode>Clone</DownloadMode>
       <Downloads><Download>https://github.com/arramus/V1.0-Preppocalypse</Download></Downloads>   

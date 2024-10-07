@@ -4010,6 +4010,13 @@
 	</effect_group>
 </entity_class>
 
+<!-- Fake Entity for Entity Elimination Quest for Localization of 'Zombies' as first pick -->
+
+		<!-- *** ZOMBIE_ZOMBIES -->
+<entity_class name="zombieZombies" extends="zombieTemplateMale">
+	<property name="UserSpawnType" value="None"/>
+</entity_class>
+
 <!-- Vehicles -->
 
 <entity_class name="vehiclePreppocalypticCar">
