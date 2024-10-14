@@ -56,7 +56,7 @@
 	<prefab_spawn_adjust partial_name="prepper_bunker80_01" min_count="6" max_count="8" bias="5"/>
 	<prefab_spawn_adjust partial_name="prepper_countryresidentialbunker01" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="prepper_countrytown_business_12" min_count="6" max_count="8" bias="4"/>
-	<prefab_spawn_adjust partial_name="prepper_Floppy_Games_Workshop_Medusa" min_count="6" max_count="8" bias="18"/>
+	<prefab_spawn_adjust partial_name="prepper_Floppy_Games_Workshop_Medusa" min_count="6" max_count="8" bias="20"/>
 	<prefab_spawn_adjust partial_name="prepper_house_old_gambrel_03" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="prepper_mine80_01" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="prepper_preppo_bunker42_01" min_count="6" max_count="8" bias="15"/>
@@ -74,7 +74,9 @@
 	<prefab_spawn_adjust partial_name="preppo_Wildpig_Castle" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="store_book_01_prepper" min_count="6" max_count="8" bias="5"/>
 	<prefab_spawn_adjust partial_name="store_clothing_02_prepper" min_count="6" max_count="8" bias="4"/>
-
+	
+	<prefab_spawn_adjust partial_name="trader_prepper_bob" biomeTags="desert" bias="21" min_count="1" max_count="2"/>
+	<prefab_spawn_adjust partial_name="trader_preppo_tech_trio" biomeTags="burntforest,snow,wasteland" bias="21" min_count="1" max_count="2"/>
 	</append>
 
 </configs>

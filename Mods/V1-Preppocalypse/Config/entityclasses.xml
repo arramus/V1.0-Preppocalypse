@@ -4,9 +4,9 @@
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity'][@value='27']/@value">40</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize'][@value='45']/@value">60</set>
 	<!-- Load out kit with Preppocalypse influence -->
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvival')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01,quest_prepperivstandscreamer01</set>	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalSP')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01,quest_prepperivstandscreamer01</set>	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalMP')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01,quest_prepperivstandscreamer01</set>
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvival')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01,quest_preppocommtower</set>	
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalSP')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01,quest_preppocommtower</set>	
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalMP')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01,quest_preppocommtower</set>
 
 	<!-- Simple Preppo Supply Crate -->
 	<set xpath="/entity_classes/entity_class[@name='sc_General']/property[@name='Mesh']/@value">#@modfolder:Resources/prepposupplycrate.unity3d?SupplyCrateEntityPrefab</set>
@@ -2121,7 +2121,7 @@
 	<property name="ExperienceGain" value="1650"/><!-- XP strong radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<property name="LootDropProb" value=".1"/>
-	<property name="HandItem" value="meleeHandZombieDemolition"/>
+	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
@@ -2151,7 +2151,7 @@
 	<property name="ExperienceGain" value="1875"/><!-- XP strong radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<property name="LootDropProb" value=".1"/>
-	<property name="HandItem" value="meleeHandZombieDemolition"/>
+	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
@@ -2234,7 +2234,7 @@
 
 <entity_class name="zombiePistolBusinessManPREPPER" extends="zombieBusinessManRadiated"> <!-- + 10% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
-	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSuitFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_SuitZ2.mat,@:Entities/Zombies/Zombies/Materials/HD_SuitZ3.mat"/>
@@ -2277,7 +2277,7 @@
 
 <entity_class name="zombiePistolBusinessManRadiatedPREPPER" extends="zombieBusinessManRadiated"> <!-- + 25% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
-	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSuitRadiated.prefab"/>
 	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
@@ -2321,7 +2321,7 @@
 
 <entity_class name="zombieNailgunUtilityWorkerPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 10% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
-	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZWorkerFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Worker2.mat,@:Entities/Zombies/Zombies/Materials/HD_Worker3.mat"/>	
@@ -2364,7 +2364,7 @@
 
 <entity_class name="zombieNailgunUtilityWorkerRadiatedPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 25% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
-	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZWorkerRadiated.prefab"/>
 	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
@@ -4007,6 +4007,71 @@
 		<passive_effect name="HealthMax" operation="base_set" value="1500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigNightBurntSirenDeco"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffzombieBigNightBurntSiren"/>
+	</effect_group>
+</entity_class>
+
+		<!-- Preppo Communications Tower Utility Worker -->
+
+<entity_class name="zombieToolsUtilityWorkerPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 10% hits and gains -->
+	<property name="HideInSpawnMenu" value="false"/>
+	<property name="SizeScale" value="1.1"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZWorkerFeral.prefab"/>
+	<property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Worker2.mat,@:Entities/Zombies/Zombies/Materials/HD_Worker3.mat"/>
+	
+	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<!-- Gameplay zombieUtilityWorkerRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1320"/><!-- XP grunt radiated -->
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceSteelNail" tag="allToolsHarvest" count="10,20" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieToolsUtilityWorkerPREPPERDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1430"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="1"/> <!-- Boss damage -->
+		<passive_effect name="HealthChangeOT" operation="base_set" value="1.4"/> <!-- Boss regen, 1% -->
+		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="zombieToolsUtilityWorkerRadiatedPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 25% hits and gains -->
+	<property name="HideInSpawnMenu" value="false"/>
+	<property name="SizeScale" value="1.1"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZWorkerRadiated.prefab"/>
+	
+	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<!-- Gameplay zombieUtilityWorkerRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1500"/><!-- XP grunt radiated -->
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceSteelNail" tag="allToolsHarvest" count="10,20" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieToolsUtilityWorkerPREPPERDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1625"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="1"/> <!-- Boss damage -->
+		<passive_effect name="HealthChangeOT" operation="base_set" value="1.4"/> <!-- Boss regen, 1% -->
+		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 	</effect_group>
 </entity_class>
 

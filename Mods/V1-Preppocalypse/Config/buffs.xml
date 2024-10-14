@@ -435,7 +435,14 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/speakerLoudWallPrefab" local_offset="0,-0.075,0.45" local_rotation="0,0,0" parent_transform="Head"/> <!-- Up/Down - Side/Side - Front/Back -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Commercial/bookShelfSpeakerPrefab" local_offset="0,0.425,-0.2" local_rotation="0,180,0" parent_transform="Head"/>			
 			</effect_group>
-		</buff>		
+		</buff>
+
+		<buff name="zombieToolsUtilityWorkerPREPPERDeco" hidden="true">
+			<effect_group>								
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/hammerPrefab.prefab" local_offset="0.1,0.0275,0.05" local_rotation="180,-90,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/ratchetPrefab.prefab" local_offset="-0.1,-0.02,0" local_rotation="90,90,90" parent_transform="LeftHand"/> <!-- Up-Down/Left-Right/Front-Back -->
+			</effect_group>
+		</buff>
 		
 	</append>
 	

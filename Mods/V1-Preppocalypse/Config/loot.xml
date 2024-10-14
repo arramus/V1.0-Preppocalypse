@@ -106,6 +106,7 @@
 		<item name="quest_steelsledgehammerfathawaiian"/>
 		<item name="quest_steelpanmarlene"/>
 		<item name="quest_magnumjanitorbub"/>
+		<item name="quest_preppocommtower"/>
 		<item name="quest_radiatedpreppers"/>
 		<item name="resourcePaper" count="25,50"/>
 		<item name="resourceOilShale" count="25,50"/>
@@ -167,6 +168,7 @@
 		<item name="quest_steelsledgehammerfathawaiian"/>
 		<item name="quest_steelpanmarlene"/>
 		<item name="quest_magnumjanitorbub"/>
+		<item name="quest_preppocommtower"/>
 		<item name="quest_radiatedpreppers"/>
 	</append>
 	

@@ -122,6 +122,8 @@
 	<group name="Prepper_Mixed_Soldier_Entities" spawner="PrepperMixedSoldierEntities"/>
 	<!-- Prepper Mixed Animal Entities -->
 	<group name="Prepper_Mixed_Animal_Entities" spawner="PrepperMixedAnimalEntities"/>
+	<!-- Prepper Communications Tower Utility Worker -->
+	<group name="Prepper_Comm_Tower_Entities" spawner="PrepperCommTowerEntities"/>
 	
 	<!-- Prepper Mixed Entities for GS -->
 	<spawner name="PrepperMixedEntities">
@@ -208,6 +210,28 @@
 		</gamestage>
 		<gamestage stage="800">
 			<spawn group="PrepperMixedAnimalEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Communications Tower Utility Workers for GS -->
+	<spawner name="PrepperCommTowerEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperCommTowerEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperCommTowerEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperCommTowerEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperCommTowerEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperCommTowerEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperCommTowerEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
 		</gamestage>
 	</spawner>
 	

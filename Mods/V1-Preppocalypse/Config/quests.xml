@@ -2,6 +2,8 @@
 
 <!-- Vehicles -->
 
+	<set xpath="/quests/@quests_per_tier">1</set> <!-- For Testing Quest Progression -->
+
 	<set xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='groupQuestBicycle']/@id">groupQuestMinibike</set>
 
 	<append xpath="/quests/quest[@id='quest_tier3complete']">
@@ -1374,6 +1376,26 @@
 		<reward type="SkillPoints" value="1" chainreward="false"/>
 	</quest>
 	
+	<!-- Preppo Communication Tower Utility Worker -->
+	<quest id="quest_preppocommtower">
+		<property name="offer_key" value="quest_preppocommtower_offer"/>
+		<property name="name_key" value="quest_preppocommtower_name"/>
+		<property name="subtitle_key" value="quest_preppocommtower_subtitle"/>
+		<property name="description_key" value="quest_preppocommtower_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="hard"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieToolsUtilityWorkerPREPPER" value="25" phase="1"/>
+		
+		<reward type="Exp" value="12500"/>
+		<reward type="Item" id="casinoCoin" value="6250"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
 	<!-- Radiated Wasteland/Burnt Preppers as a group -->
 	<quest id="quest_radiatedpreppers">
 		<property name="offer_key" value="quest_radiatedpreppers_offer"/>
@@ -1387,7 +1409,7 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSMGArleneRadiatedPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliWightRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMagnumJanitorBubRadiatedPREPPER" value="100" phase="1"/>
+		<objective type="EntityKill" id="zombieSMGArleneRadiatedPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliWightRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMagnumJanitorBubRadiatedPREPPER,zombieToolsUtilityWorkerRadiatedPREPPER" value="100" phase="1"/>
 		
 		<reward type="Exp" value="50000"/>
 		<reward type="Item" id="casinoCoin" value="25000"/>
