@@ -504,8 +504,8 @@
 				<property name="Delay" value="0"/>
 				<property name="Use_time" value="0"/>
 				<property name="Sound_start" value="open_supply_crate"/>
-				<property name="Create_item" value="meleeToolSalvageT1Wrench,resourceWood,resourceRockSmall,resourceYuccaFibers,resourceFeather,meleeWpnBladeT1HuntingKnife,gun22HandgunT0Pistol,ammo22ShortBulletBall,modGunScopeSmall,drinkJarRedTea,foodBaconAndEggsAndAcornBiscuits,questRewardT1SkillMagazineBundle,vehicleBicyclePlaceable,resourceRepairKit"/>
-				<property name="Create_item_count" value="2-3,100,50,50,25,2-3,2-3,66,1,2,1,1,1,3"/>
+				<property name="Create_item" value="meleeToolSalvageT1Wrench,resourceWood,resourceRockSmall,resourceYuccaFibers,resourceFeather,meleeWpnBladeT1HuntingKnife,gun22HandgunT0Pistol,ammo22ShortBulletBall,modGunScopeSmall,drinkJarRedTea,foodBaconAndEggsAndAcornBiscuits,questRewardT1SkillMagazineBundle,vehicleBicyclePlaceable,resourceRepairKit,quest_prepperivstandscreamer01"/>
+				<property name="Create_item_count" value="2-3,100,50,50,25,2-3,2-3,66,1,2,1,1,1,3,1"/>
 			</property>
 		</item>
 	
