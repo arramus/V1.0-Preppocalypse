@@ -11,6 +11,38 @@
 
 	<append xpath="/gameevents">
 	
+	<!-- I.V. Stand Spawn Screamers -->
+	<action_sequence name="quest_prepperivstandscreamer_explosion_horde">
+		<property name="action_type" value="Game" />
+		<property name="target_type" value="Block" />
+		<property name="allow_while_dead" value="false" />
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated,zombieBigNightScreamerRadiated,zombieSmallNightScreamerRadiated"/>
+			<property name="single_choice" value="true"/>
+			<property name="spawn_count" value="1"/>
+			<property name="phase" value="0"/>
+			<property name="add_to_group" value="zombies"/>
+			<property name="safe_spawn" value="true"/>
+			<property name="min_distance" value="50"/>
+			<property name="max_distance" value="60"/>
+			<property name="spawn_type" value="WanderingHorde"/>
+			<property name="is_aggressive" value="false" />
+		</action>		
+		<action class="SpawnEntity">
+			<property name="entity_group" value="ScoutGSList"/>
+			<property name="spawn_count" value="4"/>
+			<property name="air_spawn" value="false"/>
+			<property name="add_to_group" value="zombies"/>
+			<property name="safe_spawn" value="true"/>
+			<property name="min_distance" value="50"/>
+			<property name="max_distance" value="60"/>
+			<property name="spawn_type" value="WanderingHorde"/>
+			<property name="is_aggressive" value="false" />
+		</action>
+		
+	</action_sequence>
+	
+	<!-- TWITCH INTEGRATION -->	
 	<!-- Single Preppo Zombies -->
 
 	<action_sequence name="spawn_preppomeleeZombie" template="spawn_single">
