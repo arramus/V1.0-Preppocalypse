@@ -2,7 +2,7 @@
 
 <!-- Vehicles -->
 
-	<!--set xpath="/quests/@quests_per_tier">1</set> <!-- For Testing Quest Progression -->
+	<!--set xpath="/quests/@quests_per_tier">1</set--> <!-- For Testing Quest Progression -->
 
 	<set xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='groupQuestBicycle']/@id">groupQuestMinibike</set>
 
