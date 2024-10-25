@@ -347,6 +347,12 @@
 		</effect_group>		
 	</recipe>
 	
+	<recipe name="foodSuperHoneyPopcorn" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="foodCropGraceCorn" count="2"/>
+		<ingredient name="foodHoneyComb" count="1"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+	</recipe>
+	
 	<recipe name="drinkJarBoneBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="resourceBone" count="4"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
@@ -488,20 +494,25 @@
 		<ingredient name="resourceHook" count="2"/>
 	</recipe>
 	
-	<recipe name="foodFriedCatfish" count="2" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
-		<ingredient name="resourceCatfish" count="1"/>
-		<ingredient name="foodCropPotato" count="3"/>
-		<ingredient name="resourceAnimalFat" count="2"/>
+	<recipe name="foodBreadingMix" craft_time="8" count="1">
 		<ingredient name="foodShamSandwich" count="1"/>
-		<ingredient name="foodEgg" count="2"/>	
+		<ingredient name="foodCropCorn" count="1"/>
 	</recipe>
 	
-	<recipe name="foodCatfishNuggetsOnRice" count="2" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<recipe name="foodFriedCatfish" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
 		<ingredient name="resourceCatfish" count="1"/>
-	    <ingredient name="foodAcornFlour" count="2"/>
-		<ingredient name="resourceAnimalFat" count="2"/>
+		<ingredient name="foodCropPotato" count="2"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="foodBreadingMix" count="1"/>
+		<ingredient name="foodEgg" count="1"/>	
+	</recipe>
+	
+	<recipe name="foodCatfishNuggetsOnRice" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<ingredient name="resourceCatfish" count="1"/>
+	    <ingredient name="foodAcornFlour" count="1"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
 		<ingredient name="foodWildRice" count="30"/>
-		<ingredient name="foodEgg" count="2"/>	
+		<ingredient name="foodEgg" count="1"/>	
 	</recipe>
 	
 	<recipe name="foodCrawfishBoil" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
