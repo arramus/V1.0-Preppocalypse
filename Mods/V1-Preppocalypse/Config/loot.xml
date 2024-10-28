@@ -203,6 +203,7 @@
 	<!-- *** Airdrop_Food -->	
 	<append xpath="/lootcontainers/lootgroup[@name='airdropfood']">
 		<item name="foodNavezganeHDR"/>
+		<item name="foodSuperCornSupper"/>
 	</append>
 	
 	<!-- *** twitch_foodT1 -->
@@ -237,6 +238,7 @@
 		<item name="foodBlueberryBreadPudding" count="2,4"/>
 		<item name="foodNavezganeHDR" count="2,4"/>
 		<item name="foodSuperMeatStew" count="2,4"/>
+		<item name="foodSuperCornSupper" count="2,4"/>
 	</append>
 	
 	<!-- *** twitch_drink -->

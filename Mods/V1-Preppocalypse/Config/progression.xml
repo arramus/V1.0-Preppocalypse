@@ -234,7 +234,7 @@
 			<unlock_entry item="foodShepardsPie,drinkJarGrandpasMoonshine" unlock_tier="2" />
 			<unlock_entry item="drinkJarGrandpasLearningElixir" unlock_tier="3" />
 			<unlock_entry item="foodSpaghetti,foodFishPieMashPeas" unlock_tier="4" />
-			<unlock_entry item="foodGumboStew" unlock_tier="5" />
+			<unlock_entry item="foodGumboStew,foodSuperCornSupper" unlock_tier="5" />
 		</display_entry>
 
 		<effect_group>
@@ -260,7 +260,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="foodShepardsPie,drinkJarGrandpasMoonshine"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="drinkJarGrandpasLearningElixir"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="foodSpaghetti,foodFishPieMashPeas"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="foodGumboStew"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="foodGumboStew,foodSuperCornSupper"/>
 		</effect_group>
 	</crafting_skill>
 	</insertAfter>

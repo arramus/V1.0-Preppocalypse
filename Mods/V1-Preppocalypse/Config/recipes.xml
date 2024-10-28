@@ -353,6 +353,13 @@
 		<ingredient name="resourceAnimalFat" count="1"/>
 	</recipe>
 	
+	<recipe name="foodSuperCornSupper" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="foodSuperMeatStew" count="1"/>
+		<ingredient name="foodSuperHoneyPopcorn" count="1"/>
+		<ingredient name="foodChickSticks" count="1"/>
+		<ingredient name="drinkJarPureMineralWater" count="1"/>
+	</recipe>
+	
 	<recipe name="drinkJarBoneBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="resourceBone" count="4"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
