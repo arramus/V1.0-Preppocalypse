@@ -187,7 +187,7 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']">
-		<item name="drinkCanPreppoSoda" loot_prob_template="med"/>
+		<item name="drinkCanPreppoSoda" loot_prob_template="medLow"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
@@ -309,7 +309,7 @@
 	<!-- Oakraven Fish Trap Loot -->
 	
 	<lootcontainer name="cntFishTrap" count="3,6" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
-		<item name="resourceCrawfish" count="15,35" prob="0.5"/>
+		<item name="resourceCrawfish" count="20,35" prob="0.5"/>
 		<item name="resourceCatfish" count="1,2" prob="0.5"/>
 		<item name="resourceYuccaFibers" count="10,30" prob="0.3"/>
 		<item name="foodWildWheat" count="10,20" prob="0.3"/>

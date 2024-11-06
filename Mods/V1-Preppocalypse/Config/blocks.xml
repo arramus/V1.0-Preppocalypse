@@ -454,7 +454,7 @@
 		<property name="GndAlign" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.LightLevelGrow" value="0"/>
-		<property name="PlantGrowing.GrowthRate" value="240"/> <!-- 4 days for 60 minute days - Domestic coops take precendent over nests -->
+		<property name="PlantGrowing.GrowthRate" value="300"/> <!-- 5 days for 60 minute days - Domestic coops take precendence over nests -->
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.Next" value="cntBirdnest"/>
