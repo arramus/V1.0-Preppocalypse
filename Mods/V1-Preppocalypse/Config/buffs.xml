@@ -138,7 +138,7 @@
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0,0.2,0.27" local_rotation="50,0,0" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Misc/snowball_FP_Prefab.prefab" local_offset="0,-0.03,0.27" local_rotation="0,0,0" parent_transform="Head"/>			
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Zombies/Zombies/corpse3Prefab.prefab" local_offset="0,0.5,0" local_rotation="0,0,0" parent_transform="Spine1"/>			
+				<!--triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Zombies/Zombies/corpse3Prefab.prefab" local_offset="0,0.5,0" local_rotation="0,0,0" parent_transform="Spine1"/--> <!-- Kinetic Unity error for outdated assets - Maybe later -->		
 			</effect_group>
 		</buff>
 		
