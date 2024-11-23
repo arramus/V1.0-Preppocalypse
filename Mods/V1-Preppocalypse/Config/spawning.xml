@@ -2,6 +2,9 @@
 
 <!-- *** BIOME_SPAWNING -->
 
+	<set xpath="/spawning/biome[@name='desert']/spawn[1]/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[2]/@maxcount">2</set>
+
 	<!-- *** PINE_FOREST_SPAWNS -->
 	<append xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesAll']/@notags">,oldwest,preppotown</append>
 	<append xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesNight']/@notags">,oldwest,preppotown</append>

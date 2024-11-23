@@ -436,6 +436,13 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Commercial/bookShelfSpeakerPrefab" local_offset="0,0.425,-0.2" local_rotation="0,180,0" parent_transform="Head"/>			
 			</effect_group>
 		</buff>
+		
+		<buff name="zombieBigSteveCrawlerDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
 
 		<buff name="zombieToolsUtilityWorkerPREPPERDeco" hidden="true">
 			<effect_group>								

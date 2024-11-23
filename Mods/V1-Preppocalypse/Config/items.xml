@@ -4830,6 +4830,69 @@
 	</effect_group>
 </item>
 
+		<item name="meleeHandZombieBigNightSteveCrawlerRadiatedFire">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Action0">
+				<property name="Delay" value=".7"/>
+				<!-- obsolete if rounds per minute exists -->
+				<property name="DamageEntity" value="20"/>
+				<property name="DamageBlock" value="150"/>
+				<property name="Buff" value="buffBurningZombie"/></property>
+			<property class="Action1">
+				<property name="Class" value="Vomit"/>
+				<!--property name="Hitmask_override" value="Arrow"/-->
+				<property name="Delay" value=".5"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="ammoProjectileZombieBigNightSteveCrawlerRadiatedFire"/>
+				<property name="Sound_warning" value=""/>
+				<property name="Sound_start" value=""/>
+				<property name="Sound_repeat" value=""/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value=""/>
+				<property name="Sound_reload" value=""/>
+				<property name="Buff" value="buffBurningZombie"/></property>
+			<effect_group name="meleeHandZombieBigNightSteveCrawlerRadiatedFire" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>  A16 .7,  50=1.2 -->
+				<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="2"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="15"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="50"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value="0.50" tags="buffBurningZombie"/>
+			</effect_group>
+		</item>
+		
+<item name="ammoProjectileZombieBigNightSteveCrawlerRadiatedFire">
+	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Molotov/molotov_thrownPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="15"/>
+		<property name="DamageBlock" value="10"/>
+		<property name="Explosion.ParticleIndex" value="10"/>
+		<property name="Explosion.Duration" value="8"/>
+		<property name="Explosion.RadiusEntities" value="2"/> <!-- damage radius for entities -->
+		<property name="Velocity" value="13"/>
+		<property name="FlyTime" value="6"/>
+		<property name="LifeTime" value="8"/>
+		<property name="CollisionRadius" value=".5"/>
+		<property name="Buff" value="buffBurningZombie"/>
+	</property>
+	<effect_group name="ammoProjectileZombieBigNightSteveCrawlerRadiatedFire" tiered="false">
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".01" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value="0.90" tags="buffBurningZombie"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="20"/><!--InfectionRadiated-->
+	</effect_group>
+</item>
+
 <!-- QUESTS -->
 
 	<!-- Admin Note item to restart quests if removed/bugging out -->

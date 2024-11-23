@@ -544,6 +544,7 @@ zombieSmallNightScreamerRadiated,entityclasses,Entity,,,Small Night Plasma Screa
 zombieBigNightScreamerRadiated,entityclasses,Entity,,,Big Night Plasma Screamer,,,,,,,,,,,,,
 zombieBigNightFatCopRadiated,entityclasses,Entity,,,Big Night Cop,,,,,,,,,,,,,
 zombieBigNightBurntSiren,entityclasses,Entity,,,Big Night Burnt Siren,,,,,,,,,,,,
+zombieBigNightSteveCrawlerRadiated,entityclasses,Entity,,,Big Night Molotov Crawler,,,,,,,,,,,,
 zombieToolsUtilityWorkerPREPPER,entityclasses,Entity,,,Preppo Tower Utility Worker,,,,,,,,,,,,
 zombieToolsUtilityWorkerRadiatedPREPPER,entityclasses,Entity,,,Radiated Preppo Tower Utility Worker,,,,,,,,,,,,
 zombieZombies,entityclasses,Entity,,,Zombies,,,,,,,,,,,,,

@@ -4016,6 +4016,56 @@
 	</effect_group>
 </entity_class>
 
+		<!-- *** ZOMBIE_BIG_NIGHT_CRAWLER_RADIATED -->
+<entity_class name="zombieBigNightSteveCrawlerRadiated" extends="zombieSteveCrawlerFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="SizeScale" value="1.55"/>
+	<property name="Tags" value="entity,zombie,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZCrawlerFeral.prefab"/>
+	<property name="Mass" value="180"/>
+	<property name="WalkType" value="22"/>
+	<property name="RotateToGround" value="false"/>
+
+	<!-- Gameplay zombieScreamerRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="MoveSpeedAggro" value="2.0, 2.35"/>
+	<property name="ExperienceGain" value="1750"/><!-- XP strong radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value=".3"/>
+	<property name="HandItem" value="meleeHandZombieBigNightSteveCrawlerRadiatedFire"/>
+	<property name="JumpMaxDistance" value="7, 9"/>
+	
+	<property name="AITask" value="
+	Leap|
+	BreakBlock|
+	ApproachDistraction|
+	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="thrownAmmoMolotovCocktail" tag="allToolsHarvest" count="1,2" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1750"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigSteveCrawlerDeco"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
 		<!-- Preppo Communications Tower Utility Worker -->
 
 <entity_class name="zombieToolsUtilityWorkerPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 10% hits and gains -->

@@ -44,6 +44,7 @@
 		zombieSmallNightScreamerRadiated, .175
 		zombieBigNightFatCopRadiated, .175
 		zombieBigNightBurntSiren, .175
+		zombieBigNightSteveCrawlerRadiated, .175
 		animalZombieBunnyPREPPER, .07
 		animalZombieSnakePREPPER, .07
 		animalZombieChickenPREPPER, .07
@@ -120,6 +121,7 @@
 		zombieBigNightScreamerRadiated, .175
 		zombieBigNightFatCopRadiated, .175
 		zombieBigNightBurntSiren, .175
+		zombieBigNightSteveCrawlerRadiated, .175
 		animalZombieBunnyPREPPER, .07
 		animalZombieSnakePREPPER, .07
 		animalZombieChickenPREPPER, .07
@@ -249,6 +251,7 @@
 		zombieBigNightScreamerRadiated, 1.25
 		zombieBigNightFatCopRadiated, 1.25
 		zombieBigNightBurntSiren, 1.25
+		zombieBigNightSteveCrawlerRadiated, .125
 		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
 		animalZombieChickenPREPPER, 1.25
@@ -355,10 +358,11 @@
 
 <!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
-		zombieBurntFeral, .1
-		zombieBurntRadiated, .05
+		zombieBurntFeral, .15
 		zombieSteveCrawlerFeral, .05
+		zombieBurntRadiated, .05
 		zombieBigNightBurntSiren, .025
+		zombieBigNightSteveCrawlerRadiated, .015
 		zombieCrispyPREPPER, .015
 		zombieScorcherPREPPER, .015
 		zombieWightRadiationShowerPREPPER, .01
@@ -1623,6 +1627,7 @@
 		zombieBigNightScreamerRadiated, .5
 		zombieBigNightFatCopRadiated, .5
 		zombieBigNightBurntSiren, .5
+		zombieBigNightSteveCrawlerRadiated, .5
 		animalDireFireWolf, .5
 		animalMiniDireWolf, .5
 	</csv> <!-- GS 147 -->
