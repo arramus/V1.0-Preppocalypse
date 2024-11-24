@@ -9,7 +9,7 @@
   <property name="ShowQuestClearCount" value="3" />
   <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="Tags" value="preppotown" />
-  <property name="DuplicateRepeatDistance" value="250" />
+  <property name="DuplicateRepeatDistance" value="500" />
   <property name="TraderArea" value="False" />
   <property name="YOffset" value="-7" />
   <property name="PrefabSize" value="25, 45, 25" />
