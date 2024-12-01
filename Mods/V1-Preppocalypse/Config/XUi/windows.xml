@@ -95,7 +95,7 @@
 		<sprite depth="1" sprite="ui_game_header_fill" pos="50,-3" width="380" height="37" type="sliced" color="50,50,50,220" />
 		<texture depth="8" texture="Textures/UI/Compass/overlay-{gamelanguage}" pos="50, -12" width="380" height="27" color="[iconColor]" name="compassTexture3" rect_size="0.25,1" rect_offset="{#compass_rotation / 360 + 0.0625 - 0.125},0" />
 		<texture depth="10" pos="239,0" width="35" height="35" pivot="center" texture="@modfolder:Textures/compass_pointer.png"/>
-		<texture pos="242,-33" depth="9" width="550" height="80" pivot="center" texture="@modfolder:Textures/border.png"/>
+		<texture pos="242,-22" depth="8" width="500" height="47" pivot="center" texture="@modfolder:Textures/border2.png"/>
 		<sprite pos="730,-13" sprite="" color="255,255,255,255" globalopacitymod="1.8">
 			<label depth="2" width="300" height="30" text="{daytitle}: [{daycolor}]{day}[-] {timetitle}: {time}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
 		</sprite>
