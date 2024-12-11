@@ -124,7 +124,7 @@
 		
 		<buff name="animalZombieChickenPREPPERDeco" hidden="true">
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="-0.3,-0.04,0" local_rotation="235,90,0" parent_transform="CHICKEN_ Head"/> <!-- -0.1,-0.02,0 -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.25,0.25" local_rotation="45,0,0" parent_transform="Head"/> <!-- -0.1,-0.02,0 -->
 			</effect_group>
 		</buff>
 		

@@ -1016,10 +1016,12 @@
 	<property name="Tags" value="entity,animal,zombie,hostile,rabbit,perkAT01,perkAT02,perkAT03"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="PhysicsBody" value="rabbit"/>
 	<property name="Class" value="EntityEnemyAnimal"/>
 	<property name="Mass" value="125"/>
-	<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
+	<property name="Weight" value="50"/>
+	<property name="Prefab" value="/Entities/Animals/Rabbit/animalRabbitPrefab"/>
 	<property name="SizeScale" value="2.5"/>
 
 	<property name="SoundRandom" value="mlionroam"/>
@@ -1115,12 +1117,12 @@
 	<property name="AITarget-5" value=""/>
 
 	<property name="WalkType" value="7"/>
-	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
-	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
-	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
-	<property name="SoundSense" value="Animals/Snake/snakesense"/>
-	<property name="SoundAlert" value="Animals/Snake/snakealert"/>
-	<property name="SoundAttack" value="Animals/Snake/snakeattack"/>
+	<property name="SoundHurt" value="snakepain"/>
+	<property name="SoundDeath" value="snakedeath"/>
+	<property name="SoundRandom" value="snakeroam"/>
+	<property name="SoundSense" value="snakesense"/>
+	<property name="SoundAlert" value="snakealert"/>
+	<property name="SoundAttack" value="snakeattack"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 
@@ -1164,19 +1166,21 @@
 			<property name="ExperienceGain" value="1000"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
-			<property name="SizeScale" value="0.9"/>
-			<property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab"/>		
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="SizeScale" value="0.9"/>	
+			<property name="Prefab" value="/Entities/Animals/Bird/animalBirdChickenPrefab"/>		
 			<property name="Class" value="EntityEnemyAnimal"/>
 			<property name="Parent" value="Animals"/>
 			<property name="Faction" value="animals"/>
 			<property name="PhysicsBody" value="chicken"/>
 			<property name="Mass" value="45"/>
 			<property name="Weight" value="30"/>
-			<property name="SoundHurt" value="Animals/Chicken/chickenpain"/>
-			<property name="SoundDeath" value="Animals/Chicken/chickendeath"/>
+			<property name="SoundHurt" value="chickenpain"/>
+			<property name="SoundDeath" value="chickendeath"/>
 			<property name="SwimOffset" value="2"/>
 			<property name="HasRagdoll" value="false"/>
 			<property name="HasDeathAnim" value="false"/>
+			<property name="CanBigHead" value="false" />
 			<property name="CanClimbLadders" value="true"/>
 	
 			<property name="HandItem" value="meleeHandanimalZombieChickenPREPPER"/>
@@ -1358,7 +1362,7 @@
 	<property name="HasRagdoll" value="true"/>
 	<property name="PhysicsBody" value="vulture"/>
 	<property name="Mass" value="70"/>
-	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
+	<property name="Prefab" value="/Entities/Animals/Vulture/animalBirdVulturePrefab"/>
 	<property name="SizeScale" value="1.7"/>
 
 	<!-- Gameplay  -->
@@ -1469,7 +1473,7 @@
 	<property name="HasRagdoll" value="true"/>
 	<property name="PhysicsBody" value="vulture"/>
 	<property name="Mass" value="15"/>
-	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
+	<property name="Prefab" value="/Entities/Animals/Vulture/animalBirdVulturePrefab"/>
 	<property name="SizeScale" value=".2"/>
 
 	<property name="AITask-1" value=""/>
