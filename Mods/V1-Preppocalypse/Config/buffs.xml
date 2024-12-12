@@ -115,8 +115,9 @@
 	
 		<buff name="zombieSpiderFeralGliderPREPPERDeco" hidden="true">
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,-.3,.25" local_rotation="-45,0,0" parent_transform="Spine"/> <!-- A19 Oakraven -->
-				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="Spine" transform_path="body_mesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalBirdVulture" local_offset="-0.1,0.3,0.2" local_rotation="-45,0,0" parent_transform="Spine"/> <!-- -45,0,0 -->
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="Spine" transform_path="bodyMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="Spine" transform_path="tailFeathersMesh"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="0.2,0,0" local_rotation="0,0,0" parent_transform="RightHand"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="-0.1,-0.15,0" local_rotation="0,0,0" parent_transform="LeftHand"/>			
 			</effect_group>
