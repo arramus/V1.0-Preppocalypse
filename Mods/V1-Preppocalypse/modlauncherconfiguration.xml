@@ -10,6 +10,7 @@ Features Include:
 - Upgraded and custom items, weapons, vehicles, and mods to facilitate survival against stronger hostiles
 - Oakraven Collection quality of life additions
 - Custom questing opportunities
+- Custom Preppo Town and Old West Expansion
 as well as other game play features that are in context with a Prepper’s experience of the afterwards.
   
 Brought to you by arramus, with an abundance of community support.
@@ -21,7 +22,7 @@ Brought to you by arramus, with an abundance of community support.
 		<RSS/>
         <Excludes></Excludes>
         <ReleaseNotes></ReleaseNotes>
-        <Discord></Discord>
+        <Discord>https://discord.gg/PFMY8rqQVs</Discord>
         <Donate></Donate>
         <DownloadMode>Clone</DownloadMode>
       <Downloads><Download>https://github.com/arramus/V1.0-Preppocalypse</Download></Downloads>   
