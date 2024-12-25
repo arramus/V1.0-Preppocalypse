@@ -1396,7 +1396,7 @@
 		<reward type="SkillPoints" value="1" chainreward="false"/>
 	</quest>
 	
-	<!-- Radiated Wasteland/Burnt Preppers as a group -->
+	<!-- Radiated Wasteland/Burnt Zombie Preppers as a group -->
 	<quest id="quest_radiatedpreppers">
 		<property name="offer_key" value="quest_radiatedpreppers_offer"/>
 		<property name="name_key" value="quest_radiatedpreppers_name"/>
@@ -1409,10 +1409,30 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSMGArleneRadiatedPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliWightRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMagnumJanitorBubRadiatedPREPPER,zombieToolsUtilityWorkerRadiatedPREPPER" value="100" phase="1"/>
+		<objective type="EntityKill" id="zombieRadiatedZombies,zombieSMGArleneRadiatedPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliWightRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMagnumJanitorBubRadiatedPREPPER,zombieToolsUtilityWorkerRadiatedPREPPER" value="100" phase="1"/>
 		
 		<reward type="Exp" value="50000"/>
 		<reward type="Item" id="casinoCoin" value="25000"/>
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+	</quest>
+	
+	<!-- Zombie Night Preppers as a group -->
+	<quest id="quest_nightpreppers">
+		<property name="offer_key" value="quest_nightpreppers_offer"/>
+		<property name="name_key" value="quest_nightpreppers_name"/>
+		<property name="subtitle_key" value="quest_nightpreppers_subtitle"/>
+		<property name="description_key" value="quest_nightpreppers_description"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="hard"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieNightZombies,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieSmallNightScreamerRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated,zombieBigNightBurntSiren,zombieBigNightSteveCrawlerRadiated" value="50" phase="1"/>
+		
+		<reward type="Exp" value="25000"/>
+		<reward type="Item" id="casinoCoin" value="12500"/>
 		<reward type="SkillPoints" value="2" chainreward="false"/>
 	</quest>
 

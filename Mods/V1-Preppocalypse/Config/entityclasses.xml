@@ -3999,7 +3999,7 @@
   <!-- Gameplay zombieBurnt -->
 	<property name="SightRange" value="10"/> 
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value="0.25, 0.4"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value="0.75, 1.25"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="HandItem" value="meleeHandZombieBurning"/>
 	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
 	
@@ -4135,10 +4135,20 @@
 	</effect_group>
 </entity_class>
 
-<!-- Fake Entity for Entity Elimination Quest for Localization of 'Zombies' as first pick -->
+<!-- Fake Entities for Entity Elimination Quest for Localization of 'Zombies' as first pick -->
 
 		<!-- *** ZOMBIE_ZOMBIES -->
 <entity_class name="zombieZombies" extends="zombieTemplateMale">
+	<property name="UserSpawnType" value="None"/>
+</entity_class>
+
+		<!-- *** ZOMBIE_RADIATED_ZOMBIES -->
+<entity_class name="zombieRadiatedZombies" extends="zombieTemplateMale">
+	<property name="UserSpawnType" value="None"/>
+</entity_class>
+
+		<!-- *** ZOMBIE_NIGHT_ZOMBIES -->
+<entity_class name="zombieNightZombies" extends="zombieTemplateMale">
 	<property name="UserSpawnType" value="None"/>
 </entity_class>
 

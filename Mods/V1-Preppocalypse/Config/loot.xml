@@ -108,11 +108,12 @@
 		<item name="quest_magnumjanitorbub"/>
 		<item name="quest_preppocommtower"/>
 		<item name="quest_radiatedpreppers"/>
+		<item name="quest_nightpreppers"/>
 		<item name="resourcePaper" count="25,50"/>
 		<item name="resourceOilShale" count="25,50"/>
 		<item name="resourceGlue" count="1,4"/>
 		<item name="resourceScrapLead" count="25,50"/>
-		<item name="resourceAcid" count="1"/>
+		<item name="resourceAcid" count="1,2"/>
 		<item name="resourceDuctTape" count="1,3"/>
 		<item name="resourceScrapBrass" count="25,50"/>
 		<item name="resourceGunPowder" count="25,50"/>
@@ -120,7 +121,7 @@
 		<item name="thrownAmmoMolotovCocktail" count="2,4"/>
 		<item name="thrownAmmoPipeBomb" count="2,4"/>
 		<item name="medicalFirstAidBandage" count="1,2"/>
-		<item name="foodNavezganeHDR" count="1"/>
+		<item name="foodNavezganeHDR" count="1,2"/>
 		<item group="vehicleModSchematics" count="1"/>		
 	</lootgroup>
 	</insertBefore>
@@ -170,6 +171,7 @@
 		<item name="quest_magnumjanitorbub"/>
 		<item name="quest_preppocommtower"/>
 		<item name="quest_radiatedpreppers"/>
+		<item name="quest_nightpreppers"/>
 	</append>
 	
 	<!-- Gun Safe drops three possible passes for books/quests notes to offset potential loot percentage bug for custom content and decline in regular books -->	

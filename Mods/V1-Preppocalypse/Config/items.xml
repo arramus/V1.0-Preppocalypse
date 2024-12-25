@@ -5231,7 +5231,7 @@
 			</property>
 		</item>
 		
-	<!-- Radiated Wasteland/Burnt Preppers as a group -->
+	<!-- Radiated Wasteland/Burnt Zombie Preppers as a group -->
 		<item name="quest_radiatedpreppers">
 			<property name="Extends" value="challengeQuestMaster"/>
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
@@ -5240,6 +5240,18 @@
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_radiatedpreppers"/>
+			</property>
+		</item>
+		
+	<!-- Zombie Night Preppers as a group -->
+		<item name="quest_nightpreppers">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
+			<property name="DescriptionKey" value="quest_nightpreppersDesc"/>
+			<property name="CustomIcon" value="quest_nightpreppers"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_nightpreppers"/>
 			</property>
 		</item>
 		
