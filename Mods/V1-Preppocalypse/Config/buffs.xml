@@ -258,6 +258,13 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="zombieAutoShotgunDarlenePREPPERDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab" local_offset="0.05,0.03,-0.05" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Auto Shotgun/autoShotgunPrefab.prefab" local_offset="-0.05,-0.03,0.05" local_rotation="7,-80,-90" parent_transform="LeftHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+		
 		<buff name="zombieWightRadiationShowerPREPPERAOE" hidden="true">
 			<damage_type value="radiation"/>
 			<stack_type value="replace"/>
