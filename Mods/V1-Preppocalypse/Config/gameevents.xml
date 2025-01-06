@@ -51,7 +51,7 @@
 	</action_sequence>
 	
 	<action_sequence name="spawn_prepporangedZombie" template="spawn_single">
-		<variable name="zombiename" value="zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER" />
+		<variable name="zombiename" value="zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER,zombieMagnumJanitorBubPREPPER,zombieAutoShotgunDarlenePREPPER" />
 		<variable name="alertsound" value="zombiemalealert" />
 	</action_sequence>
 	
@@ -61,7 +61,7 @@
 	</action_sequence>
 	
 	<action_sequence name="spawn_preppobossyZombie" template="spawn_single">
-		<variable name="zombiename" value="zombieWightRadiationShowerPREPPER,zombieBogeymanPREPPER,zombieCrispyPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated" />
+		<variable name="zombiename" value="zombieWightRadiationShowerPREPPER,zombieBogeymanPREPPER,zombieCrispyPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieSmallNightScreamerRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated,zombieBigNightSteveCrawlerRadiated,zombieBigNightBurntSiren" />
 		<variable name="alertsound" value="zombiemalealert" />
 	</action_sequence>
 	
@@ -84,7 +84,7 @@
 	</action_sequence>
 	
 	<action_sequence name="group_prepporanged" template="spawn_group">
-		<variable name="zombiename" value="zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER" />
+		<variable name="zombiename" value="zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER,zombieMagnumJanitorBubPREPPER,zombieAutoShotgunDarlenePREPPER" />
 		<variable name="spawncount" value="5" />
 		<variable name="alertsound" value="wolfalert" />
 		<variable name="gamestage_extra1" value="150" />
@@ -104,7 +104,7 @@
 	</action_sequence>
 
 	<action_sequence name="group_preppobossy" template="spawn_group">
-		<variable name="zombiename" value="zombieWightRadiationShowerPREPPER,zombieBogeymanPREPPER,zombieCrispyPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated" />
+		<variable name="zombiename" value="zombieWightRadiationShowerPREPPER,zombieBogeymanPREPPER,zombieCrispyPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieSmallNightScreamerRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated,zombieBigNightSteveCrawlerRadiated,zombieBigNightBurntSiren" />
 		<variable name="spawncount" value="5" />
 		<variable name="alertsound" value="Animals/Bear/bearattack" />
 		<variable name="gamestage_extra1" value="150" />

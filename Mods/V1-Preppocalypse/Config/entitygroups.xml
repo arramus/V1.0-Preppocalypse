@@ -39,12 +39,12 @@
 
 	<!-- *** BIOME_ZOMBIES_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
+		zombieBigNightBurntSiren, .25
 		zombieBigNightBikerRadiated, .2
 		zombieBigNightWightRadiated, .2
 		zombieBigNightScreamerRadiated, .2
 		zombieSmallNightScreamerRadiated, .2
 		zombieBigNightFatCopRadiated, .2
-		zombieBigNightBurntSiren, .2
 		zombieBigNightSteveCrawlerRadiated, .2
 		animalZombieBunnyPREPPER, .085
 		animalZombieSnakePREPPER, .085
@@ -118,12 +118,12 @@
 
 	<!-- *** BIOME_ZOMBIES_FOREST_DOWNTOWN_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']/text()" delim="\n" op="add" >
+		zombieBigNightBurntSiren, .2
 		zombieBigNightBikerRadiated, .175
 		zombieBigNightWightRadiated, .175
 		zombieSmallNightScreamerRadiated, .175
 		zombieBigNightScreamerRadiated, .175
 		zombieBigNightFatCopRadiated, .175
-		zombieBigNightBurntSiren, .175
 		zombieBigNightSteveCrawlerRadiated, .175
 		animalZombieBunnyPREPPER, .07
 		animalZombieSnakePREPPER, .07
@@ -252,12 +252,12 @@
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
+		zombieBigNightBurntSiren, 1.5
 		zombieBigNightBikerRadiated, 1.25
 		zombieBigNightWightRadiated, 1.25
 		zombieSmallNightScreamerRadiated, 1.25
 		zombieBigNightScreamerRadiated, 1.25
 		zombieBigNightFatCopRadiated, 1.25
-		zombieBigNightBurntSiren, 1.25
 		zombieBigNightSteveCrawlerRadiated, .125
 		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
