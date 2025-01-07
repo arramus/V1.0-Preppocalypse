@@ -400,6 +400,20 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.13,-0.07,0" local_rotation="60,10,0" parent_transform="LeftHand"/>				
 			</effect_group>
 		</buff>
+		
+		<buff name="zombieBigBikersJetDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Vehicles/Car/motorPrefab.prefab" local_offset="0,0.55,-0.5" local_rotation="90,0,180" parent_transform="Spine1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/hoistChainPrefab" local_offset="0,-0.3,-0.5" local_rotation="0,0,0" parent_transform="Spine1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/hoistHookPrefab" local_offset="0,-0.5,-0.5" local_rotation="0,0,0" parent_transform="Spine1"/>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/pickaxe_steelPrefab.prefab" local_offset="0,0.4,0" local_rotation="0,90,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/hoistChainPrefab" local_offset="0,0.4,0" local_rotation="0,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity"  local_offset="-0,0.1,.03" local_rotation="0,0,0" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Head" />				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0.1,0.02,-0.09" local_rotation="255,10,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.13,-0.07,0" local_rotation="60,10,0" parent_transform="LeftHand"/>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" local_offset="0.05,-0.2,-0.85" local_rotation="0,0,0" parent_transform="Spine1"/>
+			</effect_group>
+		</buff>
 
 		<buff name="zombieBigWightsDeco" hidden="true">
 			<effect_group>			

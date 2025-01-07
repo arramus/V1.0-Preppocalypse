@@ -4846,6 +4846,77 @@
 
 <!-- Big Night Melee -->
 
+	<item name="meleeHandZombieBigNightJetBikerRadiated"> <!-- Using ammoProjectileZombieVomit as base -->
+		<property name="Extends" value="meleeHandMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="Degradation" value="99999" param1="true"/>
+		<property class="Action0">
+			<property name="Range" value="1.75"/>
+			<property name="Sound_start" value="swoosh"/>			
+			<property name="DamageEntity" value="35"/>
+			<property name="DamageBlock" value="150"/>
+		</property>
+		<property class="Action1"> <!-- UseAction -->		
+			<property name="Class" value="Vomit"/>
+			<property name="Hitmask_override" value="Arrow"/>
+			<property name="Delay" value=".3"/> <!-- obsolete if rounds per minute exists -->
+			<property name="Range" value="200"/>
+			<property name="Infinite_ammo" value="true"/>
+			<property name="Magazine_items" value="ammoProjectileZombieBigNightJetBikerRadiated"/>
+			<!-- property name="Sound_warning" value="hulkvomitwarning"/-->
+			<property name="Sound_start" value="wooddestroy"/> <!-- Wooden Axe -->		
+		</property>
+		<effect_group name="meleeHandZombieBigNightJetBikerRadiated" tiered="false">
+			<passive_effect name="ModSlots" operation="base_set" value="0"/>
+			<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+			<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+			<passive_effect name="MaxRange" operation="base_set" value="100"/>
+			<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+			<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+			<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.5"/>
+			<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.5"/>
+			<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="0.5"/>
+
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+				buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+				weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+				<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+		</effect_group>
+	</item>
+
+	<item name="ammoProjectileZombieBigNightJetBikerRadiated">
+		<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="CreativeMode" value="None"/>
+		<property class="Action1">
+			<property name="Class" value="Projectile"/>
+			<property name="DamageEntity" value="35"/>
+			<property name="DamageBlock" value="50"/>
+			<!-- property name="Explosion.ParticleIndex" value="7"/ -->
+			<property name="Velocity" value="15"/>
+			<property name="FlyTime" value="2"/>
+			<property name="LifeTime" value="4"/>
+			<property name="CollisionRadius" value=".1"/>
+			<property name="DamageBonus.earth" value="0"/>
+			<!--property name="Buff" value="buffInfectionCatch"/-->
+			<property name="Buff" value="buffInjuryKnockdown01"/>
+		</property>
+		<effect_group name="ammoProjectileZombieBigNightJetBikerRadiated" tiered="false">
+			<passive_effect name="ModSlots" operation="base_set" value="0"/>
+			<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+			<passive_effect name="BuffProcChance" operation="base_set" value=".001" tags="buffInfectionCatch"/>
+			<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryKnockdown01"/>			
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+				<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+		</effect_group>
+	</item>
+
 		<item name="meleeHandZombieBigNightScreamerRadiatedPlasma">
 			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>

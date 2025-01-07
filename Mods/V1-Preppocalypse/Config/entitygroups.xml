@@ -41,6 +41,7 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
 		zombieBigNightBurntSiren, .25
 		zombieBigNightBikerRadiated, .2
+		zombieBigNightJetBikerRadiated, .2
 		zombieBigNightWightRadiated, .2
 		zombieBigNightScreamerRadiated, .2
 		zombieSmallNightScreamerRadiated, .2
@@ -120,6 +121,7 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']/text()" delim="\n" op="add" >
 		zombieBigNightBurntSiren, .2
 		zombieBigNightBikerRadiated, .175
+		zombieBigNightJetBikerRadiated, .175
 		zombieBigNightWightRadiated, .175
 		zombieSmallNightScreamerRadiated, .175
 		zombieBigNightScreamerRadiated, .175
@@ -254,6 +256,7 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
 		zombieBigNightBurntSiren, 1.5
 		zombieBigNightBikerRadiated, 1.25
+		zombieBigNightJetBikerRadiated, 1.25
 		zombieBigNightWightRadiated, 1.25
 		zombieSmallNightScreamerRadiated, 1.25
 		zombieBigNightScreamerRadiated, 1.25
@@ -1673,6 +1676,7 @@
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieDemolition')]/text()" delim="\n" op="add">
 		zombieBigNightBikerRadiated, .5
+		zombieBigNightJetBikerRadiated, .5
 		zombieBigNightWightRadiated, .5
 		zombieSmallNightScreamerRadiated, .5
 		zombieBigNightScreamerRadiated, .5
