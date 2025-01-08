@@ -104,7 +104,14 @@
 			<effect_group>		
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/animals/catfish/animalcatfish" local_offset="-0.15,-0.19,0.49" local_rotation="270,0,90" parent_transform="Head"/>
 			</effect_group>
-		</buff>	
+		</buff>
+		
+		<buff name="animalDireFireWolfDeco" hidden="true">
+			<effect_group>		
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" local_offset="0,-0.05,0.05" local_rotation="90,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" local_offset="0,-0.05,0.05" local_rotation="90,0,0" parent_transform="Head"/>
+			</effect_group>
+		</buff>
 	
 		<buff name="zombieSpiderFeralBomberPREPPERDeco" hidden="true">
 			<effect_group>

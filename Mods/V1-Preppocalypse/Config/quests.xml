@@ -682,9 +682,10 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 
-			<objective type="EntityKill" id="animalMiniDireWolf" value="5"/>
-			<objective type="EntityKill" id="animalDireWolf" value="4"/>
-			<objective type="EntityKill" id="animalDireFireWolf" value="3"/>
+			<objective type="EntityKill" id="animalMiniDireWolf" value="4"/>
+			<objective type="EntityKill" id="animalDireWolf" value="3"/>
+			<objective type="EntityKill" id="animalDireFireWolf" value="2"/>
+			<objective type="EntityKill" id="animalGiantDireFireWolf" value="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunRifleT2LeverActionRifleSwissVetterli"/>
 		
 		<reward type="SkillPoints" value="2" chainreward="false"/>

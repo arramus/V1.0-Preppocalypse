@@ -4872,10 +4872,10 @@
 			<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 			<passive_effect name="MaxRange" operation="base_set" value="100"/>
 			<passive_effect name="MagazineSize" operation="base_set" value="2"/>
-			<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-			<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.5"/>
-			<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.5"/>
-			<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="0.5"/>
+			<passive_effect name="BurstRoundCount" operation="base_set" value="2"/>
+			<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
+			<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
+			<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="5"/>
 
 			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
 				buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
