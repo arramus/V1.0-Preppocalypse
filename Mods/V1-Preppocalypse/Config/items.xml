@@ -902,6 +902,8 @@
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="134"/>
 	<property name="UnlockedBy" value="craftingFood"/>
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -922,6 +924,36 @@
 	</effect_group>
 </item>
 
+<item name="foodRoastChicken">
+	<property name="Tags" value="food,foodSkill,fitness,farmerFoodBonus"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="110"/>
+	<property name="UnlockedBy" value="craftingFood"/>
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Smell" value="largeSmell"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="20">
+			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="15"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
 <item name="foodMushroomRice">
 	<property name="Tags" value="food,foodSkill,fitness,farmerFoodBonus"/>
 	<property name="HoldType" value="31"/>
@@ -934,6 +966,8 @@
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="134"/>
 	<property name="UnlockedBy" value="craftingFood"/>
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -1193,6 +1227,8 @@
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="124"/>
 	<property name="UnlockedBy" value="craftingFood"/><!-- perkMasterChef,foodBlueberryPieSchematic, -->
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -1523,6 +1559,8 @@
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="140"/>
 	<property name="UnlockedBy" value="craftingFood"/><!-- perkMasterChef,foodHoboStewSchematic, -->
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -1586,6 +1624,8 @@
 	<property name="CraftingIngredientTime" value="10"/>
 	<!-- 14 is large round hold -->
 	<property name="UnlockedBy" value="craftingFood"/><!-- perkMasterChef,foodGumboStewSchematic, -->
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -1617,6 +1657,8 @@
 	<property name="CraftingIngredientTime" value="10"/>
 	<!-- 14 is large round hold -->
 	<property name="UnlockedBy" value="craftingFood"/><!-- perkMasterChef,foodGumboStewSchematic, -->
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -1954,6 +1996,8 @@
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="134"/>
 	<!--property name="UnlockedBy" value="perkMasterChef"/-->
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2125,6 +2169,8 @@
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="134"/>
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2158,6 +2204,8 @@
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="72"/>
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2226,6 +2274,8 @@
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="140"/>
 	<property name="UnlockedBy" value="craftingFood"/><!-- perkMasterChef,foodHoboStewSchematic, -->
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2255,6 +2305,8 @@
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="144"/>
 	<property name="UnlockedBy" value="craftingFood"/><!-- perkMasterChef,foodMeatStewSchematic, -->
+	<property name="SoundPickup" value="food_bowl1_grab"/>
+	<property name="SoundPlace" value="food_bowl1_place"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>

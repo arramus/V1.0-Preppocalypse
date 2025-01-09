@@ -398,6 +398,12 @@
 	<ingredient name="foodCropPumpkin" count="1"/>
 	</recipe>
 	
+	<recipe name="foodRoastChicken" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="GrownChicken" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	</recipe>
+	
 	<recipe name="foodMushroomRice" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
 	<ingredient name="foodCanChicken" count="1"/>
 	<ingredient name="foodWildRice" count="20"/>

@@ -196,10 +196,11 @@
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
 		<item name="foodChickenStew"/>
+		<item name="foodRoastChicken"/>
 		<item name="foodMushroomRice"/>
 		<item name="foodPrepperPotPie"/>
 		<item name="foodGritsAndBits"/>
-		<item name="foodHoneyPumpkinPie"/>		
+		<item name="foodHoneyPumpkinPie"/>
 		<item name="foodBlueberryBreadPudding"/>
 		<item name="foodSuperMeatStew"/>
 	</append>
@@ -223,6 +224,7 @@
 	<!-- *** twitch_foodT2 -->
 	<append xpath="/lootcontainers/lootgroup[@name='twitch_foodT2']">
 		<item name="foodChickenStew" count="2,4"/>
+		<item name="foodRoastChicken" count="2,4"/>
 		<item name="foodMushroomRice" count="2,4"/>
 		<item name="foodPrepperPotPie" count="2,4"/>
 		<item name="foodGritsAndBits" count="2,4"/>
@@ -235,6 +237,7 @@
 	<!-- *** twitch_foodT3 -->
 	<append xpath="/lootcontainers/lootgroup[@name='twitch_foodT3']">
 		<item name="foodChickenStew" count="2,4"/>
+		<item name="foodRoastChicken" count="2,4"/>
 		<item name="foodMushroomRice" count="2,4"/>
 		<item name="foodPrepperPotPie" count="2,4"/>
 		<item name="foodGritsAndBits" count="2,4"/>
@@ -340,8 +343,8 @@
 	
 	<lootcontainer name="EggsReady" count="1" size="6,2" destroy_on_close="true" sound_open="UseActions/Chicken6Sounds" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="foodEgg" count="2,5" prob="1"/>
+		<item name="GrownChicken" count="1,2" prob="1"/>
 		<item name="resourceFeather" count="3,8" prob="1"/>
-		<item name="GrownChicken" count="1,2" prob="0.8"/>
 	</lootcontainer>
 	</append>
 	
