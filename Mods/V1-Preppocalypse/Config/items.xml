@@ -1,6 +1,14 @@
 <Preppocalypse>
 
 	<!-- VANILLA TWEAKS and TOGGLES -->
+	<!-- Perk Penetrator for 44AP with additional Dead Eye Perk Hookup -->	
+	<append xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@tags">,perkDeadEye</append>
+	<append xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group/passive_effect[@name='EntityPenetrationCount']/@tags">,perkDeadEye</append>
+	<append xpath="/items/item[@name='ammo44MagnumBulletHP']/effect_group/passive_effect[@name='EntityDamage']/@tags">,perkDeadEye</append>
+	<append xpath="/items/item[@name='ammo44MagnumBulletHP']/effect_group/passive_effect[@name='EntityPenetrationCount']/@tags">,perkDeadEye</append>
+	<append xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityDamage']/@tags">,perkDeadEye</append>
+	<append xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='TargetArmor']/@tags">,perkDeadEye</append>
+	<append xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityPenetrationCount']/@tags">,perkDeadEye</append>	
 	<!-- Zombie Reach Adjust KhaineGB -->
 	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
@@ -753,6 +761,27 @@
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkDeadEye">
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffEnforcerSetBonus"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".05">
+			<requirement name="ArmorGroupLowestQuality" group_name="groupEnforcer" operation="Equals" value="1"/>
+		</passive_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1">
+			<requirement name="ArmorGroupLowestQuality" group_name="groupEnforcer" operation="Equals" value="2"/>
+		</passive_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".15">
+			<requirement name="ArmorGroupLowestQuality" group_name="groupEnforcer" operation="Equals" value="3"/>
+		</passive_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".2">
+			<requirement name="ArmorGroupLowestQuality" group_name="groupEnforcer" operation="Equals" value="4"/>
+		</passive_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".25">
+			<requirement name="ArmorGroupLowestQuality" group_name="groupEnforcer" operation="Equals" value="5"/>
+		</passive_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".5">
+			<requirement name="ArmorGroupLowestQuality" group_name="groupEnforcer" operation="Equals" value="6"/>
+		</passive_effect>
 	</effect_group>
 </item>
 
