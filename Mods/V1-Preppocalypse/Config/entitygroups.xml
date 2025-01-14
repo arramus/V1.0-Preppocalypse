@@ -967,6 +967,50 @@
 		zombieToolsUtilityWorkerPREPPER, .75
 	</entitygroup>
 	
+	<!-- Prepper Mixed Dire Wolf Entities -->
+	
+	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS01">
+		animalMiniDireWolf
+		animalDireWolf
+		animalDireFireWolf, .2
+		animalGiantDireFireWolf, .1
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS50">
+		animalMiniDireWolf
+		animalDireWolf
+		animalDireFireWolf, .3
+		animalGiantDireFireWolf, .15
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS100">
+		animalMiniDireWolf
+		animalDireWolf
+		animalDireFireWolf, .5
+		animalGiantDireFireWolf, .2
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS200">
+		animalMiniDireWolf
+		animalDireWolf
+		animalDireFireWolf, .75
+		animalGiantDireFireWolf, .35
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS400">
+		animalMiniDireWolf
+		animalDireWolf
+		animalDireFireWolf
+		animalGiantDireFireWolf, .5	
+	</entitygroup>
+	
+	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS800">
+		animalMiniDireWolf
+		animalDireWolf
+		animalDireFireWolf
+		animalGiantDireFireWolf, .75
+	</entitygroup>
+	
 	</append>
 	
 	<!-- *** INTEGRATION FOR ANIMALS -->

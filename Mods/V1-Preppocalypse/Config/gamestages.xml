@@ -124,6 +124,8 @@
 	<group name="Prepper_Mixed_Animal_Entities" spawner="PrepperMixedAnimalEntities"/>
 	<!-- Prepper Communications Tower Utility Worker -->
 	<group name="Prepper_Comm_Tower_Entities" spawner="PrepperCommTowerEntities"/>
+	<!-- Prepper Mixed Dire Wolf Entities -->
+	<group name="Prepper_Mixed_Dire_Wolf_Entities" spawner="PrepperMixedDireWolfEntities"/>
 	
 	<!-- Prepper Mixed Entities for GS -->
 	<spawner name="PrepperMixedEntities">
@@ -232,6 +234,28 @@
 		</gamestage>
 		<gamestage stage="800">
 			<spawn group="PrepperCommTowerEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Mixed Dire Wolf Entities -->
+	<spawner name="PrepperMixedDireWolfEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
 		</gamestage>
 	</spawner>
 	
