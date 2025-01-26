@@ -470,6 +470,13 @@ ammoBundle44MagnumBulletSilver,items,Ammo,,,Box of Silver Vetterli .44 Magnum Am
 ammoBundle44MagnumBulletSilverDesc,items,Ammo,,,"Silver Vetterli .44 Magnum Ammo is only used in the Swiss Vetterli rifle. Crafted on the Prepper Ammo Press. It is a highly penetrative round for extreme occasions.",,"Silberne Vetterli .44 Magnum-Munition wird nur im Schweizer Vetterli-Gewehr verwendet. Hergestellt mit der Prepper Munitionspresse. Es handelt sich um eine äußerst durchschlagskräftige Patrone für extreme Gelegenheiten.",,,,,,,,,,,
 ammo22ShortBulletBall,items,Ammo,,,.22 Short Ammo,,.22 Short Munition,,,,,,,,,,,
 ammo22ShortBulletBallDesc,items,Ammo,,,"A .22 Short round used as firearm ammunition. Can be crafted in the backpack, ammo press, or workbench.",,"Eine .22 Short-Patrone, die als Schusswaffenmunition verwendet wird. Kann im Rucksack, in der Munitionspresse oder an der Werkbank hergestellt werden.",,,,,,,,,,,
+ammo22ShortBulletHP,items,Ammo,,,HiPower .22 Short Ammo,,HiPower-.22 Short Munition,,,,,,,,,,,
+ammo22ShortBulletHPDesc,items,Ammo,,,"A HiPower .22 Short round used as firearm ammunition. Can be crafted in the backpack, ammo press, or workbench.",,"Eine HiPower-.22 Short-Patrone, die als Schusswaffenmunition verwendet wird. Kann im Rucksack, in der Munitionspresse oder an der Werkbank hergestellt werden.",,,,,,,,,,,
+ammo22ShortBulletAP,items,Ammo,,,AP .22 Short Ammo,,Panzerbrechende .22 Short Munition,,,,,,,,,,,
+ammo22ShortBulletAPDesc,items,Ammo,,,"An AP .22 Short round used as firearm ammunition. Can be crafted in the backpack, ammo press, or workbench.",,"Eine Panzerbrechende .22 Short-Patrone, die als Schusswaffenmunition verwendet wird. Kann im Rucksack, in der Munitionspresse oder an der Werkbank hergestellt werden.",,,,,,,,,,,
+ammoBundle22ShortBulletBall,items,Ammo,,,Box of .22 Short Ammo (100),,Kiste mit .22 Short Munition (100),,,,,,,,,,,
+ammoBundle22ShortBulletHP,items,Ammo,,,Box of HP .22 Short Ammo (100),,Kiste mit HiPower-.22 Short Munition (100),,,,,,,,,,,
+ammoBundle22ShortBulletAP,items,Ammo,,,Box of AP .22 Short Ammo (100),,Kiste mit Panzerbrechende .22 Short Munition (100),,,,,,,,,,,
 
 CactusTrap,blocks,Block,,,Trap - Cactus,,Falle - Kaktus,,,,,,,,,,,
 CactusTrapDesc,blocks,Block,,,"This Cactus Trap can be placed on a surface. It will damage both zombies and players with bleed damage. Can be repaired and picked up.",,"Diese Kaktusfalle kann auf einer Oberfläche platziert werden. Es fügt sowohl Zombies als auch Spielern Blutungsschaden zu. Kann repariert und abgeholt werden.",,,,,,,,,,,

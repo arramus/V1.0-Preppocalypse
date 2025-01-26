@@ -18,6 +18,17 @@
 	<!-- Adding Rocket Fire variant for Rocket Launcher -->
 	<append xpath="//crafting_skill[@name='craftingExplosives']/display_entry[@icon='ammoRocketFrag']/unlock_entry/@item">,ammoRocketFire</append>
 	<append xpath="//crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@level='45,100']/@tags">,ammoRocketFire</append>
+	
+	<!-- Adding .22 Short Ammo HP and AP to Pistol Pete Perk Books -->
+	<append xpath="/progression/perks/book[@name='perkPistolPeteHPAmmo']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo22ShortBulletHP"/>
+	</append>
+	<append xpath="/progression/perks/book[@name='perkPistolPeteAPAmmo']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo22ShortBulletAP"/>
+	</append>
+	<append xpath="/progression/perks/book[@name='perkPistolPeteComplete']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle22ShortBulletBall,ammoBundle22ShortBulletHP,ammoBundle22ShortBulletAP"/>
+	</append>
 
 	<remove xpath="/progression/perks/perk[@name='perkTreasureHunter']"/>
 	<remove xpath="/progression/perks/perk[@name='perkRuleOneCardio']"/>

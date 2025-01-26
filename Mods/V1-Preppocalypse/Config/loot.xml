@@ -23,8 +23,8 @@
 	
 	<!-- Adding Double Trouble Pistol to toilet and adding Quality Tier from 1 - 5 based on V1 parameters -->
 	<set xpath="/lootcontainers/lootcontainer[@name='toilet']/@loot_quality_template">qualBaseTemplate</set> <!-- Toilet, all tiered items were QL 1 -->
-	<append xpath="/lootcontainers/lootgroup[@name='groupToilet02']">
-	<item name="gun22HandgunT0Pistol" count="1" loot_prob_template="low"/>
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet01']">
+	<item name="gun22HandgunT0Pistol" count="1" loot_prob_template="veryLow"/>
 	</append>
 	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
@@ -32,6 +32,22 @@
 	<!-- *** Rocket Ammo -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRocket']">
 	<item name="ammoRocketFire" count="1"/>
+	</append>
+	
+	<!-- *** .22 Short Ammo -->
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='group9mmSmall']">
+	<lootgroup name="group22ShortSmall">
+	<item name="ammo22ShortBulletBall" count="8,12" loot_stage_count_mod="0.01"/>		
+	</lootgroup>
+	</insertBefore>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmall']">
+	<item group="group22ShortSmall"/>
+	</append>
+
+	<!-- Adding .22 Short Ammo to Night Stand -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupNightstand01']">
+	<item group="group22ShortSmall" loot_prob_template="veryLow"/>
 	</append>
 	
 	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	

@@ -823,6 +823,106 @@
 	</effect_group>
 </item>
 
+<item name="ammoBundle22ShortBulletBall">
+	<property name="Extends" value="ammoBundleMaster"/>
+	<property name="CustomIcon" value="ammo22ShortBulletBall"/>
+	<property name="Stacknumber" value="100"/> <!-- STK ammobundle high -->
+	<property name="EconomicValue" value="400"/>
+	<!--property name="TraderStageTemplate" value="ammoTier1"/-->
+	<property name="Group" value="Ammo/Weapons,Ammo,RegularAmmo,Ranged Weapons"/>	
+	
+	<property class="Action0">
+		<property name="Create_item" value="ammo22ShortBulletBall"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="ammo22ShortBulletHP">
+	<property name="Extends" value="ammo22ShortBulletBall"/>
+	<property name="Tags" value="ammo9mm"/>
+	<property name="DisplayType" value="ammoBulletHP"/>
+	<property name="EconomicValue" value="7"/> <!-- Default 14 -->
+	<property name="TraderStageTemplate" value="ammoTier2"/><!-- ammo9mmBulletHP -->
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+	<property name="DescriptionKey" value="ammo22ShortBulletHPDesc"/>
+	<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/> <!-- BOOK_PERK -->
+	<property name="SoundPickup" value="bullets_grab"/>
+	<property name="SoundPlace" value="bullets_place"/>
+	<effect_group name="ammo9mmBulletHP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="18" tags="perkGunslinger,9mmGun"/> <!-- Default 35 -->
+		<passive_effect name="BlockDamage" operation="base_set" value="4" tags="perkGunslinger"/> <!-- Default 7 -->
+		<passive_effect name="BlockDamage" operation="base_add" value="8" tags="barrelExplosive"/> <!-- Default 17 -->
+		<!-- Not supported at this time. If you ask it will be a long answer. It's complicated. <passive_effect name="PiercingProtection" target="other" operation="perc_set" value=".5"/> -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+</item>
+
+<item name="ammoBundle22ShortBulletHP">
+	<property name="Extends" value="ammoBundleMaster"/>
+	<property name="CustomIcon" value="ammo22ShortBulletHP"/>
+	<property name="Stacknumber" value="100"/> <!-- STK ammobundle high -->
+	<property name="EconomicValue" value="700"/>
+	<!--property name="TraderStageTemplate" value="ammoTier1"/-->
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>	
+	
+	<property class="Action0">
+		<property name="Create_item" value="ammo22ShortBulletHP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="ammo22ShortBulletAP">
+	<property name="Extends" value="ammo22ShortBulletBall"/>
+	<property name="Tags" value="ammo9mm"/>
+	<property name="DisplayType" value="ammoBulletAP"/>
+	<property name="EconomicValue" value="7"/> <!-- Default 14 -->
+	<property name="TraderStageTemplate" value="ammoTier3"/><!-- ammo9mmBulletAP -->
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+	<property name="DescriptionKey" value="ammo22ShortBulletAPDesc"/>
+	<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/> <!-- BOOK_PERK -->
+	<property name="SoundPickup" value="bullets_grab"/>
+	<property name="SoundPlace" value="bullets_place"/>
+	<effect_group name="ammo9mmBulletAP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="19" tags="perkGunslinger,9mmGun"/> <!-- Default 38 -->
+		<passive_effect name="BlockDamage" operation="base_set" value="4" tags="perkGunslinger"/> <!-- Default 8 -->
+		<passive_effect name="BlockDamage" operation="base_add" value="8" tags="barrelExplosive"/> <!-- Default 16 -->
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkGunslinger"/>
+		<display_value name="dTargetArmor" value="-.5"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkGunslinger"/>
+		<display_value name="dTargetPenetration" value="1"/>
+		<!-- <passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkGunslinger,9mmGun"/>
+		<display_value name="dDegradationPerUse" value=".3"/> -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+
+	<effect_group name="perkPenetrator" tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1" tags="perkGunslinger,9mmGun">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.15" tags="perkGunslinger,9mmGun">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2" tags="perkGunslinger,9mmGun">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkGunslinger,9mmGun">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
+	</effect_group>
+</item>
+
+<item name="ammoBundle22ShortBulletAP">
+	<property name="Extends" value="ammoBundleMaster"/>
+	<property name="CustomIcon" value="ammo22ShortBulletAP"/>
+	<property name="Stacknumber" value="100"/> <!-- STK ammobundle high -->
+	<property name="EconomicValue" value="700"/>
+	<!--property name="TraderStageTemplate" value="ammoTier1"/-->
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>	
+	
+	<property class="Action0">
+		<property name="Create_item" value="ammo22ShortBulletAP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
 <!-- CUSTOM CONTENT -->
 
 <!-- CHICKEN COOPS -->
