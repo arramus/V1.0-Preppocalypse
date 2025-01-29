@@ -1484,6 +1484,7 @@
 	<property name="SoundAttack" value="zombiedogattack"/>
 	<property name="SoundSense" value="zombiedogsense"/>
 	<property name="SoundGiveUp" value="zombiedoggiveup"/>
+	<property name="CanClimbLadders" value="true"/>
 
 	<property name="AIFeralSense" value="1.6"/>
 	<property name="AITask-1" value="BreakBlock"/>
@@ -1548,6 +1549,7 @@
 	<property name="SoundAttack" value="zombiedogattack"/>
 	<property name="SoundSense" value="zombiedogsense"/>
 	<property name="SoundGiveUp" value="zombiedoggiveup"/>
+	<property name="CanClimbLadders" value="true"/>
 
 	<property name="AIFeralSense" value="1.6"/>
 	<property name="AITask-1" value="BreakBlock"/>
@@ -1908,6 +1910,64 @@
 	</effect_group>
 
 	<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_direwolf,clear_sleeper" />
+</entity_class>
+
+		<!-- *** MINI_MOUNTAIN_LION -->
+<entity_class name="animalMiniMountainLion" extends="animalWolf">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,animal,hostile,mountainlion,perkAT03"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_mountain_lion"/>
+	<property name="PhysicsBody" value="MountainLion"/>
+	<property name="Mass" value="45"/> <!-- Default 125 -->
+	<property name="Prefab" value="/Entities/Animals/Cat/animalMountainLion"/>
+	<property name="SizeScale" value="0.45"/>
+	<property name="CanClimbLadders" value="true"/>
+
+	<property name="SoundRandom" value="mlionroam"/>
+	<property name="SoundAlert" value="mlionalert"/>
+	<property name="SoundHurt" value="mlionpain"/>
+	<property name="SoundDeath" value="mliondeath"/>
+	<property name="SoundAttack" value="mlionattack"/>
+	<property name="SoundSense" value="mlionsense"/>
+	<property name="SoundGiveUp" value="mliongiveup"/>
+
+	<property name="AISeeOffset" value=".8"/>
+	<property name="AITask-1" value="Leap" data="legs=4"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-3" value="Territorial"/>
+	<property name="AITask-4" value="RunawayWhenHurt" data="runChance=.4;healthPer=.1;healthPerMax=.4"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalStag,30,EntityZombie,20"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Look"/>
+	<property name="AITask-8" value="Wander"/>
+	<property name="AITask-9" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,9,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityZombie,0,-5"/>
+	<property name="AITarget-4" value=""/>
+
+	<!-- Gameplay  -->
+	<property name="MoveSpeed" value=".6"/>
+	<property name="MoveSpeedAggro" value="2.1, 2.3"/>
+	<property name="JumpDelay" value=".1"/>
+	<property name="JumpMaxDistance" value="3, 4"/>
+	<property name="HandItem" value="meleeHandAnimalCoyote"/>
+	<property name="ExperienceGain" value="180"/>
+	<property name="PainResistPerHit" value=".8"/>
+
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="4"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+
+	<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_mountainlion,clear_sleeper" />
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="250"/>
+	</effect_group>
 </entity_class>
 	
 		<!-- Spider Glider Fire Starter -->

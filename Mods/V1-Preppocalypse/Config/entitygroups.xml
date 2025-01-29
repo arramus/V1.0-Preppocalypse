@@ -1072,7 +1072,8 @@
 		animalBear, 2
 		animalMiniDireWolf, 2
 		animalZombieBigDogPrepper, 2
-		none, 62
+		animalMiniMountainLion, 2
+		none, 60
 	</set>
 	
 	<!-- *** BURNT_FOREST -->
@@ -1087,7 +1088,8 @@
 		animalMiniDireWolf, 2
 		animalZombieBigDogPrepper, 2
 		animalZombieMiniDogPrepper, 2
-		none, 62
+		animalMiniMountainLion, 2
+		none, 60
 	</set>
 
 	<!-- *** DESERT -->
@@ -1096,6 +1098,7 @@
 		animalZombieEagle, 3
 		animalMiniDireWolf, 2
 		animalZombieBigDogPrepper, 2
+		animalMiniMountainLion, 2
 	</csv>
 	
 	<!-- *** ENEMY_ANIMAL_DESERT_NIGHT-->
@@ -1105,6 +1108,7 @@
 		animalMiniDireWolf, 4
 		animalZombieGiantDogPrepper, 2
 		animalZombieBigDogPrepper, 2
+		animalMiniMountainLion, 2
 	</csv>
 	
 	<!-- *** SNOW -->
@@ -1115,6 +1119,7 @@
 		animalMiniDireWolf, 3
 		animalZombieGiantDogPrepper, 2
 		animalZombieBigDogPrepper, 2
+		animalMiniMountainLion, 2
 	</csv>
 	
 	<!-- *** ENEMY_ANIMAL_SNOW_NIGHT -->	
@@ -1123,6 +1128,7 @@
 		animalMiniDireWolf, 4
 		animalZombieGiantDogPrepper, 2
 		animalZombieBigDogPrepper, 2
+		animalMiniMountainLion, 2
 	</csv>
 	
 	<!-- *** WASTELAND -->
