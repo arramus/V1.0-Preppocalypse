@@ -322,6 +322,24 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="zombieBurntStoneSpearDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Spear/spear_stone_Prefab.prefab" local_offset="0.11,0.025,0" local_rotation="90,-65,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieBurntFeralIronSpearDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Spear/spear_iron_Prefab.prefab" local_offset="0.11,0.025,0" local_rotation="90,-65,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieBurntRadiatedSteelSpearDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Spear/spear_steel_Prefab.prefab" local_offset="0.11,0.025,0" local_rotation="90,-65,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+		
 <!-- SNUFKIN IMPORT -->
 
 		<buff name="zombieRocketPREPPERDeco" hidden="true">

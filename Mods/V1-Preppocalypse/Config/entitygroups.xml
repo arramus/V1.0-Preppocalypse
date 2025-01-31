@@ -199,6 +199,8 @@
 
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
+		zombieBurntFeralIronSpear, .75
+		zombieBurntRadiatedSteelSpear, .75
 		animalZombieBunnyPREPPER, .75
 		animalZombieSnakePREPPER, .75
 		animalZombieChickenPREPPER, .75
@@ -255,6 +257,8 @@
 <!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
 		zombieBigNightBurntSiren, 1.5
+		zombieBurntFeralIronSpear, 1.25
+		zombieBurntRadiatedSteelSpear, 1.25
 		zombieBigNightBikerRadiated, 1.25
 		zombieBigNightJetBikerRadiated, 1.25
 		zombieBigNightWightRadiated, 1.25
@@ -373,6 +377,9 @@
 <!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .2
+		zombieBurntStoneSpear, .2
+		zombieBurntFeralIronSpear, .2
+		zombieBurntRadiatedSteelSpear, .05
 		zombieSteveCrawlerFeral, .05
 		zombieBurntRadiated, .05
 		zombieCrispyPREPPER, .01

@@ -360,6 +360,17 @@
 		<ingredient name="drinkJarPureMineralWater" count="1"/>
 	</recipe>
 	
+	<recipe name="foodSpicyWildRiceMeatballs" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="foodCropPotato" count="3"/>
+		<ingredient name="foodWildRice" count="30"/>
+		<ingredient name="foodCropMushrooms" count="3"/>
+		<ingredient name="foodRawMeat" count="10"/>
+		<ingredient name="foodCanChili" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodRawMeat"/>
+		</effect_group>
+	</recipe>
+	
 	<recipe name="drinkJarBoneBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="resourceBone" count="4"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>

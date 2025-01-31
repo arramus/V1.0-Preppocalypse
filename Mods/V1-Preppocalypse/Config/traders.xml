@@ -33,6 +33,7 @@
 		<item name="foodGritsAndBits" count="1,2"/>
 		<item name="foodBlueberryBreadPudding" count="1,2"/>
 		<item name="foodSuperMeatStew" count="1,2"/>
+		<item name="foodSpicyWildRiceMeatballs" count="1,2"/>
 	</append>
 	
 	<!-- *** Canned_Food -->

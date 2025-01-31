@@ -999,6 +999,9 @@
 	<append xpath="/entity_classes/entity_class[@name='animalBear']">
 		<drop event="Harvest" name="resourceCatfish" tag="butcherHarvest" count="1"/>
 	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalBearSmall']">
+		<drop event="Harvest" name="resourceCatfish" tag="butcherHarvest" count="1"/>
+	</append>
 	<append xpath="/entity_classes/entity_class[@name='animalZombieBear']">
 		<drop event="Harvest" name="resourceCatfish" tag="butcherHarvest" count="1"/>
 	</append>
@@ -4534,6 +4537,106 @@
 		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 	</effect_group>
 </entity_class>
+
+<!-- BURNT BUDDIES -->
+
+		<!-- *** ZOMBIE_BURNT_STONE_SPEAR-->
+<entity_class name="zombieBurntStoneSpear" extends="zombieBurnt">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+	<property name="SizeScale" value="1.1"/>
+
+  <!-- Gameplay zombieBurnt -->
+	<property name="MoveSpeedAggro" value="0.4, 1.45"/> <!-- slim, regular 0.3, 1.35 -->
+	<property name="HandItem" value="meleeHandZombieBurning"/>
+	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="3,5" tag="WasteTreasuresCompleteHarvest"/>	
+	
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBurntStoneSpearDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="165"/> <!-- Default 150 +10% -->
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_BURNT_FERAL -->
+<entity_class name="zombieBurntFeralIronSpear" extends="zombieBurntFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntFeral.prefab"/>
+	<property name="SoundSpawn" value="Ambient_Loops/a_fire_embersmoke_sm_lp"/>
+	<property name="SizeScale" value="1.1"/>
+
+	<!-- Gameplay zombieBurntFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value="0.7, 1.55"/> <!-- slim, feral 0.6, 1.45 -->
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+	<property name="HandItem" value="meleeHandZombieBurningFeral"/>
+	<property name="ExperienceGain" value="750"/><!-- XP grunt feral -->
+	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBurntFeralIronSpearDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="550"/> <!-- Default 500 +10% -->
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_BURNT_RADIATED -->
+<entity_class name="zombieBurntRadiatedSteelSpear" extends="zombieBurntRadiated">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurntRadiated.prefab"/>
+	<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+	<property name="SizeScale" value="1.1"/>
+
+	<!-- Gameplay zombieBurntRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="MoveSpeedAggro" value="0.7, 1.55"/> <!-- slim, feral 0.6, 1.45 -->
+	<property name="ExperienceGain" value="1200"/><!-- XP grunt radiated -->
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1100"/> <!-- Default 1000 +10% -->
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBurntRadiatedSteelSpearDeco"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>-->
+		<!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+  </entity_class>
 
 <!-- Fake Entities for Entity Elimination Quest for Localization of 'Zombies' as first pick -->
 
