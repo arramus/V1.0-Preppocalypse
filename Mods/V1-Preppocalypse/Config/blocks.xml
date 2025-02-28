@@ -8,6 +8,10 @@
 	</conditional>
 
 	<!-- Vanilla Updates -->
+	<!-- Increasing probability of precious gems and metals for Lucky Strike Harvest -->
+	<set xpath="/blocks/block/drop[@event='Harvest'][@name='resourceRawDiamond'][@prob='.005']/@prob">.01</set>
+	<set xpath="/blocks/block/drop[@event='Harvest'][@name='resourceSilverNugget'][@prob='.01']/@prob">.02</set>
+	<set xpath="/blocks/block/drop[@event='Harvest'][@name='resourceGoldNugget'][@prob='.007']/@prob">.014</set>
 	<!-- Removing movement collision from Drift wood as it can stop a custom vehicle instantly -->
 	<set xpath="/blocks/block[@name='driftwood']/property[@name='Collide']/@value">melee,bullet,arrow,rocket</set>
 	<!-- Pickup time -->
