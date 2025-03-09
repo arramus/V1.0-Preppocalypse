@@ -377,8 +377,11 @@
 <!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .2
+		zombieMiniBurntStoneSpear, .2
 		zombieBurntStoneSpear, .2
+		zombieMiniBurntFeralIronSpear, .2
 		zombieBurntFeralIronSpear, .2
+		zombieMiniBurntRadiatedSteelSpear, .05
 		zombieBurntRadiatedSteelSpear, .05
 		zombieSteveCrawlerFeral, .05
 		zombieBurntRadiated, .05
@@ -1550,7 +1553,7 @@
 	</csv>	
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and contains (text(), 'zombieFatCopRadiated')]/text()" delim="\n" op="add">
-		zombiePumpShotgunBikerPREPPER, .9
+		zombieBatonFatCopPREPPER, .9
 	</csv> <!-- GS 198 -->
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS') and contains (text(), 'zombieFatCopRadiated')]/text()" delim="\n" op="add">
