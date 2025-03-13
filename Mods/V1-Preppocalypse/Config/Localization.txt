@@ -1000,6 +1000,9 @@ vehiclePreppocalypticCar,entityclasses,Entity,,,Preppocalyptic Car,,Preppocalypt
 vehiclePreppocalypticCarPlaceable,vehicles,vehicle,,,Preppocalyptic Car,,Preppocalyptic Auto,,,,,,,,,,,
 vehiclesT4,progression,Attribute,,,Tier 4: 4x4 & Preppocalyptic Car,,Stufe 4: 4x4 und Preppocalyptic Auto,,,,,,,,,,,
 
+cntIronPrepperDropBox,blocks,Block,,,Prepper Drop Box,,,,,,,,,,,,,
+cntIronPrepperDropBoxDesc,blocks,Block,,,"A box that will auto-sort items placed inside it to nearby containers with matching items. Transfer starts when you exit the box. Cannot be upgraded. Destroyed if broken.\n\nRepair with Forged Iron.",,,,,,,,,,,,,
+
 TwitchAction_SpawnPreppoMelee,twitch,Actions,,,Preppo Melee Zombie,,,,,,,,,,,
 TwitchAction_SpawnPreppoMeleeCommand,twitch,Actions,,,#spawn_preppomelee,,,,,,,,,,,,
 TwitchAction_SpawnPreppoMeleeDesc,twitch,Actions,,,Spawns a Preppo Melee Zombie.,,,,,,,,,,,,,

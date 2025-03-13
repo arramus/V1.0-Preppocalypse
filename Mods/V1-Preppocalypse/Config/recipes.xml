@@ -1,5 +1,21 @@
 <Preppocalypse>
 
+	<conditional>
+		<if cond="mod_loaded('0-SCore_sphereii')">		
+<append xpath="/recipes">
+
+	<!-- 0-Score Drop Box -->	
+    <recipe name="cntIronPrepperDropBox" count="1">
+      <ingredient name="resourceForgedIron" count="10"/>
+      <ingredient name="resourceNail" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+      <ingredient name="resourceElectricParts" count="10"/>
+    </recipe>
+	
+</append>
+		</if>
+	</conditional>
+
 <append xpath="/recipes">
 
 	<!-- Vanilla support items and decorations -->
