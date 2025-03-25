@@ -199,6 +199,11 @@
 
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
+		zombieMiniSpiderRadiated, .75
+		zombieMiniMutatedFeral, .75
+		zombieMiniMutatedRadiated, .75
+		zombieMiniWightFeral, .75
+		zombieMiniWightRadiated, .75
 		zombieBurntFeralIronSpear, .75
 		zombieBurntRadiatedSteelSpear, .75
 		animalZombieBunnyPREPPER, .75
@@ -256,6 +261,11 @@
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
+		zombieMiniSpiderRadiated, 1.5
+		zombieMiniMutatedFeral, 1.5
+		zombieMiniMutatedRadiated, 1.5
+		zombieMiniWightFeral, 1.5
+		zombieMiniWightRadiated, 1.5
 		zombieBigNightBurntSiren, 1.5
 		zombieBurntFeralIronSpear, 1.25
 		zombieBurntRadiatedSteelSpear, 1.25
@@ -376,6 +386,9 @@
 
 <!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
+		zombieMiniSpider, .2
+		zombieMiniSpiderFeral, .2
+		zombieMiniMutated, .2
 		zombieBurntFeral, .2
 		zombieMiniBurntStoneSpear, .2
 		zombieBurntStoneSpear, .2
@@ -1021,6 +1034,69 @@
 		animalGiantDireFireWolf, .75
 	</entitygroup>
 	
+	<!-- *** MINI_SPECIAL_INFECTED_ZOMBIES_FOR_GS -->
+	
+	<entitygroup name="ZombieMiniSpecialInfectedGroupGS1">
+		zombieMiniSpider, .95
+		zombieMiniSpiderFeral, 0
+		zombieMiniSpiderRadiated, 0
+		zombieMiniMutated, .45
+		zombieMiniMutatedFeral, .1
+		zombieMiniMutatedRadiated, 0
+		zombieMiniWightFeral, .1
+		zombieMiniWightRadiated, 0
+	</entitygroup>
+	<entitygroup name="ZombieMiniSpecialInfectedGroupGS50">
+		zombieMiniSpider, .85
+		zombieMiniSpiderFeral, .1
+		zombieMiniSpiderRadiated, 0
+		zombieMiniMutated, .75
+		zombieMiniMutatedFeral, .1
+		zombieMiniMutatedRadiated, 0
+		zombieMiniWightFeral, .3
+		zombieMiniWightRadiated, .1
+	</entitygroup>
+	<entitygroup name="ZombieMiniSpecialInfectedGroupGS100">
+		zombieMiniSpider, .7
+		zombieMiniSpiderFeral, .2
+		zombieMiniSpiderRadiated, .1
+		zombieMiniMutated, .7
+		zombieMiniMutatedFeral, .2
+		zombieMiniMutatedRadiated, .1
+		zombieMiniWightFeral, .4
+		zombieMiniWightRadiated, .1
+	</entitygroup>
+	<entitygroup name="ZombieMiniSpecialInfectedGroupGS200">
+		zombieMiniSpider, .45
+		zombieMiniSpiderFeral, .35
+		zombieMiniSpiderRadiated, .2
+		zombieMiniMutated, .45
+		zombieMiniMutatedFeral, .35
+		zombieMiniMutatedRadiated, .2
+		zombieMiniWightFeral, .45
+		zombieMiniWightRadiated, .3
+	</entitygroup>
+	<entitygroup name="ZombieMiniSpecialInfectedGroupGS400">
+		zombieMiniSpider, .2
+		zombieMiniSpiderFeral, .4
+		zombieMiniSpiderRadiated, .4
+		zombieMiniMutated, .3
+		zombieMiniMutatedFeral, .4
+		zombieMiniMutatedRadiated, .3
+		zombieMiniWightFeral, .6
+		zombieMiniWightRadiated, .4
+	</entitygroup>
+	<entitygroup name="ZombieMiniSpecialInfectedGroupGS800">
+		zombieMiniSpider, .1
+		zombieMiniSpiderFeral, .5
+		zombieMiniSpiderRadiated, .4
+		zombieMiniMutated, .1
+		zombieMiniMutatedFeral, .5
+		zombieMiniMutatedRadiated, .4
+		zombieMiniWightFeral, .5
+		zombieMiniWightRadiated, .5
+	</entitygroup>
+	
 	</append>
 	
 	<!-- *** INTEGRATION FOR ANIMALS -->
@@ -1144,24 +1220,25 @@
 	<!-- *** WASTELAND -->
 	<!-- *** ENEMY_ANIMAL_WASTELAND -->	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
-		animalDireFireWolf, 10
-		animalMiniDireWolf, 10
-		animalGiantDireFireWolf, 5
-		animalZombieGiantDogPrepper, 5
-		animalZombieBigDogPrepper, 5
-		animalZombieMiniDogPrepper, 5
-		animalZombieEagle, 5
+		animalZombieBear, 10
+		animalDireFireWolf, 8
+		animalMiniDireWolf, 8
+		animalGiantDireFireWolf, 4
+		animalZombieGiantDogPrepper, 4
+		animalZombieBigDogPrepper, 4
+		animalZombieMiniDogPrepper, 4
+		animalZombieEagle, 4
 	</csv>
 	
 	<!-- *** ENEMY_ANIMAL_WASTELAND_NIGHT -->	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWastelandNight']/text()" delim="\n" op="add" >
-		animalDireFireWolf, 10
-		animalMiniDireWolf, 10
-		animalGiantDireFireWolf, 10
-		animalZombieGiantDogPrepper, 3
-		animalZombieBigDogPrepper, 3
-		animalZombieMiniDogPrepper, 3
-		animalZombieEagle, 3
+		animalDireFireWolf, 8
+		animalMiniDireWolf, 8
+		animalGiantDireFireWolf, 8
+		animalZombieGiantDogPrepper, 2
+		animalZombieBigDogPrepper, 2
+		animalZombieMiniDogPrepper, 2
+		animalZombieEagle, 2
 	</csv>
 	
 <!-- ***WANDERING_HORDE_AND_LEVEL_DESIGN_SLEEPER_BLOCKS -->
