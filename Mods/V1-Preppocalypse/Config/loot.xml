@@ -214,6 +214,7 @@
 		<item name="foodChickenStew"/>
 		<item name="foodRoastChicken"/>
 		<item name="foodMushroomRice"/>
+		<item name="foodYuccaFruitPie"/>
 		<item name="foodPrepperPotPie"/>
 		<item name="foodGritsAndBits"/>
 		<item name="foodHoneyPumpkinPie"/>
@@ -243,6 +244,7 @@
 		<item name="foodChickenStew" count="2,4"/>
 		<item name="foodRoastChicken" count="2,4"/>
 		<item name="foodMushroomRice" count="2,4"/>
+		<item name="foodYuccaFruitPie" count="2,4"/>
 		<item name="foodPrepperPotPie" count="2,4"/>
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
@@ -257,6 +259,7 @@
 		<item name="foodChickenStew" count="2,4"/>
 		<item name="foodRoastChicken" count="2,4"/>
 		<item name="foodMushroomRice" count="2,4"/>
+		<item name="foodYuccaFruitPie" count="2,4"/>
 		<item name="foodPrepperPotPie" count="2,4"/>
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>

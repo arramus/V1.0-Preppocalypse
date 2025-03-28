@@ -387,6 +387,24 @@
 		</effect_group>
 	</recipe>
 	
+	<recipe name="foodGrilledYuccaFruit" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+		<ingredient name="foodCropYuccaFruit" count="5"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodCropYuccaFruit"/>
+		</effect_group>
+	</recipe>
+	
+	<recipe name="foodYuccaFruitPie" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<ingredient name="foodCropYuccaFruit" count="5"/>
+		<ingredient name="foodEgg" count="1"/>
+		<ingredient name="foodCornMeal" count="1"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodCropYuccaFruit"/>
+		</effect_group>
+	</recipe>
+	
 	<recipe name="drinkJarBoneBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="resourceBone" count="4"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
