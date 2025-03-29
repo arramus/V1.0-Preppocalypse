@@ -1220,10 +1220,10 @@
 	<!-- *** WASTELAND -->
 	<!-- *** ENEMY_ANIMAL_WASTELAND -->	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
-		animalZombieBear, 8
 		animalDireFireWolf, 8
 		animalMiniDireWolf, 8
 		animalGiantDireFireWolf, 4
+		animalZombieBear, 4
 		animalZombieGiantDogPrepper, 4
 		animalZombieBigDogPrepper, 4
 		animalZombieMiniDogPrepper, 4

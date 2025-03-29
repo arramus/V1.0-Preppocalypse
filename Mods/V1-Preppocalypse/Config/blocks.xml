@@ -55,6 +55,22 @@
 	</conditional>
 
 	<!-- Vanilla Updates -->
+	<!-- Adding Cactus Paddles, and Fruit to Yucca -->
+	<append xpath="/blocks/block[@name='treeCactus01']">
+		<drop event="Harvest" name="foodCropSaguaroFruit" count="1,2" tag="wildCropsHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeCactus04']">
+		<drop event="Harvest" name="foodCropCactusPaddles" count="1,2" tag="wildCropsHarvest"/>
+		<drop event="Harvest" name="foodCropSaguaroFruit" count="0" tag="wildCropsHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeCactus05']">
+		<drop event="Harvest" name="foodCropCactusPaddles" count="1,2" tag="wildCropsHarvest"/>
+		<drop event="Harvest" name="foodCropSaguaroFruit" count="0" tag="wildCropsHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeCactus06']">
+		<drop event="Harvest" name="foodCropCactusPaddles" count="1,2" tag="wildCropsHarvest"/>
+		<drop event="Harvest" name="foodCropSaguaroFruit" count="0" tag="wildCropsHarvest"/>
+	</append>	
 	<!-- Increasing probability of precious gems and metals for Lucky Strike Harvest -->
 	<set xpath="/blocks/block/drop[@event='Harvest'][@name='resourceRawDiamond'][@prob='.005']/@prob">.0125</set>
 	<set xpath="/blocks/block/drop[@event='Harvest'][@name='resourceSilverNugget'][@prob='.01']/@prob">.02</set>

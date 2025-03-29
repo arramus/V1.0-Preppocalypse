@@ -1005,6 +1005,8 @@
 	<append xpath="/entity_classes/entity_class[@name='animalZombieBear']">
 		<drop event="Harvest" name="resourceCatfish" tag="butcherHarvest" count="1"/>
 	</append>
+<!-- Zombie Bear has EntityLootContainerStrong loot bag and not EntityLootContainerBoss because they are reserved for Dire Fire Wolf variants -->
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='LootDropEntityClass']/@value">EntityLootContainerStrong</set>
 <!-- Bears with Catfish in mouth extends to ZombieBear -->
 	<append xpath="/entity_classes/entity_class[@name='animalBear']/effect_group">
 			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="animalBearDeco"/>
