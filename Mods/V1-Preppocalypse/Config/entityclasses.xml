@@ -1089,6 +1089,84 @@
 	<property name="NavObject" value="animaltracking_hostile" />
 </entity_class>
 
+<entity_class name="animalZombieBunnyBomberPREPPER" extends="animalTemplateHostile"> <!-- Lion/Dire Wolf/Rabbit/Spider Base - Roar! -->
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,animal,zombie,hostile,rabbit,perkAT01,perkAT02,perkAT03"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="PhysicsBody" value="rabbit"/>
+	<!-- property name="Class" value="EntityEnemyAnimal"/ -->
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="Mass" value="125"/>
+	<property name="Weight" value="50"/>
+	<property name="Prefab" value="/Entities/Animals/Rabbit/animalRabbitPrefab"/>
+	<property name="SizeScale" value="2.5"/>
+
+	<property name="SoundRandom" value="mlionroam"/>
+	<property name="SoundAlert" value="mlionalert"/>
+	<property name="SoundHurt" value="Animals/rabbitpain"/>
+	<property name="SoundDeath" value="mliondeath"/>
+	<property name="SoundAttack" value="mlionattack"/>
+	<property name="SoundSense" value="mlionsense"/>
+	<property name="SoundGiveUp" value="mliongiveup"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="CanBigHead" value="false" />
+	<property name="CanClimbLadders" value="true"/>
+
+	<property name="AITask-1" value="Leap" data="legs=4"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-3" value="Territorial"/>
+    <property name="AITask-4" value="DestroyArea"/>
+	<!-- property name="AITask-4" value="RunawayWhenHurt" data="runChance=.4;healthPer=.1;healthPerMax=.4"/--> <!-- No running away ^^ -->
+	<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityAnimalStag,40"/> <!-- Zombie Bear -->
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Look"/>
+	<property name="AITask-8" value="Wander"/>
+	<property name="AITask-9" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,18,13,EntityBandit,0,-8,EntityNPC,0,0,EntityAnimalStag,0,0"/> <!-- Zombie Bear -->
+	<property name="AITarget-4" value=""/>
+
+	<!-- Gameplay  -->
+	<property name="MoveSpeed" value=".85"/>
+	<property name="MoveSpeedAggro" value="2.1, 2.3"/>
+	<property name="JumpDelay" value=".1"/>
+	<property name="JumpMaxDistance" value="11, 13"/> <!-- Spider -->
+	<property name="PainResistPerHit" value=".8"/>
+	
+	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="ExperienceGain" value="600"/>
+
+	<property name="HandItem" value="meleeHandAnimalDireWolf"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="350"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="animalZombieBunnyBomberPREPPERDeco"/>
+	</effect_group>
+
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="10"/> <!-- animalZombieDog -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="4"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<property name="Explosion.ParticleIndex" value="2"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="6"/>
+	<property name="Explosion.BlockDamage" value="500"/>
+	<property name="Explosion.EntityDamage" value="150"/>
+	<property name="Explosion.DamageBonus.earth" value="0"/>
+
+	<property name="NavObject" value="animaltracking_hostile" />
+</entity_class>
+
 <!-- Slithering Mutant Snake -->
 
 <entity_class name="animalZombieSnakePREPPER" extends="animalTemplateHostile">

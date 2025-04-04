@@ -526,6 +526,7 @@ lblCategoryAmmoPressHPAmmo,UI,Tooltip,,,HP Ammo,,,,,,,,,,,,,
 lblCategoryAmmoPressAPAmmo,UI,Tooltip,,,AP Ammo,,,,,,,,,,,,,
 
 animalZombieBunnyPREPPER,entityclasses,Entity,,,Bad Bunny,,,,,,,,,,,,,
+animalZombieBunnyBomberPREPPER,entityclasses,Entity,,,Bad Bomber Bunny,,,,,,,,,,,,,
 animalZombieSnakePREPPER,entityclasses,Entity,,,Slithery Mutant Snake,,,,,,,,,,,,,
 animalZombieChickenPREPPER,entityclasses,Entity,,,Battle Chicken,,,,,,,,,,,,,
 animalBossZombieGracePREPPER,entityclasses,Entity,,,G.I. Grace,,,,,,,,,,,,,
@@ -1067,5 +1068,8 @@ TwitchAction_SpawnGroupPreppoBossyDesc,twitch,Actions,,,Spawns a group of Preppo
 TwitchAction_SpawnGroupPreppoAnimals,twitch,Actions,,,Group of Preppo Animals,,,,,,,,,,,
 TwitchAction_SpawnGroupPreppoAnimalsCommand,twitch,Actions,,,#group_preppoanimals,,,,,,,,,,,,
 TwitchAction_SpawnGroupPreppoAnimalsDesc,twitch,Actions,,,Spawns a group of Preppo Animals.,,,,,,,,,,,,,
+TwitchAction_SpawnGroupBomberBunnies,twitch,Actions,,,Group of Bomber Bunnies,,,,,,,,,,,
+TwitchAction_SpawnGroupBomberBunniesCommand,twitch,Actions,,,#group_bomberbunnies,,,,,,,,,,,,
+TwitchAction_SpawnGroupBomberBunniesDesc,twitch,Actions,,,Spawns a group of Bomber Bunnies - Blame Cran5000.,,,,,,,,,,,,,
 
 jetBootsAdmin,items,Item,,,Jet Boots (Admin),,,,,,,,,,,,,

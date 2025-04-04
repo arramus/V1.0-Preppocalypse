@@ -1224,6 +1224,7 @@
 		animalMiniDireWolf, 8
 		animalGiantDireFireWolf, 4
 		animalZombieBear, 4
+		animalZombieBunnyBomberPREPPER, .4
 		animalZombieGiantDogPrepper, 4
 		animalZombieBigDogPrepper, 4
 		animalZombieMiniDogPrepper, 4
@@ -1235,6 +1236,7 @@
 		animalDireFireWolf, 8
 		animalMiniDireWolf, 8
 		animalGiantDireFireWolf, 8
+		animalZombieBunnyBomberPREPPER, .4
 		animalZombieGiantDogPrepper, 2
 		animalZombieBigDogPrepper, 2
 		animalZombieMiniDogPrepper, 2
@@ -1851,6 +1853,7 @@
 		zombieBigNightSteveCrawlerRadiated, .5
 		animalDireFireWolf, .5
 		animalMiniDireWolf, .5
+		animalZombieBunnyBomberPREPPER, .5
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->

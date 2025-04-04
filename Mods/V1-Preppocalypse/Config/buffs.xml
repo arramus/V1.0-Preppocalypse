@@ -129,6 +129,12 @@
 <!-- Entities -->
 
 	<append xpath="/buffs">
+	
+		<buff name="animalZombieBunnyBomberPREPPERDeco" hidden="true">
+			<effect_group>		
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/TimedCharge/timedChargePrefab.prefab" local_offset="0,0.05,0" local_rotation="0,0,0" local_scale=".25,.25,.25" parent_transform="Head"/>
+			</effect_group>
+		</buff>
 
 		<buff name="animalBearDeco" hidden="true">
 			<effect_group>		
@@ -168,7 +174,7 @@
 		
 		<buff name="animalBossZombieGracePREPPERDeco" hidden="true">
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/motion_sensorPrefab" local_offset="0,-.0275,0.25" local_rotation="0,0,0" parent_transform="Head"/>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/motion_sensorPrefab" local_offset="0,-.0275,0.25" local_rotation="0,0,0" local_scale=".5,.5,.5" parent_transform="Head"/>			
 			</effect_group>
 		</buff>
 		

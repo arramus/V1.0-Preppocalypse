@@ -134,6 +134,16 @@
 		<variable name="gamestage_extra2" value="200" />
 		<variable name="spawncount_extra2" value="3" />
 	</action_sequence>
+	
+	<action_sequence name="group_bomberbunnies" template="spawn_group">
+		<variable name="zombiename" value="animalZombieBunnyBomberPREPPER" />
+		<variable name="spawncount" value="7" />
+		<variable name="alertsound" value="mlionattack" />
+		<variable name="gamestage_extra1" value="150" />
+		<variable name="spawncount_extra1" value="2" />
+		<variable name="gamestage_extra2" value="200" />
+		<variable name="spawncount_extra2" value="3" />
+	</action_sequence>
 
 	</append>
 </configs>
