@@ -240,7 +240,7 @@
 			<unlock_entry item="drinkYuccaJuiceSmoothie,drinkJarBeer,drinkYuccaCactusAloeJuiceCooler" unlock_tier="1" />
 			<unlock_entry item="foodHoboStew,foodSuperMeatStew" unlock_tier="2" />
 			<unlock_entry item="foodFishTacos,foodCrawfishBoil" unlock_tier="3" />
-			<unlock_entry item="foodChiliDog" unlock_tier="4" />
+			<unlock_entry item="foodChiliDog,foodFruitPieTrio" unlock_tier="4" />
 			<unlock_entry item="foodShamChowder,foodFishPie" unlock_tier="5" />
 		</display_entry>
 		<display_entry icon="foodTunaFishGravyToast,foodShepardsPie,drinkJarGrandpasLearningElixir,foodSpaghetti,foodGumboStew" name_key="foodT4-1,foodT4-2,foodT4-3,foodT4-4,foodT4-5" has_quality="false" unlock_level="60,70,80,90,100" >
@@ -267,7 +267,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="27,100" value="1" tags="drinkYuccaJuiceSmoothie,drinkJarBeer,drinkYuccaCactusAloeJuiceCooler"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="foodHoboStew,foodSuperMeatStew"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="43,100" value="1" tags="foodFishTacos,foodCrawfishBoil"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="51,100" value="1" tags="foodChiliDog"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="51,100" value="1" tags="foodChiliDog,foodFruitPieTrio"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="59,100" value="1" tags="foodShamChowder,foodFishPie"/>
 
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="foodTunaFishGravyToast,drinkJarGrandpasAwesomeSauce"/>

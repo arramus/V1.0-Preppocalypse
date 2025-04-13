@@ -47,6 +47,7 @@
 		zombieSmallNightScreamerRadiated, .2
 		zombieBigNightFatCopRadiated, .2
 		zombieBigNightSteveCrawlerRadiated, .2
+		zombieBigNightJetRocketPREPPER, .1
 		animalZombieBunnyPREPPER, .085
 		animalZombieSnakePREPPER, .085
 		animalZombieChickenPREPPER, .085
@@ -127,6 +128,7 @@
 		zombieBigNightScreamerRadiated, .175
 		zombieBigNightFatCopRadiated, .175
 		zombieBigNightSteveCrawlerRadiated, .175
+		zombieBigNightJetRocketPREPPER, .1
 		animalZombieBunnyPREPPER, .07
 		animalZombieSnakePREPPER, .07
 		animalZombieChickenPREPPER, .07
@@ -275,7 +277,8 @@
 		zombieSmallNightScreamerRadiated, 1.25
 		zombieBigNightScreamerRadiated, 1.25
 		zombieBigNightFatCopRadiated, 1.25
-		zombieBigNightSteveCrawlerRadiated, .125
+		zombieBigNightSteveCrawlerRadiated, 1.25
+		zombieBigNightJetRocketRadiatedPREPPER, 1.25
 		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
 		animalZombieChickenPREPPER, 1.25
@@ -1854,6 +1857,8 @@
 		animalDireFireWolf, .5
 		animalMiniDireWolf, .5
 		animalZombieBunnyBomberPREPPER, .5
+		zombieBigNightJetRocketPREPPER, .25
+		zombieBigNightJetRocketRadiatedPREPPER, .25
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->

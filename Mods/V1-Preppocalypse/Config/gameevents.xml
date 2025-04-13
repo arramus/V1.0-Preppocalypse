@@ -56,7 +56,7 @@
 	</action_sequence>
 	
 	<action_sequence name="spawn_preppoflyersZombie" template="spawn_single">
-		<variable name="zombiename" value="animalZombieLargePlasmaVulturePREPPER,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieBigNightJetBikerRadiated" />
+		<variable name="zombiename" value="animalZombieLargePlasmaVulturePREPPER,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieBigNightJetBikerRadiated,zombieBigNightJetRocketPREPPER,zombieBigNightJetRocketRadiatedPREPPER" />
 		<variable name="alertsound" value="zombiemalealert" />
 	</action_sequence>
 	
@@ -94,7 +94,7 @@
 	</action_sequence>
 	
 	<action_sequence name="group_preppoflyers" template="spawn_group">
-		<variable name="zombiename" value="animalZombieLargePlasmaVulturePREPPER,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieBigNightJetBikerRadiated" />
+		<variable name="zombiename" value="animalZombieLargePlasmaVulturePREPPER,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieBigNightJetBikerRadiated,zombieBigNightJetRocketPREPPER,zombieBigNightJetRocketRadiatedPREPPER" />
 		<variable name="spawncount" value="5" />
 		<variable name="alertsound" value="Animals/Vulture/vultureattack" />
 		<variable name="gamestage_extra1" value="150" />

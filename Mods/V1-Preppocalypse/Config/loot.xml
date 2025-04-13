@@ -226,6 +226,7 @@
 	<!-- *** Airdrop_Food -->	
 	<append xpath="/lootcontainers/lootgroup[@name='airdropfood']">
 		<item name="foodNavezganeHDR"/>
+		<item name="foodFruitPieTrio"/>
 		<item name="foodSuperCornSupper"/>
 	</append>
 	
@@ -267,6 +268,7 @@
 		<item name="foodNavezganeHDR" count="2,4"/>
 		<item name="foodSuperMeatStew" count="2,4"/>
 		<item name="foodSpicyWildRiceMeatballs" count="2,4"/>
+		<item name="foodFruitPieTrio" count="2,4"/>
 		<item name="foodSuperCornSupper" count="2,4"/>
 	</append>
 	
@@ -454,7 +456,7 @@
 		<item name="gunRifleT2LeverActionRifleSwissVetterli"/>	
 	</append>
 	
-<!-- Vehicles -->
+	<!-- Vehicles -->
 
 	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuest4x4Parts']">
 	<lootgroup name="groupQuestPreppocalypticCarParts" count="all">
