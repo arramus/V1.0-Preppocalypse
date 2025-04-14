@@ -47,6 +47,7 @@
 		zombieSmallNightScreamerRadiated, .2
 		zombieBigNightFatCopRadiated, .2
 		zombieBigNightSteveCrawlerRadiated, .2
+		zombieBigNightSteveCrawlerPlasmaRadiated, .2
 		zombieBigNightJetRocketPREPPER, .1
 		animalZombieBunnyPREPPER, .085
 		animalZombieSnakePREPPER, .085
@@ -128,6 +129,7 @@
 		zombieBigNightScreamerRadiated, .175
 		zombieBigNightFatCopRadiated, .175
 		zombieBigNightSteveCrawlerRadiated, .175
+		zombieBigNightSteveCrawlerPlasmaRadiated, .175
 		zombieBigNightJetRocketPREPPER, .1
 		animalZombieBunnyPREPPER, .07
 		animalZombieSnakePREPPER, .07
@@ -278,6 +280,7 @@
 		zombieBigNightScreamerRadiated, 1.25
 		zombieBigNightFatCopRadiated, 1.25
 		zombieBigNightSteveCrawlerRadiated, 1.25
+		zombieBigNightSteveCrawlerPlasmaRadiated, 1.25
 		zombieBigNightJetRocketRadiatedPREPPER, 1.25
 		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
@@ -1854,6 +1857,7 @@
 		zombieBigNightFatCopRadiated, .5
 		zombieBigNightBurntSiren, .5
 		zombieBigNightSteveCrawlerRadiated, .5
+		zombieBigNightSteveCrawlerPlasmaRadiated, .5
 		animalDireFireWolf, .5
 		animalMiniDireWolf, .5
 		animalZombieBunnyBomberPREPPER, .5

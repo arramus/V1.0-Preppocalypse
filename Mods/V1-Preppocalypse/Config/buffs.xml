@@ -553,6 +553,13 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" parent_transform="RightHand"/>
 			</effect_group>
 		</buff>
+		
+		<buff name="zombieBigSteveCrawlerPlasmaDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
 
 		<buff name="zombieToolsUtilityWorkerPREPPERDeco" hidden="true">
 			<effect_group>								
