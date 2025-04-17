@@ -346,4 +346,7 @@
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags=",vehiclePreppocalypticCarChassis,vehiclePreppocalypticCarAccessories"/>
 	</append>
 	
+	<!-- Cactus Seed -->
+	<append xpath="//crafting_skill[@name='craftingSeeds']/display_entry/unlock_entry[@item='plantedCotton1']/@item">,plantedPricklyCactus1</append>
+	
 </configs>
