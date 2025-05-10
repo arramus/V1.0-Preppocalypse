@@ -5028,6 +5028,66 @@
 	</effect_group>
   </entity_class>
   
+ 		<!-- *** ZOMBIE_BURNT_TOASTER -->
+<entity_class name="zombieBurntToaster" extends="zombieBurnt">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+	<property name="SizeScale" value="1.1"/>
+
+  <!-- Gameplay zombieBurnt -->
+	<property name="MoveSpeedAggro" value="0.4, 1.45"/> <!-- slim, regular 0.3, 1.35 -->
+	<property name="HandItem" value="meleeHandZombieBurning"/>
+	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourceElectricParts" tag="allToolsHarvest" count="3,4" prob="0.5" />
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="3,5" tag="WasteTreasuresCompleteHarvest"/>	
+	
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBurntToasterDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="165"/> <!-- Default 150 +10% -->
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_MINI_BURNT_TOASTER -->
+<entity_class name="zombieMiniBurntToaster" extends="zombieBurnt">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBurnt.prefab"/>
+	<property name="SizeScale" value="0.7"/>
+
+  <!-- Gameplay zombieBurnt -->
+	<property name="MoveSpeedAggro" value="0.4, 1.45"/> <!-- slim, regular 0.3, 1.35 -->
+	<property name="HandItem" value="meleeHandZombieBurning"/>
+	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourceElectricParts" tag="allToolsHarvest" count="3,4" prob="0.5" />
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceCoal" count="3,5" tag="WasteTreasuresCompleteHarvest"/>	
+	
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBurntToasterDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="165"/> <!-- Default 150 +10% -->
+	</effect_group>
+</entity_class> 
+  
 		<!-- *** MINI_SPECIAL_INFECTED_ZOMBIES -->
 		<!-- *** ZOMBIE_MINI_SPIDER -->
 <entity_class name="zombieMiniSpider" extends="zombieSpider">

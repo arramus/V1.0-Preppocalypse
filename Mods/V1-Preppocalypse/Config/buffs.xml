@@ -376,6 +376,12 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="zombieBurntToasterDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Appliances/toasterPrefab" local_offset="0,0.1,0" local_rotation="0,-90,0" local_scale=".7,.7,.7" parent_transform="Spine1"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+		
 <!-- SNUFKIN IMPORT -->
 
 		<buff name="zombieRocketPREPPERDeco" hidden="true">

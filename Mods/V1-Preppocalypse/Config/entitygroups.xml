@@ -400,6 +400,8 @@
 		zombieBurntStoneSpear, .2
 		zombieMiniBurntFeralIronSpear, .2
 		zombieBurntFeralIronSpear, .2
+		zombieMiniBurntToaster, .2
+		zombieBurntToaster, .2
 		zombieMiniBurntRadiatedSteelSpear, .05
 		zombieBurntRadiatedSteelSpear, .05
 		zombieSteveCrawlerFeral, .05
