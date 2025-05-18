@@ -2176,7 +2176,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=6|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -2240,7 +2240,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=6|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -2272,7 +2272,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=4;duration=6|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -2315,7 +2315,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=6|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -2357,7 +2357,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=4;duration=6|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -2600,7 +2600,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -2687,7 +2687,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -2771,7 +2771,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -2920,7 +2920,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -3006,7 +3006,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=2|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -3049,7 +3049,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=4;duration=2|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -3224,7 +3224,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=2|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -3266,7 +3266,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=4;duration=2|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -3433,7 +3433,7 @@
 		<property name="AITask" value="
 		BreakBlock|
 		ApproachDistraction|
-		RangedAttackTarget itemType=1;cooldown=4;duration=5|
+		RangedAttackTarget itemType=1;cooldown=6;duration=5|
 		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 		ApproachSpot|
 		Look|
@@ -3521,7 +3521,7 @@
 		<property name="AITask" value="
 		BreakBlock|
 		ApproachDistraction|
-		RangedAttackTarget itemType=1;cooldown=4;duration=5|
+		RangedAttackTarget itemType=1;cooldown=6;duration=5|
 		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 		ApproachSpot|
 		Look|
@@ -3765,7 +3765,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -3887,7 +3887,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -4093,7 +4093,7 @@
 	<property name="AITask" value="
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -4364,7 +4364,7 @@
 	Leap|
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -4562,7 +4562,7 @@
 	Leap|
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
@@ -4612,7 +4612,7 @@
 	Leap|
 	BreakBlock|
 	ApproachDistraction|
-	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	RangedAttackTarget itemType=1;cooldown=6;duration=5|
 	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
 	ApproachSpot|
 	Look|
