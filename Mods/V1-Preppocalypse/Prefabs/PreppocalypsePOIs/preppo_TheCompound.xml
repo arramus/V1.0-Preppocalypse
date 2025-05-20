@@ -19,7 +19,7 @@
   <property name="SleeperVolumeSize" value="26, 6, 15#8, 6, 20#33, 17, 13#7, 6, 8#23, 11, 10#5, 17, 12#44, 5, 23" />
   <property name="SleeperVolumeStart" value="49, 9, 53#75, 9, 40#42, 9, 40#42, 9, 53#50, 9, 30#37, 9, 44#0, 7, 91" />
   <property name="SleeperVolumeGroupId" value="1,1,2,1,0,2,0" />
-  <property name="SleeperVolumeGroup" value="GroupZomBadass,8,11,GroupZomBadass,5,7,GroupZomBadass,8,11,GroupZomBadass,3,4,Prepper_Mixed_Entities,6,8,Prepper_Mixed_Soldier_Entities,5,6,GroupZomBadass,5,6" />
+  <property name="SleeperVolumeGroup" value="GroupZomBadass,10,11,GroupZomBadass,7,8,GroupZomBadass,10,12,GroupZomBadass,4,5,Prepper_Mixed_Entities,6,8,Prepper_Mixed_Soldier_Entities,6,7,GroupZomBadass,6,7" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0" />
@@ -33,11 +33,11 @@
   <property name="POIMarkerPartRotations" value="0" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="Stats">
-    <property name="TotalVertices" value="1669388" />
-    <property name="TotalTriangles" value="782448" />
+    <property name="TotalVertices" value="1778133" />
+    <property name="TotalTriangles" value="844294" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1577489" />
-      <property name="Triangles" value="677976" />
+      <property name="Vertices" value="1686234" />
+      <property name="Triangles" value="739822" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="48607" />
@@ -69,19 +69,19 @@
       <property name="0" value="113, 9, 103" />
     </property>
     <property class="challenge_polymers">
-      <property name="0" value="101, 6, 48" />
-      <property name="1" value="102, 6, 49" />
-      <property name="2" value="103, 7, 49" />
-      <property name="3" value="99, 6, 50" />
-      <property name="4" value="102, 6, 50" />
-      <property name="5" value="100, 6, 51" />
-      <property name="6" value="97, 6, 52" />
+      <property name="0" value="111, 9, 48" />
+      <property name="1" value="112, 9, 49" />
+      <property name="2" value="111, 9, 50" />
+      <property name="3" value="112, 9, 51" />
+    </property>
+    <property class="challenge_stump">
+      <property name="0" value="114, 9, 96" />
     </property>
     <property class="quest_stone">
       <property name="0" value="15, 9, 107" />
     </property>
     <property class="FetchContainer">
-      <property name="0" value="69, 22, 44" />
+      <property name="0" value="82, 10, 46" />
     </property>
     <property class="challenge_sinks">
       <property name="0" value="43, 9, 44" />
