@@ -566,6 +566,14 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightHand"/>
 			</effect_group>
 		</buff>
+		
+		<buff name="zombieBigNightSkateboarderClawHammerRadiatedDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/hammerPrefab.prefab" local_offset="0.1,0.03,0.1" local_rotation="180,270,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/flashlight02Prefab.prefab" local_offset="-0.1,-0.025,0.05" local_rotation="-5,0,0" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true"  parent_transform="LeftHand" transform_path="lightSource"/>
+			</effect_group>
+		</buff>
 
 		<buff name="zombieToolsUtilityWorkerPREPPERDeco" hidden="true">
 			<effect_group>								

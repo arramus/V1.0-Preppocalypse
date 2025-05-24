@@ -4637,6 +4637,45 @@
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 	</effect_group>
 </entity_class>
+
+		<!-- *** ZOMBIE_BIG_NIGHT_CLAW_HAMMER_SKATEBOARDER_RADIATED -->
+<entity_class name="zombieBigNightSkateboarderClawHammerRadiated" extends="zombieSkateboarderRadiated">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZThugFeral.prefab"/>
+	<property name="AltMats" value="@:Entities/Zombies/Zombies/Materials/HD_Thug2.mat,@:Entities/Zombies/Zombies/Materials/HD_Thug3.mat"/>
+	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
+	<property name="SizeScale" value="1.2"/>
+
+	<property name="AITask" value="
+	BreakBlock|
+	ApproachDistraction|
+	RangedAttackTarget itemType=1;cooldown=4;duration=4|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+
+	<!-- Gameplay zombieNurseRadiated -->
+	<property name="ExplodeHealthThreshold" value="0"/>
+	<!-- Gameplay zombieSkateboarderRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1520"/><!-- XP grunt radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value=".3"/>
+	
+	<property name="HandItem" value="meleeHandZombieBigNightSkateboarderClawHammerRadiated"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1740"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigNightSkateboarderClawHammerRadiatedDeco"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
 		
 		<!-- *** ZOMBIE_BIG_NIGHT_ROCKET_PREPPER -->
 		<entity_class name="zombieBigNightJetRocketPREPPER" extends="zombieDemolition">

@@ -474,6 +474,20 @@
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 	</recipe>
 	
+	<recipe name="drugVitamins" count="1" craft_area="campfire" craft_tool="toolBeaker">
+		<ingredient name="foodShamSandwich" count="2"/>
+		<ingredient name="foodCropBlueberries" count="10"/>
+		<ingredient name="resourceCropAloeLeaf" count="6"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+	
+	<recipe name="drugVitamins" count="1" craft_area="chemistryStation" craft_tool="toolBeaker" tags="chemStationCrafting">
+		<ingredient name="foodShamSandwich" count="1"/>
+		<ingredient name="foodCropBlueberries" count="5"/>
+		<ingredient name="resourceCropAloeLeaf" count="3"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+	
 	<!-- Oakraven Chicken Coops -->
 
 	<recipe name="ChickenCoopVariantHelper" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
