@@ -575,6 +575,15 @@
 			</effect_group>
 		</buff>
 
+		<buff name="zombieBigNightSkateboarderUndertakerRadiatedDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/LootContainers/casketModernClosePrefab.prefab" local_offset="0,0.1,-0.45" local_rotation="90,270,90" local_scale=".65,.65,.65" parent_transform="Spine"/>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/shovel_steelPrefab.prefab" local_offset="0.1,0.03,0.1" local_rotation="180,270,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/lanternOld_01Prefab" local_offset="-0.125,0,0" local_rotation="0,0,0" local_scale=".45,.45,.45" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true"  parent_transform="LeftHand" transform_path="lightSource"/>
+			</effect_group>
+		</buff>
+
 		<buff name="zombieToolsUtilityWorkerPREPPERDeco" hidden="true">
 			<effect_group>								
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/hammerPrefab.prefab" local_offset="0.1,0.0275,0.05" local_rotation="180,-90,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
