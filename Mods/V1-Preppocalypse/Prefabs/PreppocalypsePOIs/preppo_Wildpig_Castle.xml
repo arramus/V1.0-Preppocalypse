@@ -20,7 +20,7 @@
   <property name="POIMarkerPartRotations" value="1" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="YOffset" value="-1" />
-  <property name="Tags" value="commercial, wilderness" />
+  <property name="Tags" value="wilderness, commercial" />
   <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="SleeperVolumeSize" value="18, 3, 30#15, 3, 17#16, 3, 16#15, 3, 15#15, 6, 15#25, 5, 26#9, 4, 9#9, 5, 9#9, 4, 9#41, 5, 7#10, 3, 20#23, 5, 8#9, 3, 13#21, 4, 21" />
   <property name="SleeperVolumeStart" value="18, 5, 18#36, 5, 29#36, 5, 13#37, 11, 13#37, 15, 13#32, 30, 8#15, 25, 42#15, 24, 15#47, 25, 42#15, 14, 43#14, 16, 23#14, 14, 15#47, 16, 30#34, 25, 10" />
@@ -43,6 +43,12 @@
     </property>
     <property class="POILight">
       <property name="0" value="49, 7, 42" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="8, 3, 29" />
+    </property>
+    <property class="challenge_stump">
+      <property name="0" value="43, 4, 51" />
     </property>
     <property class="quest_stone_boulder">
       <property name="0" value="55, 2, 38" />
@@ -67,11 +73,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1081709" />
-    <property name="TotalTriangles" value="477826" />
+    <property name="TotalVertices" value="1093105" />
+    <property name="TotalTriangles" value="483706" />
     <property class="BlockEntities">
-      <property name="Vertices" value="861302" />
-      <property name="Triangles" value="347594" />
+      <property name="Vertices" value="872698" />
+      <property name="Triangles" value="353474" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="210409" />

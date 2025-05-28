@@ -37,6 +37,12 @@
     <property class="POILight">
       <property name="0" value="49, 7, 42" />
     </property>
+    <property class="Rally">
+      <property name="0" value="8, 3, 29" />
+    </property>
+    <property class="challenge_stump">
+      <property name="0" value="43, 4, 51" />
+    </property>
     <property class="quest_stone_boulder">
       <property name="0" value="55, 2, 38" />
     </property>
@@ -60,11 +66,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1081709" />
-    <property name="TotalTriangles" value="477826" />
+    <property name="TotalVertices" value="1093105" />
+    <property name="TotalTriangles" value="483706" />
     <property class="BlockEntities">
-      <property name="Vertices" value="861302" />
-      <property name="Triangles" value="347594" />
+      <property name="Vertices" value="872698" />
+      <property name="Triangles" value="353474" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="210409" />
