@@ -3,7 +3,7 @@
 	<conditional>
 		<if cond="mod_loaded('0-SCore_sphereii')">
 	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='ReadFromContainers']/@value">true</set>
-	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='Distance']/@value">12</set>
+	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='Distance']/@value">15</set>
 	
     <append xpath="/blocks">	
 	<!-- *** PLAYER_LOCKED_WRITABLE_IRON_DROP_BOX_CRATE_0-SCORE -->
@@ -118,6 +118,48 @@
 		<property name="resourceScrapIron" value="70"/>
 	</property>
 	</append>
+ 	<append xpath="/blocks/block[@name='decoCarTireSmallFlat']">
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+	</property>
+	</append>
+ 	<append xpath="/blocks/block[@name='decoCarTireFlat']">
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+	</property>
+	</append>
+ 	<append xpath="/blocks/block[@name='decoCarTirePile']">
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+	</property>
+	</append>
+ 	<append xpath="/blocks/block[@name='decoCarWheelFlat']">
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+		<property name="resourceScrapIron" value="10"/>
+	</property>
+	</append>
+ 	<append xpath="/blocks/block[@name='decoCarTireSmallFlat02']">
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+	</property>
+	</append>
+ 	<append xpath="/blocks/block[@name='decoCarTireFlat02']">
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+	</property>
+	</append>
+ 	<append xpath="/blocks/block[@name='decoCarTirePile02']">
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+	</property>
+	</append>
+ 	<append xpath="/blocks/block[@name='decoCarWheelFlat02']">
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+		<property name="resourceScrapIron" value="10"/>
+	</property>
+	</append>
  	<append xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']"> <!-- Retro and extending Modern Fridge -->
 		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	</append>
@@ -154,13 +196,13 @@
 	</property>
 	</append>
 <!-- Decorative Logs, Walls, Door, Ramps, and Supports -->
-	<set xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='MaxDamage']/@value">3000</set>
+	<set xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='MaxDamage']/@value">5000</set>
 	<append xpath="/blocks/block[@name='doorWoodLargeGate']" >
 		<property name="EconomicValue" value="100"/>	
 	</append>
  	<append xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='Group']/@value">,Decor/Miscellaneous</append>
 	<append xpath="/blocks/block[@name='logWallLeft']">
-		<property name="MaxDamage" value="2000"/>
+		<property name="MaxDamage" value="3500"/>
 		<property name="EconomicValue" value="100"/>
 		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	</append>
@@ -169,10 +211,12 @@
 	<set xpath="/blocks/block[@name='chainlinkFenceDoor']/property[@name='MaxDamage']/@value">2500</set>
 	<set xpath="/blocks/block[@name='chainlinkFenceDoorDouble']/property[@name='MaxDamage']/@value">2500</set>
 	<append xpath="/blocks/block[@name='banditPlatform2x2A']">
-		<property name="MaxDamage" value="750"/>
+		<property name="MaxDamage" value="1250"/>
 	</append>
 <!-- Decorative Pictures -->
  	<append xpath="/blocks/block[@name='pictureVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,pictureFrameCarrier,pictureFrameTank,pictureFrameGunSchematic,pictureFrameJetGirls,calendar2034,posterCalendarWorkingStiff,posterBlueprintPistol,posterBlueprintRifle,pictureFramedMedalsLrg,pictureFramedMedalsMed,pictureFramedMedalsSml,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,signBulletinBoard01,signBulletinBoard02,signBookSaleAd,signBread01,signBread02,signCigaretteAd,signDinersMenu,signDinersMenu2m,signDinersMenu2mCentered,signLaborDaySaleAd,signMegaCrushAd,signNotice01,signNotice02,signNotice03,signNotice04,signSafetyWorkProtection,signSale01,signSale02,signShamwaySale,signSnackPosterAtom,signSnackPosterBretzels,signSnackPosterEyeCandy,signSnackPosterFortBites,signSnackPosterGoblinO,signSnackPosterHackers,signSnackPosterHealth,signSnackPosterJailBreakers,signSnackPosterJerky,signSnackPosterNachos,signSnackPosterNachosRanch,signSnackPosterNerd,signSnackPosterOopsClassic,signSnackPosterOops,signSnackPosterPrime,signSnackPosterRamen,signSnackPosterSkullCrusher,signPosterMovie2159,signPosterMovieLoneWolf,signPosterMovieMammasJustice,signPosterMovieSexualTension,signPosterMovieTheater2159,signPosterMovieTheaterLoneWolf,signPosterMovieTheaterMammasJustice,signPosterMovieTheaterSexualTension</append>
+<!-- Decorative Wood Furniture -->
+ 	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,diningTable01,tableCommunion,decoPoolTable,decoPoolTableBlue</append>
 	<!-- Deco Block Harvesting -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
@@ -456,13 +500,25 @@
 <block name="crushedCars01WhiteVariantHelper">
 	<property name="Extends" value="crushedCars01White"/>		
 	<property name="CreativeMode" value="Player"/>
-	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="CustomIcon" value="crushedCars01White"/>
 	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 	<property name="ItemTypeIcon" value="all_blocks"/>
 	<property name="SelectAlternates" value="true"/>
 	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	<property name="PlaceAltBlockValue" value="crushedCars01White,crushedCars01Brown,crushedCars01Red,crushedCars01Orange,crushedCars01Yellow,crushedCars01Green,crushedCars01Blue,crushedCars01Purple,crushedCars01Grey,crushedCars01Black,crushedCars01Pink,crushedCars02White,crushedCars02Brown,crushedCars02Red,crushedCars02Orange,crushedCars02Yellow,crushedCars02Green,crushedCars02Blue,crushedCars02Purple,crushedCars02Grey,crushedCars02Black,crushedCars02Pink"/>
+</block>
+
+<!-- Car Tires -->
+
+<block name="decoCarTireSmallFlatVariantHelper">
+	<property name="Extends" value="decoCarTireSmallFlat"/>		
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="decoCarTireSmallFlat"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="PlaceAltBlockValue" value="decoCarTireSmallFlat,decoCarTireFlat,decoCarTirePile,decoCarTireStack,decoCarWheelFlat,decoCarTireSmallFlat02,decoCarTireFlat02,decoCarTirePile02,decoCarTireStack02,decoCarWheelFlat02"/>
 </block>
 	
 	<!-- Wood Burning Player Stove -->
@@ -522,7 +578,7 @@
 		<property name="GndAlign" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.LightLevelGrow" value="0"/>
-		<property name="PlantGrowing.GrowthRate" value="300"/> <!-- 5 days for 60 minute days - Domestic coops take precendence over nests -->
+		<property name="PlantGrowing.GrowthRate" value="360"/> <!-- 6 days for 60 minute days - Domestic coops take precendence over nests -->
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.Next" value="cntBirdnest"/>
@@ -1225,7 +1281,7 @@
 	<property name="Model" value="#@modfolder:Resources/FishTrapsCone.unity3d?TubeFishTrapBate"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="50"/> 
+			<property name="PlantGrowing.GrowthRate" value="60"/>
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="FishTrapLoot"/>
@@ -1434,7 +1490,7 @@
 <!-- TRAPS -->
 <block name="CactusTrap">
 	<property name="Material" value="MbarbedWire"/>
-	<property name="MaxDamage" value="1000"/>
+	<property name="MaxDamage" value="1500"/>
 	<property name="CustomIcon" value="cactustrap"/>
 	<property name="Shape" value="ModelEntity" />
 	<property name="OnlySimpleRotations" value="true"/>
@@ -1449,7 +1505,7 @@
 
 <block name="TarTrap">
 	<property name="Material" value="MbarbedWire"/>
-	<property name="MaxDamage" value="1000"/>
+	<property name="MaxDamage" value="1500"/>
 	<property name="CustomIcon" value="tartrap"/>
 	<property name="Shape" value="ModelEntity" />
 	<property name="OnlySimpleRotations" value="true"/>

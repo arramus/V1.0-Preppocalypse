@@ -483,6 +483,7 @@ glassClearBulletproofRamp,blocks,block,,,Clear Bulletproof Glass Ramp,,Klare kug
 glassClearBulletproofPlateCurved,blocks,block,,,Clear Bulletproof Glass Curved Plate,,Klares kugelsicheres Glas Gebogene Platte,,,,,,,,,,,
 
 crushedCars01WhiteVariantHelper,blocks,Block,,,Prepper Crushed Car Defences,,Prepper Zerquetschte Autoverteidigungen,,,,,,,,,,,
+decoCarTireSmallFlatVariantHelper,blocks,Block,,,Prepper Tires,,Prepper Reifen,,,,,,,,,,,
 playerWoodBurningPrepperStove,blocks,Block,,,Wood Burning Prepper Stove,,Holzbefeuerter Prepper-Ofen,,,,,,,,,,,
 playerWoodBurningPrepperStoveDesc,blocks,Block,,,"This Wood Burning Prepper Stove provides an alternative cooking source to the campfire.",,"Dieser holzbefeuerte Prepper-Ofen bietet eine alternative Kochquelle zum Lagerfeuer.",,,,,,,,,,,
 resourceCementMixerConcreteBundle,items,Item,,,Stack of Concrete Mix (1000),,Stapel Betonmischung (1000),,,,,,,,,,,
