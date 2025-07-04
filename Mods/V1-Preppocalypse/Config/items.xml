@@ -3557,7 +3557,7 @@
 
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Magazine_items" value="ammo22ShortBulletBall"/>
+		<property name="Magazine_items" value="ammo22ShortBulletBall,ammo22ShortBulletHP,ammo22ShortBulletAP"/>
 		<property name="Sound_start" value="Pistol_Fire"/>
 		<property name="Sound_loop" value="Pistol_Fire"/>
 		<property name="Sound_end" value=""/>
