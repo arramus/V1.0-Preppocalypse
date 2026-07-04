@@ -287,10 +287,10 @@
 	<!-- Prepper Stockpile Part 3 -->
 	<!-- Tools and Traps 2 -->
 	<quest id="quest_prepperstockpile12">
-		<property name="offer_key" value="quest_prepperstockpile13_offer"/>
-		<property name="name_key" value="quest_prepperstockpile13_name"/>
-		<property name="subtitle_key" value="quest_prepperstockpile13_subtitle"/>
-		<property name="description_key" value="quest_prepperstockpile13_description"/>
+		<property name="offer_key" value="quest_prepperstockpile12_offer"/>
+		<property name="name_key" value="quest_prepperstockpile12_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile12_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile12_description"/>
 		<property name="icon" value="ui_game_symbol_workbench"/>
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="category_key" value="quest"/>
@@ -309,10 +309,10 @@
 	<!-- Prepper Stockpile Part 3 -->
 	<!-- Tools and Traps 3 -->
 	<quest id="quest_prepperstockpile13">
-		<property name="offer_key" value="quest_prepperstockpile12_offer"/>
-		<property name="name_key" value="quest_prepperstockpile12_name"/>
-		<property name="subtitle_key" value="quest_prepperstockpile12_subtitle"/>
-		<property name="description_key" value="quest_prepperstockpile12_description"/>
+		<property name="offer_key" value="quest_prepperstockpile13_offer"/>
+		<property name="name_key" value="quest_prepperstockpile13_name"/>
+		<property name="subtitle_key" value="quest_prepperstockpile13_subtitle"/>
+		<property name="description_key" value="quest_prepperstockpile13_description"/>
 		<property name="icon" value="ui_game_symbol_workbench"/>
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="category_key" value="quest"/>
